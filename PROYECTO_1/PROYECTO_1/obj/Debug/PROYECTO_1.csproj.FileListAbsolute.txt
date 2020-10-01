@@ -1,0 +1,10 @@
+C:\Users\ALUMNO\source\repos\PROYECTO_1\PROYECTO_1\bin\Debug\PROYECTO_1.exe.config
+C:\Users\ALUMNO\source\repos\PROYECTO_1\PROYECTO_1\bin\Debug\PROYECTO_1.exe
+C:\Users\ALUMNO\source\repos\PROYECTO_1\PROYECTO_1\bin\Debug\PROYECTO_1.pdb
+C:\Users\ALUMNO\source\repos\PROYECTO_1\PROYECTO_1\obj\Debug\PROYECTO_1.csprojResolveAssemblyReference.cache
+C:\Users\ALUMNO\source\repos\PROYECTO_1\PROYECTO_1\obj\Debug\PROYECTO_1.Form1.resources
+C:\Users\ALUMNO\source\repos\PROYECTO_1\PROYECTO_1\obj\Debug\PROYECTO_1.Properties.Resources.resources
+C:\Users\ALUMNO\source\repos\PROYECTO_1\PROYECTO_1\obj\Debug\PROYECTO_1.csproj.GenerateResource.Cache
+C:\Users\ALUMNO\source\repos\PROYECTO_1\PROYECTO_1\obj\Debug\PROYECTO_1.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO\source\repos\PROYECTO_1\PROYECTO_1\obj\Debug\PROYECTO_1.exe
+C:\Users\ALUMNO\source\repos\PROYECTO_1\PROYECTO_1\obj\Debug\PROYECTO_1.pdb
