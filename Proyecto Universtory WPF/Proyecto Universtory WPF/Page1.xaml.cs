@@ -16,24 +16,13 @@ using System.Windows.Shapes;
 namespace Proyecto_Universtory_WPF
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Lógica de interacción para Page1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page1 : Page
     {
-        public MainWindow()
+        public Page1()
         {
             InitializeComponent();
-        }
-
-        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-
-            double valor = e.NewValue;
-
-            if (valor == 20)
-            {
-                frame.Content = new Page1();
-            }
         }
     }
 }

@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="417" Width="794" Background="Black">
     <Grid>
-        
+        <Slider x:Name="slider" Margin="20,0,21,36" Background="White" Foreground="Black" Height="40" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
+        <Frame x:Name="frame" Content="Frame" Margin="0,0,1,6"/>
     </Grid>
 </Window>
