@@ -1,0 +1,18 @@
+﻿<Window x:Class="Proyecto_Universtory_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="867" Width="1964">
+    <Window.Background>
+        <ImageBrush ImageSource="Recursos/universtory 2.png"/>
+    </Window.Background>
+    <Grid>
+        <Slider x:Name="slider" Margin="20,0,21,36" Background="White" Foreground="Black" Height="40" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
+        <Frame x:Name="frame" Content="FrameUNIVERSTORY" Margin="0,0,1,6"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="515,510,0,0" VerticalAlignment="Top" Width="315" Height="70" Background="{x:Null}" FontFamily="Segoe UI Black" FontSize="40" Foreground="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click"/>
+        <Button Content="Trivia" HorizontalAlignment="Left" Margin="30,35,0,0" VerticalAlignment="Top" Width="120" Height="65" Background="#FFFF0097" FontFamily="Segoe UI Black" FontSize="40"/>
+    </Grid>
+</Window>

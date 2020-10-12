@@ -54,7 +54,133 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainWindow.xaml">
+    <Compile Include="Júpiter acercamiento.xaml.cs">
+      <DependentUpon>Júpiter acercamiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Luna acercamiento.xaml.cs">
+      <DependentUpon>Luna acercamiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Luna etapa1.xaml.cs">
+      <DependentUpon>Luna etapa1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Luna etapa2.xaml.cs">
+      <DependentUpon>Luna etapa2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Luna etapa3.xaml.cs">
+      <DependentUpon>Luna etapa3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Luna panorámica.xaml.cs">
+      <DependentUpon>Luna panorámica.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Marte acercamiento.xaml.cs">
+      <DependentUpon>Marte acercamiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mercurio acercamiento.xaml.cs">
+      <DependentUpon>Mercurio acercamiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Neptuno acercamiento.xaml.cs">
+      <DependentUpon>Neptuno acercamiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Saturno acercamiento.xaml.cs">
+      <DependentUpon>Saturno acercamiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sol acercamiento.xaml.cs">
+      <DependentUpon>Sol acercamiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sol etapa1.xaml.cs">
+      <DependentUpon>Sol etapa1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sol etapa2.xaml.cs">
+      <DependentUpon>Sol etapa2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sol etapa3.xaml.cs">
+      <DependentUpon>Sol etapa3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tierra acercamiento.xaml.cs">
+      <DependentUpon>Tierra acercamiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tierra etapa1.xaml.cs">
+      <DependentUpon>Tierra etapa1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tierra etapa2.xaml.cs">
+      <DependentUpon>Tierra etapa2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tierra etapa3.xaml.cs">
+      <DependentUpon>Tierra etapa3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tierra etapa4.xaml.cs">
+      <DependentUpon>Tierra etapa4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tierra panorámica.xaml.cs">
+      <DependentUpon>Tierra panorámica.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia inicio.xaml.cs">
+      <DependentUpon>Trivia inicio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia preg1.xaml.cs">
+      <DependentUpon>Trivia preg1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia preg10.xaml.cs">
+      <DependentUpon>Trivia preg10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia preg2.xaml.cs">
+      <DependentUpon>Trivia preg2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia preg3.xaml.cs">
+      <DependentUpon>Trivia preg3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia preg4.xaml.cs">
+      <DependentUpon>Trivia preg4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia preg5.xaml.cs">
+      <DependentUpon>Trivia preg5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia preg6.xaml.cs">
+      <DependentUpon>Trivia preg6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia preg7.xaml.cs">
+      <DependentUpon>Trivia preg7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia preg8.xaml.cs">
+      <DependentUpon>Trivia preg8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia preg9.xaml.cs">
+      <DependentUpon>Trivia preg9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia resultados.xaml.cs">
+      <DependentUpon>Trivia resultados.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Urano acercamiento.xaml.cs">
+      <DependentUpon>Urano acercamiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Venus acercamiento.xaml.cs">
+      <DependentUpon>Venus acercamiento.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Júpiter acercamiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Luna acercamiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Luna etapa1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Luna etapa2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Luna etapa3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Luna panorámica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Inicio.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -62,18 +188,130 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="Inicio.xaml.cs">
+      <DependentUpon>Inicio.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Page1.xaml">
+    <Page Include="Marte acercamiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Mercurio acercamiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Neptuno acercamiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Principal planetas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Saturno acercamiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sol acercamiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sol etapa1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sol etapa2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sol etapa3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tierra acercamiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tierra etapa1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tierra etapa2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tierra etapa3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tierra etapa4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tierra panorámica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia inicio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia preg1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia preg10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia preg2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia preg3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia preg4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia preg5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia preg6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia preg7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia preg8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia preg9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia resultados.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Urano acercamiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Venus acercamiento.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Page1.xaml.cs">
-      <DependentUpon>Page1.xaml</DependentUpon>
+    <Compile Include="Principal planetas.xaml.cs">
+      <DependentUpon>Principal planetas.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -99,6 +337,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\universtory 2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
