@@ -5,14 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="867" Width="1964">
+        Title="MainWindow" Height="867" Width="1964" WindowState="Maximized">
+    <Window.Resources>
+        <ImageBrush x:Key="img_start" ImageSource="Recursos/start.png" Stretch="UniformToFill"/>
+    </Window.Resources>
     <Window.Background>
         <ImageBrush ImageSource="Recursos/universtory 2.png"/>
     </Window.Background>
     <Grid>
+        <Frame x:Name="frame" Content="FrameUNIVERSTORY" Margin="0,0,1,6" NavigationUIVisibility="Hidden"/>
         <Slider x:Name="slider" Margin="20,0,21,36" Background="White" Foreground="Black" Height="40" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
-        <Frame x:Name="frame" Content="FrameUNIVERSTORY" Margin="0,0,1,6"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="515,510,0,0" VerticalAlignment="Top" Width="315" Height="70" Background="{x:Null}" FontFamily="Segoe UI Black" FontSize="40" Foreground="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click"/>
-        <Button Content="Trivia" HorizontalAlignment="Left" Margin="30,35,0,0" VerticalAlignment="Top" Width="120" Height="65" Background="#FFFF0097" FontFamily="Segoe UI Black" FontSize="40"/>
+        <Button x:Name="btnStart" Content="" Margin="450,0,0,111" Height="105" VerticalAlignment="Bottom" Click="Button_Click" HorizontalAlignment="Left" Width="305" ClipToBounds="True" BorderThickness="3" Cursor="Arrow" RenderTransformOrigin="0.5,0.5" ForceCursor="True" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}">
+            <Button.Background>
+                <ImageBrush ImageSource="Recursos/start.png" Stretch="UniformToFill"/>
+            </Button.Background>
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="Recursos/start.png" Stretch="UniformToFill"/>
+            </Button.OpacityMask>
+        </Button>
+        
     </Grid>
 </Window>

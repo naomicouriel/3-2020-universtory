@@ -341,5 +341,11 @@
   <ItemGroup>
     <Resource Include="Recursos\universtory 2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\sistemasolar4.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
