@@ -8,6 +8,11 @@
       Title="Trivia_preg3" Background="White" Width="940" Height="340">
 
     <Grid>
+        <Label Content="Pregunta3" HorizontalAlignment="Left" Margin="19,20,0,0" VerticalAlignment="Top" Height="90" Width="900"/>
+        <Button Content="Respuesta1" HorizontalAlignment="Left" Margin="127,199,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Respuesta2" HorizontalAlignment="Left" Margin="127,303,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Respuesta3" HorizontalAlignment="Left" Margin="706,199,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Respuesta4" HorizontalAlignment="Left" Margin="706,303,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Page>
