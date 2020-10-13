@@ -4,11 +4,15 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
-      mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
-      Title="Marte_acercamiento" Background="White" Width="980" Height="360">
+      mc:Ignorable="d" d:DesignWidth="300"
+      Title="Marte_acercamiento" Width="980" Height="565.2">
+    <Page.Background>
+        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/marte.jpg"/>
+    </Page.Background>
 
     <Grid>
-        
+        <Button Content="Volver" HorizontalAlignment="Left" Height="86" Margin="733,419,0,0" VerticalAlignment="Top" Width="160" FontSize="24"/>
+        <Label x:Name="Titulo_Marte" Content="Marte" HorizontalAlignment="Left" Height="64" Margin="103,38,0,0" VerticalAlignment="Top" Width="198" AutomationProperties.Name="martetitle" Foreground="White" FontSize="48"/>
+
     </Grid>
 </Page>
