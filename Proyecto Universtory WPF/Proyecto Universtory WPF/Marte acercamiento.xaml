@@ -11,8 +11,17 @@
     </Page.Background>
 
     <Grid>
-        <Button Content="Volver" HorizontalAlignment="Left" Height="86" Margin="733,419,0,0" VerticalAlignment="Top" Width="160" FontSize="24"/>
-        <Label x:Name="Titulo_Marte" Content="Marte" HorizontalAlignment="Left" Height="64" Margin="103,38,0,0" VerticalAlignment="Top" Width="198" AutomationProperties.Name="martetitle" Foreground="White" FontSize="48"/>
+        <Button Name = "MarteVol.btn" Content="Volver" HorizontalAlignment="Left" Height="162" Margin="653,393,0,0" VerticalAlignment="Top" Width="284" FontSize="24" Foreground="White">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="Titulo_Marte" Content="Marte" HorizontalAlignment="Left" Height="64" Margin="103,38,0,0" VerticalAlignment="Top" Width="198" AutomationProperties.Name="martetitle" Foreground="White" FontSize="48" FontFamily="Sitka Text" />
+        <Button Content="Datos" HorizontalAlignment="Left" Margin="10,296,0,0" VerticalAlignment="Top" Width="330" Height="188" FontSize="24" Foreground="White">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>

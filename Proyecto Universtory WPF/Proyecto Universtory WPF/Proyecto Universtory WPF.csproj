@@ -349,5 +349,14 @@
   <ItemGroup>
     <Resource Include="Recursos\sistemasolar4.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tierra-en-el-espacio_1661937516.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Space Quest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bot_on_.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

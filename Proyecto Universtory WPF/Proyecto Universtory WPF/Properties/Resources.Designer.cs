@@ -63,9 +63,39 @@ namespace Proyecto_Universtory_WPF.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bot_on_ {
+            get {
+                object obj = ResourceManager.GetObject("bot_on_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap marte {
             get {
                 object obj = ResourceManager.GetObject("marte", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Space_Quest {
+            get {
+                object obj = ResourceManager.GetObject("Space_Quest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tierra_en_el_espacio_1661937516 {
+            get {
+                object obj = ResourceManager.GetObject("tierra_en_el_espacio_1661937516", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
