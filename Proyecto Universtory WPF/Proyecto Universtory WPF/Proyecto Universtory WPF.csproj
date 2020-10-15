@@ -349,5 +349,8 @@
   <ItemGroup>
     <Resource Include="Recursos\sistemasolar4.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\Boton respuestas.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
