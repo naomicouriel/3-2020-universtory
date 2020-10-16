@@ -1,4 +1,4 @@
-﻿<Page x:Name="page1" x:Class="Proyecto_Universtory_WPF.Page1"
+﻿<Page x:Name="pagePrincipal" x:Class="Proyecto_Universtory_WPF.Page1"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 

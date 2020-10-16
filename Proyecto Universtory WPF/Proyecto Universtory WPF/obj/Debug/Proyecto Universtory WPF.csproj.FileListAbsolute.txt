@@ -83,3 +83,5 @@ C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Uni
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia resultados.baml
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Urano acercamiento.baml
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Venus acercamiento.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Inicio2.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Inicio2.baml
