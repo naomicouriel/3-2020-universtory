@@ -7,7 +7,7 @@
       mc:Ignorable="d"
       Title="Inicio2" Width="1499.211" Height="675">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/universtory fondo.png" Stretch="Fill"/>
+        <ImageBrush ImageSource="Recursos/universtory fondo.png" Stretch="UniformToFill"/>
     </Page.Background>
 
     <Grid>

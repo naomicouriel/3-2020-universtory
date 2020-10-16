@@ -24,7 +24,5 @@ namespace Proyecto_Universtory_WPF
         {
             InitializeComponent();
         }
-
-        
     }
 }
