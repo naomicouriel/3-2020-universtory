@@ -36,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -54,9 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Inicio2.xaml.cs">
-      <DependentUpon>Inicio2.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Júpiter acercamiento.xaml.cs">
       <DependentUpon>Júpiter acercamiento.xaml</DependentUpon>
     </Compile>
@@ -159,10 +157,6 @@
     <Compile Include="Venus acercamiento.xaml.cs">
       <DependentUpon>Venus acercamiento.xaml</DependentUpon>
     </Compile>
-    <Page Include="Inicio2.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Júpiter acercamiento.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -347,6 +341,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Recursos\universtory 2.png" />
+    <None Include="Resources\marte.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Recursos\start.png" />
@@ -355,13 +350,7 @@
     <Resource Include="Recursos\sistemasolar4.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\START png.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Recursos\universtory fondo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Recursos\trivia.png" />
+    <Resource Include="Recursos\Boton respuestas.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

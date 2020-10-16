@@ -83,5 +83,88 @@ C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Uni
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia resultados.baml
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Urano acercamiento.baml
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Venus acercamiento.baml
-C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Inicio2.g.cs
-C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Inicio2.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\bin\Debug\Proyecto Universtory WPF.exe.config
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\bin\Debug\Proyecto Universtory WPF.exe
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\bin\Debug\Proyecto Universtory WPF.pdb
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF.csprojAssemblyReference.cache
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Júpiter acercamiento.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Luna acercamiento.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Luna etapa1.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Luna etapa2.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Luna etapa3.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Luna panorámica.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Inicio.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Marte acercamiento.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Mercurio acercamiento.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Neptuno acercamiento.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Principal planetas.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Saturno acercamiento.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Sol acercamiento.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Sol etapa1.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Sol etapa2.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Sol etapa3.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Tierra acercamiento.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Tierra etapa1.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Tierra etapa2.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Tierra etapa3.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Tierra etapa4.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Tierra panorámica.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia inicio.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg1.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg10.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg2.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg3.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg4.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg5.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg6.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg7.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg8.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg9.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia resultados.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Urano acercamiento.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Venus acercamiento.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\App.g.cs
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF_MarkupCompile.cache
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF_MarkupCompile.lref
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Júpiter acercamiento.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Luna acercamiento.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Luna etapa1.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Luna etapa2.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Luna etapa3.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Luna panorámica.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Inicio.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Marte acercamiento.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Mercurio acercamiento.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Neptuno acercamiento.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Principal planetas.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Saturno acercamiento.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Sol acercamiento.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Sol etapa1.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Sol etapa2.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Sol etapa3.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Tierra acercamiento.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Tierra etapa1.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Tierra etapa2.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Tierra etapa3.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Tierra etapa4.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Tierra panorámica.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia inicio.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg1.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg10.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg2.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg3.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg4.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg5.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg6.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg7.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg8.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia preg9.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia resultados.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Urano acercamiento.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Venus acercamiento.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF.g.resources
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto_Universtory_WPF.Properties.Resources.resources
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF.csproj.GenerateResource.cache
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF.csproj.CoreCompileInputs.cache
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF.exe
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF.pdb

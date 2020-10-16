@@ -5,10 +5,16 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
-      Title="Tierra_acercamiento" Background="White" Width="980" Height="360">
+      d:DesignHeight="300"
+      Title="Tierra_acercamiento" Width="752.766" Height="360">
+    <Page.Background>
+        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/tierra-en-el-espacio_1661937516.jpg"/>
+    </Page.Background>
 
     <Grid>
-        
+        <Button Content="Volver" HorizontalAlignment="Left" Height="56" Margin="536,257,0,0" VerticalAlignment="Top" Width="158"/>
+        <Button Content="Datos" HorizontalAlignment="Left" Height="56" Margin="51,257,0,0" VerticalAlignment="Top" Width="141"/>
+        <Label Content="Tierra" HorizontalAlignment="Left" Height="45" Margin="72,43,0,0" VerticalAlignment="Top" Width="103" Foreground="White" FontSize="24"/>
+
     </Grid>
 </Page>

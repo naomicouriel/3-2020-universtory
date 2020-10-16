@@ -5,9 +5,29 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d"
-      Title="Trivia_preg3" Background="White" Width="940" Height="340">
+      Title="Trivia_preg3" Background="White" Width="1015" Height="375">
 
     <Grid>
-
+        <Label Content="Pregunta3" HorizontalAlignment="Left" Margin="57,33,0,0" VerticalAlignment="Top" Height="90" Width="900"/>
+        <Button x:Name="btnResp4_Preg1" Margin="439,204,-100,-47.8" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnResp4_Preg1_Copy" Content="" Margin="-100,0,457.2,84.2" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnResp4_Preg1_Copy1" Content="" Margin="439,0,-100,84.2" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnResp4_Preg1_Copy2" Margin="-100,204,457.2,-47.8" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Page>
