@@ -5,20 +5,20 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d"
-      Title="Inicio2" Width="1499.211" Height="675">
+      Title="Inicio2" Width="1395" Height="784.908">
     <Page.Background>
         <ImageBrush ImageSource="Recursos/universtory fondo.png" Stretch="UniformToFill"/>
     </Page.Background>
 
     <Grid>
-        <Button Content="" Margin="0,0,-218,90" HorizontalAlignment="Right" Width="985" Height="296" VerticalAlignment="Bottom" BorderBrush="{x:Null}">
+        <Button Content="" Margin="0,0,245,103" HorizontalAlignment="Right" Width="290" Height="87" VerticalAlignment="Bottom" BorderBrush="{x:Null}" Click="Button_Click">
             <Button.Background>
-                <ImageBrush ImageSource="Recursos/START png.png" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="Recursos/StartButton png.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button Content="" Margin="-405,0,0,90" HorizontalAlignment="Left" Width="985" Height="347" VerticalAlignment="Bottom" BorderBrush="{x:Null}">
+        <Button Content="" Margin="245,0,0,103" HorizontalAlignment="Left" Width="290" Height="87" VerticalAlignment="Bottom" BorderBrush="{x:Null}">
             <Button.Background>
-                <ImageBrush ImageSource="Recursos/trivia.png" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="Recursos/TriviaButton.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
 

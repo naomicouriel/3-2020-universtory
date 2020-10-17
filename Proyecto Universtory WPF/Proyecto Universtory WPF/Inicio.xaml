@@ -4,13 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
-        mc:Ignorable="d" Height="867" Width="1964" WindowState="Maximized" WindowStyle="None" ResizeMode="NoResize" Background="Black">
+        mc:Ignorable="d" Height="655" Width="1134.671" WindowState="Maximized" WindowStyle="None" ResizeMode="NoResize" Background="Black">
     <Window.Resources>
         <ImageBrush x:Key="img_start" ImageSource="Recursos/start.png" Stretch="UniformToFill"/>
     </Window.Resources>
     <Grid>
         <Frame x:Name="frame" Content="" Margin="0,0,0,0" NavigationUIVisibility="Hidden"/>
-        <Slider x:Name="slider" Margin="530,0,536,26" Background="Black" Foreground="Black" Height="55" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
+        <Slider x:Name="slider" Margin="450,0,420,105" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
 
     </Grid>
 </Window>

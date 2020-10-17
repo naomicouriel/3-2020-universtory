@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace Proyecto_Universtory_WPF
 {
     /// <summary>
@@ -23,6 +24,11 @@ namespace Proyecto_Universtory_WPF
         public Inicio2()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            FrameC = new Page1();
         }
     }
 }

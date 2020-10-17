@@ -368,5 +368,11 @@
   <ItemGroup>
     <Resource Include="Recursos\START png.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\StartButton png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\TriviaButton.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
