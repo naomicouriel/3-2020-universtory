@@ -23,6 +23,7 @@ namespace Proyecto_Universtory_WPF
         public MainWindow()
         {
             InitializeComponent();
+            frame.Content = new Inicio2();
         }
 
         private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -32,13 +33,9 @@ namespace Proyecto_Universtory_WPF
 
             if (valor == 20)
             {
-                frame.Content = new Page1();
+                frame.Content = new Inicio2();
             }
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            frame.Content = new Page1();
-        }
+        
     }
 }
