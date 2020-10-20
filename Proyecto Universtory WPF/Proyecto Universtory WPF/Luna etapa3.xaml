@@ -9,6 +9,7 @@
       Title="Luna_etapa3" Background="White" Width="980" Height="360">
 
     <Grid>
-        
+        <Slider x:Name="slider" Margin="347,0,368,42" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
+
     </Grid>
 </Page>

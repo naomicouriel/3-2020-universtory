@@ -7,8 +7,5 @@
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
       Title="Tierra_etapa1" Background="White" Width="980" Height="360">
-
-    <Grid>
-        
-    </Grid>
+    <Slider x:Name="slider" Margin="360,0,355,49" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
 </Page>

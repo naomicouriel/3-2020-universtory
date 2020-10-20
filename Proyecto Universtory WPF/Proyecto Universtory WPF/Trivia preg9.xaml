@@ -6,14 +6,29 @@
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-      Title="Trivia_preg9" Background="White" Width="980" Height="360">
+      Title="Trivia_preg9" Background="White" Width="1015" Height="375">
 
     <Grid>
-        <Label Content="Pregunta9" HorizontalAlignment="Left" Margin="60,35,0,0" VerticalAlignment="Top" Height="90" Width="900"/>
-        <Button Content="Respuesta1" HorizontalAlignment="Left" Margin="159,214,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Respuesta2" HorizontalAlignment="Left" Margin="159,318,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Respuesta3" HorizontalAlignment="Left" Margin="800,214,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Respuesta4" HorizontalAlignment="Left" Margin="800,318,0,0" VerticalAlignment="Top" Width="75"/>
-
+        <Label Content="Pregunta2" HorizontalAlignment="Left" Margin="60,35,0,0" VerticalAlignment="Top" Height="90" Width="900"/>
+        <Button x:Name="btnResp4_Preg9" Margin="439,204,-100,-47.8" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}" Content="100">
+            <Button.Background>
+                <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnResp1_Preg9" Content="" Margin="-100,0,457.2,84.2" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnResp3_Preg9" Content="" Margin="439,0,-100,84.2" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnResp2_Preg9" Margin="-100,204,457.2,-47.8" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Page>

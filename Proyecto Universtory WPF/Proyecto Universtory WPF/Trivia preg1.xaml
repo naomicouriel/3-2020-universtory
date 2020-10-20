@@ -14,17 +14,17 @@
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnResp4_Preg1_Copy" Content="" Margin="-100,0,457.2,84.2" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
+        <Button x:Name="btnResp1_Preg1" Content="" Margin="-100,0,457.2,84.2" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnResp4_Preg1_Copy1" Content="" Margin="439,0,-81.8,84.2" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
+        <Button x:Name="btnResp3_Preg1" Content="" Margin="439,0,-100,84.2" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnResp4_Preg1_Copy2" Margin="-100,204,457.2,-47.8" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
+        <Button x:Name="btnResp2_Preg1" Margin="-100,204,457.2,-47.8" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>

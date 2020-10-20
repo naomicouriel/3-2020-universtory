@@ -4,17 +4,26 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
-      mc:Ignorable="d" 
-      d:DesignHeight="300"
-      Title="Tierra_acercamiento" Width="752.766" Height="360">
+      mc:Ignorable="d"
+      Title="Tierra_acercamiento" Width="980.043" Height="565.638">
     <Page.Background>
         <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/tierra-en-el-espacio_1661937516.jpg"/>
     </Page.Background>
 
     <Grid>
-        <Button Content="Volver" HorizontalAlignment="Left" Height="56" Margin="536,257,0,0" VerticalAlignment="Top" Width="158"/>
-        <Button Content="Datos" HorizontalAlignment="Left" Height="56" Margin="51,257,0,0" VerticalAlignment="Top" Width="141"/>
-        <Label Content="Tierra" HorizontalAlignment="Left" Height="45" Margin="72,43,0,0" VerticalAlignment="Top" Width="103" Foreground="White" FontSize="24"/>
+        <Button Name = "TierraVolbtn" Content="Volver" HorizontalAlignment="Left" Height="188" Margin="640,354,0,0" VerticalAlignment="Top" Width="330
+                " FontSize="24" Foreground="White">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name ="DatTiebtn" Content="Datos" HorizontalAlignment="Left" Height="188" Margin="10,354,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Foreground="White">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Tierra" HorizontalAlignment="Left" Height="77" Margin="75,24,0,0" VerticalAlignment="Top" Width="162" Foreground="White" FontSize="48" FontFamily="Sitka Text"/>
+        <Slider x:Name="slider" Margin="362,0,353,417" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
 
     </Grid>
 </Page>
