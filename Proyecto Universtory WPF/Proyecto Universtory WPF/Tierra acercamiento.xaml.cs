@@ -24,5 +24,10 @@ namespace Proyecto_Universtory_WPF
         {
             InitializeComponent();
         }
+
+        private void TierraVolbtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

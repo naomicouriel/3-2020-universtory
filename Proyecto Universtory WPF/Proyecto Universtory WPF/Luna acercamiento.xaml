@@ -4,11 +4,25 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
-      mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
-      Title="Luna_acercamiento" Background="White" Width="980" Height="360">
+      mc:Ignorable="d"
+      Title="Luna_acercamiento" Width="1159.595" Height="565.809">
+    <Page.Background>
+        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/896f325e15d28a384baea6fc00bb2942.jpg"/>
+    </Page.Background>
 
     <Grid>
-        
+        <Button Content="Button" HorizontalAlignment="Left" Height="188" Margin="820,354,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Foreground="White">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Datos" HorizontalAlignment="Left" Height="188" Margin="10,354,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Foreground="White">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Luna" HorizontalAlignment="Left" Height="134" Margin="87,40,0,0" VerticalAlignment="Top" Width="276" Foreground="White" FontSize="48" FontFamily="Sitka Text"/>
+        <Slider x:Name="slider" Margin="454,0,441,439" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
+
     </Grid>
 </Page>

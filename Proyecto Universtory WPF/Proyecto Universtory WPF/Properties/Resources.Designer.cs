@@ -63,6 +63,16 @@ namespace Proyecto_Universtory_WPF.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _896f325e15d28a384baea6fc00bb2942 {
+            get {
+                object obj = ResourceManager.GetObject("_896f325e15d28a384baea6fc00bb2942", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bot_on_ {
             get {
                 object obj = ResourceManager.GetObject("bot_on_", resourceCulture);
