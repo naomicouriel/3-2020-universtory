@@ -9,22 +9,22 @@
 
     <Grid>
         <Label Content="Pregunta2" HorizontalAlignment="Left" Margin="60,35,0,0" VerticalAlignment="Top" Height="90" Width="900"/>
-        <Button x:Name="btnResp4_Preg1" Margin="439,204,-100,-63" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}" Content="100">
+        <Button x:Name="btnResp4_Preg2" Margin="439,204,-100,-47.8" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}" Content="100">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnResp4_Preg1_Copy" Content="" Margin="-100,0,422,69" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
+        <Button x:Name="btnResp1_Preg2" Content="" Margin="-100,0,457.2," VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnResp4_Preg1_Copy1" Content="" Margin="439,0,-100,69" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
+        <Button x:Name="btnResp3_Preg2" Content="" Margin="439,0,-100,84.2" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnResp4_Preg1_Copy2" Margin="-100,204,422,-63" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
+        <Button x:Name="btnResp2_Preg2" Margin="-100,204,457.2,-47.8" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>
