@@ -10,5 +10,16 @@
         <ImageBrush ImageSource="Recursos/sistemasolar4.jpg" Stretch="UniformToFill"/>
     </Page.Background>
 
-    <Grid RenderTransformOrigin="0.517,0.5"/>
+    <Grid RenderTransformOrigin="0.517,0.5">
+        <Button x:Name="btnNeptuno" Content="" HorizontalAlignment="Left" Margin="5215,85,0,0" VerticalAlignment="Top" Width="240" Height="180"/>
+        <Button x:Name="btnUrano" Content="" HorizontalAlignment="Left" Margin="4700,400,0,0" VerticalAlignment="Top" Width="240" Height="180"/>
+        <Button x:Name="btnSaturno" Content="" HorizontalAlignment="Left" Margin="3975,655,0,0" VerticalAlignment="Top" Width="350" Height="310"/>
+        <Button x:Name="btnJupiter" Content="" HorizontalAlignment="Left" Margin="3095,1030,0,0" VerticalAlignment="Top" Width="480" Height="385"/>
+        <Button x:Name="btnTierra" Content="" HorizontalAlignment="Left" Margin="2110,1345,0,0" VerticalAlignment="Top" Width="160" Height="135"/>
+        <Button x:Name="btnVenus" Content="" HorizontalAlignment="Left" Margin="1605,1605,0,0" VerticalAlignment="Top" Width="145" Height="135"/>
+        <Button x:Name="btnMercurio" Content="" HorizontalAlignment="Left" Margin="1180,1825,0,0" VerticalAlignment="Top" Width="80" Height="60"/>
+        <Button x:Name="btnMarte" Content="" HorizontalAlignment="Left" Margin="2433,1035,0,0" VerticalAlignment="Top" Width="130" Height="125"/>
+        <Button x:Name="btnSol" Content="" HorizontalAlignment="Left" Margin="30,230,0,0" VerticalAlignment="Top" Width="545" Height="2555"/>
+        <Button x:Name="btnLuna" Content="" HorizontalAlignment="Left" Margin="2120,1035,0,0" VerticalAlignment="Top" Width="150" Height="90"/>
+    </Grid>
 </Page>

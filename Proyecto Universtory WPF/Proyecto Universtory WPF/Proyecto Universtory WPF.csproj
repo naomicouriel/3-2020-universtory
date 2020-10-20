@@ -374,5 +374,8 @@
   <ItemGroup>
     <Resource Include="Recursos\TriviaButton.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\Sol.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
