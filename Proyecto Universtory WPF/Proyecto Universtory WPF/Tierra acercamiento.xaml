@@ -12,17 +12,17 @@
 
     <Grid>
         <Button Name = "TierraVolbtn" Content="Volver" HorizontalAlignment="Left" Height="188" Margin="640,354,0,0" VerticalAlignment="Top" Width="330
-                " FontSize="24" Foreground="White">
+                " FontSize="24" Foreground="White" FontFamily="Space quest">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
         </Button>
-        <Button Name ="DatTiebtn" Content="Datos" HorizontalAlignment="Left" Height="188" Margin="10,354,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Foreground="White">
+        <Button Name ="DatTiebtn" Content="Datos" HorizontalAlignment="Left" Height="188" Margin="10,354,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatTiebtn_Click">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
         </Button>
-        <Label Content="Tierra" HorizontalAlignment="Left" Height="77" Margin="75,24,0,0" VerticalAlignment="Top" Width="162" Foreground="White" FontSize="48" FontFamily="Sitka Text"/>
+        <Label Content="Tierra" HorizontalAlignment="Left" Height="77" Margin="75,24,0,0" VerticalAlignment="Top" Width="200" Foreground="White" FontSize="48" FontFamily="Space quest"/>
         <Slider x:Name="slider" Margin="362,0,353,417" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
 
     </Grid>
