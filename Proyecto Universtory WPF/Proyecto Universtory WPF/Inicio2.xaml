@@ -11,7 +11,7 @@
     </Page.Background>
 
     <Grid>
-        <Button Content="" Margin="0,0,245,103" HorizontalAlignment="Right" Width="290" Height="87" VerticalAlignment="Bottom" BorderBrush="{x:Null}" Click="Button_Click">
+        <Button Content="" Margin="0,0,245,103" HorizontalAlignment="Right" Width="290" Height="87" VerticalAlignment="Bottom" BorderBrush="{x:Null}" Click="Button_Click" Style="{DynamicResource btnInicio}">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/StartButton png.png" Stretch="Uniform"/>
             </Button.Background>

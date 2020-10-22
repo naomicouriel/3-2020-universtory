@@ -28,7 +28,8 @@ namespace Proyecto_Universtory_WPF
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            FrameC = new Page1();
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Page1();
         }
     }
 }

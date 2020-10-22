@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
+using System.Windows.Resources;
 using System.Windows.Shapes;
 
 namespace Proyecto_Universtory_WPF
@@ -23,6 +24,14 @@ namespace Proyecto_Universtory_WPF
         public Sol_acercamiento()
         {
             InitializeComponent();
+        }
+
+        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            Uri resourceUri = new Uri("Resources/TuImagen.jpg", UriKind.Relative);
+            StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
+            BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
+            var icon = new ImageBrush { ImageSource = temp };
         }
     }
 }

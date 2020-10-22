@@ -64,15 +64,6 @@
     <Compile Include="Luna acercamiento.xaml.cs">
       <DependentUpon>Luna acercamiento.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Luna etapa1.xaml.cs">
-      <DependentUpon>Luna etapa1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Luna etapa2.xaml.cs">
-      <DependentUpon>Luna etapa2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Luna etapa3.xaml.cs">
-      <DependentUpon>Luna etapa3.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Luna panorámica.xaml.cs">
       <DependentUpon>Luna panorámica.xaml</DependentUpon>
     </Compile>
@@ -91,29 +82,8 @@
     <Compile Include="Sol acercamiento.xaml.cs">
       <DependentUpon>Sol acercamiento.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Sol etapa1.xaml.cs">
-      <DependentUpon>Sol etapa1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Sol etapa2.xaml.cs">
-      <DependentUpon>Sol etapa2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Sol etapa3.xaml.cs">
-      <DependentUpon>Sol etapa3.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Tierra acercamiento.xaml.cs">
       <DependentUpon>Tierra acercamiento.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Tierra etapa1.xaml.cs">
-      <DependentUpon>Tierra etapa1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Tierra etapa2.xaml.cs">
-      <DependentUpon>Tierra etapa2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Tierra etapa3.xaml.cs">
-      <DependentUpon>Tierra etapa3.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Tierra etapa4.xaml.cs">
-      <DependentUpon>Tierra etapa4.xaml</DependentUpon>
     </Compile>
     <Compile Include="Tierra panorámica.xaml.cs">
       <DependentUpon>Tierra panorámica.xaml</DependentUpon>
@@ -172,18 +142,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Luna etapa1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Luna etapa2.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Luna etapa3.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Luna panorámica.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -224,35 +182,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Sol etapa1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Sol etapa2.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Sol etapa3.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Tierra acercamiento.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Tierra etapa1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Tierra etapa2.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Tierra etapa3.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Tierra etapa4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
