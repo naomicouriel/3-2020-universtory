@@ -24,5 +24,11 @@ namespace Proyecto_Universtory_WPF
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Trivia_preg1();
+        }
     }
 }

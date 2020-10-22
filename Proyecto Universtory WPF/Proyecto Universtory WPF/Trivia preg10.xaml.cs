@@ -24,5 +24,29 @@ namespace Proyecto_Universtory_WPF
         {
             InitializeComponent();
         }
+
+        private void btnResp1_Preg10_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Trivia_resultados();
+        }
+
+        private void btnResp2_Preg10_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Trivia_resultados();
+        }
+
+        private void btnResp3_Preg10_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Trivia_resultados();
+        }
+
+        private void btnResp4_Preg10_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Trivia_resultados();
+        }
     }
 }
