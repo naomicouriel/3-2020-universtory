@@ -34,5 +34,17 @@ namespace Proyecto_Universtory_WPF
             var icon = new ImageBrush { ImageSource = temp };
 
         }
+
+        private void LunaVolv_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Page1();
+        }
+
+        private void DatLunbtn_Click_1(object sender, RoutedEventArgs e)
+        {
+            Datos_Luna datLuna = new Datos_Luna();
+            datLuna.ShowDialog();
+        }
     }
 }

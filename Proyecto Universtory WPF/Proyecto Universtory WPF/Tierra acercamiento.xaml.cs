@@ -34,5 +34,17 @@ namespace Proyecto_Universtory_WPF
             BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
             var icon = new ImageBrush { ImageSource = temp };
         }
+
+        private void TierraVolbtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Page1();
+        }
+
+        private void DatTiebtn_Click(object sender, RoutedEventArgs e)
+        {
+            Datos_Tierra datTierra = new Datos_Tierra();
+            datTierra.ShowDialog();
+        }
     }
 }

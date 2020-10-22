@@ -24,5 +24,17 @@ namespace Proyecto_Universtory_WPF
         {
             InitializeComponent();
         }
+
+        private void VolMerbtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Page1();
+        }
+
+        private void DatMerbtn_Click(object sender, RoutedEventArgs e)
+        {
+            Datos_Mercurio datMer = new Datos_Mercurio();
+            datMer.ShowDialog();
+        }
     }
 }

@@ -24,5 +24,17 @@ namespace Proyecto_Universtory_WPF
         {
             InitializeComponent();
         }
+
+        private void VolJupbtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Page1();
+        }
+
+        private void DatJupbtn_Click(object sender, RoutedEventArgs e)
+        {
+            Datos_Jupiter datJup = new Datos_Jupiter();
+            datJup.ShowDialog();
+        }
     }
 }

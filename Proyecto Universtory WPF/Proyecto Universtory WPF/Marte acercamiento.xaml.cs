@@ -29,5 +29,17 @@ namespace Proyecto_Universtory_WPF
         {
 
         }
+
+        private void MarteVolbtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Page1();
+        }
+
+        private void DatMarbtn_Click(object sender, RoutedEventArgs e)
+        {
+            Datos_Marte datMar = new Datos_Marte();
+            datMar.ShowDialog();
+        }
     }
 }

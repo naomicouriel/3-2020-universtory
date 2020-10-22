@@ -96,9 +96,21 @@ namespace Proyecto_Universtory_WPF {
             {
             case 1:
             this.TierraVolbtn = ((System.Windows.Controls.Button)(target));
+            
+            #line 15 "..\..\Tierra acercamiento.xaml"
+            this.TierraVolbtn.Click += new System.Windows.RoutedEventHandler(this.TierraVolbtn_Click);
+            
+            #line default
+            #line hidden
             return;
             case 2:
             this.DatTiebtn = ((System.Windows.Controls.Button)(target));
+            
+            #line 20 "..\..\Tierra acercamiento.xaml"
+            this.DatTiebtn.Click += new System.Windows.RoutedEventHandler(this.DatTiebtn_Click);
+            
+            #line default
+            #line hidden
             return;
             case 3:
             this.slider = ((System.Windows.Controls.Slider)(target));

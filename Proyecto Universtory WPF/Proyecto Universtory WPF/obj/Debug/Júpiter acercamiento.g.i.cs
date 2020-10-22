@@ -40,6 +40,22 @@ namespace Proyecto_Universtory_WPF {
     /// </summary>
     public partial class Júpiter_acercamiento : System.Windows.Controls.Page, System.Windows.Markup.IComponentConnector {
         
+        
+        #line 12 "..\..\Júpiter acercamiento.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button VolJupbtn;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 17 "..\..\Júpiter acercamiento.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button DatJupbtn;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -68,6 +84,27 @@ namespace Proyecto_Universtory_WPF {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.VolJupbtn = ((System.Windows.Controls.Button)(target));
+            
+            #line 12 "..\..\Júpiter acercamiento.xaml"
+            this.VolJupbtn.Click += new System.Windows.RoutedEventHandler(this.VolJupbtn_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 2:
+            this.DatJupbtn = ((System.Windows.Controls.Button)(target));
+            
+            #line 17 "..\..\Júpiter acercamiento.xaml"
+            this.DatJupbtn.Click += new System.Windows.RoutedEventHandler(this.DatJupbtn_Click);
+            
+            #line default
+            #line hidden
+            return;
+            }
             this._contentLoaded = true;
         }
     }

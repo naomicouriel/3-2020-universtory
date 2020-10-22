@@ -9,6 +9,16 @@
       Title="Júpiter_acercamiento" Background="White" Width="980" Height="360">
 
     <Grid>
-        
+        <Button Name= "VolJupbtn" Content="Volver" HorizontalAlignment="Left" Height="147" Margin="728,213,0,0" VerticalAlignment="Top" Width="242" FontFamily="Space Quest" Foreground="White" FontSize="24" Click="VolJupbtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name ="DatJupbtn" Content="Datos" HorizontalAlignment="Left" Height="154" Margin="10,203,0,0" VerticalAlignment="Top" Width="265" FontFamily="Space Quest" Foreground="White" FontSize="24" Click="DatJupbtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
+
     </Grid>
 </Page>

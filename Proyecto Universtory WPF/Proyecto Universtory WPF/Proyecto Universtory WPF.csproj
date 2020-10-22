@@ -55,6 +55,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Datos_Jupiter.xaml.cs">
+      <DependentUpon>Datos_Jupiter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Datos_Luna.xaml.cs">
+      <DependentUpon>Datos_Luna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Datos_Marte.xaml.cs">
+      <DependentUpon>Datos_Marte.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Datos_Mercurio.xaml.cs">
+      <DependentUpon>Datos_Mercurio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Datos_Tierra.xaml.cs">
+      <DependentUpon>Datos_Tierra.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Inicio2.xaml.cs">
       <DependentUpon>Inicio2.xaml</DependentUpon>
     </Compile>
@@ -130,6 +145,26 @@
     <Compile Include="Venus acercamiento.xaml.cs">
       <DependentUpon>Venus acercamiento.xaml</DependentUpon>
     </Compile>
+    <Page Include="Datos_Jupiter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Luna.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Marte.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Mercurio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Tierra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Inicio2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
