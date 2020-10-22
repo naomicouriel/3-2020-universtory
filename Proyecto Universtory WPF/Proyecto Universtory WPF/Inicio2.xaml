@@ -16,7 +16,7 @@
                 <ImageBrush ImageSource="Recursos/StartButton png.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button Content="" Margin="245,0,0,103" HorizontalAlignment="Left" Width="290" Height="87" VerticalAlignment="Bottom" BorderBrush="{x:Null}">
+        <Button Content="" Margin="245,0,0,103" HorizontalAlignment="Left" Width="290" Height="87" VerticalAlignment="Bottom" BorderBrush="{x:Null}" Click="Button_Click_1">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/TriviaButton.png" Stretch="Uniform"/>
             </Button.Background>

@@ -31,5 +31,11 @@ namespace Proyecto_Universtory_WPF
             MainWindow obj = (MainWindow)Window.GetWindow(this);
             obj.frame.Content = new Page1();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Trivia_inicio();
+        }
     }
 }
