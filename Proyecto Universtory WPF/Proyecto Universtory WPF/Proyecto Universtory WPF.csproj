@@ -67,6 +67,12 @@
     <Compile Include="Datos_Mercurio.xaml.cs">
       <DependentUpon>Datos_Mercurio.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Datos_Neptuno.xaml.cs">
+      <DependentUpon>Datos_Neptuno.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Datos_Sol.xaml.cs">
+      <DependentUpon>Datos_Sol.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Datos_Tierra.xaml.cs">
       <DependentUpon>Datos_Tierra.xaml</DependentUpon>
     </Compile>
@@ -158,6 +164,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Datos_Mercurio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Neptuno.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Sol.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

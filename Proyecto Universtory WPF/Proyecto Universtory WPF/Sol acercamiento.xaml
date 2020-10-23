@@ -5,13 +5,23 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d"
-      Title="Sol_acercamiento" Width="1025" Height="770">
+      Title="Sol_acercamiento" Width="1273.947" Height="885.789">
     <Page.Background>
         <ImageBrush ImageSource="Recursos/Sol.jpg" Stretch="UniformToFill"/>
     </Page.Background>
 
     <Grid>
-        <Slider x:Name="sliderSol" Margin="30,0,640,25" Background="Black" Foreground="Black" Height="45" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
+        <Slider x:Name="sliderSol" Margin="30,0,640,783" Background="Black" Foreground="Black" Height="45" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
+        <Button Name ="VolSolbtn" Content="Volver" HorizontalAlignment="Left" Height="252" Margin="824,634,0,0" VerticalAlignment="Top" Width="450" FontSize="24" FontFamily="space quest" Foreground="White" Click="VolSolbtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="DatSolbtn" Content="Datos" HorizontalAlignment="Left" Height="305" Margin="-51,609,0,-28" VerticalAlignment="Top" Width="518" FontSize="24" FontFamily="space quest" Foreground="White" Click="DatSolbtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>

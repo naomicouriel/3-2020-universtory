@@ -33,5 +33,17 @@ namespace Proyecto_Universtory_WPF
             BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
             var icon = new ImageBrush { ImageSource = temp };
         }
+
+        private void VolSolbtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Page1();
+        }
+
+        private void DatSolbtn_Click(object sender, RoutedEventArgs e)
+        {
+            Datos_Sol datSol = new Datos_Sol();
+            datSol.ShowDialog();
+        }
     }
 }

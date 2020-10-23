@@ -9,6 +9,16 @@
       Title="Neptuno_acercamiento" Background="White" Width="980" Height="360">
 
     <Grid>
-        
+        <Button Name ="VolNepbtn" Content="Volver" HorizontalAlignment="Left" Height="128" Margin="727,217,0,0" VerticalAlignment="Top" Width="243" FontFamily="Space quest" Foreground="White" FontSize="24" Click="VolNepbtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name ="DatNepbtn" Content="Datos" HorizontalAlignment="Left" Height="136" Margin="10,209,0,0" VerticalAlignment="Top" Width="245" FontFamily="Space quest" Foreground="White" FontSize="24" Click="DatNepbtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
+
     </Grid>
 </Page>
