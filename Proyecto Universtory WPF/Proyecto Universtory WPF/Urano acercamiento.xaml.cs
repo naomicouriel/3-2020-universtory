@@ -24,5 +24,17 @@ namespace Proyecto_Universtory_WPF
         {
             InitializeComponent();
         }
+
+        private void VolUrabtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Page1();
+        }
+
+        private void DatUrabtn_Click(object sender, RoutedEventArgs e)
+        {
+            Datos_Urano datUra = new Datos_Urano();
+            datUra.ShowDialog();
+        }
     }
 }

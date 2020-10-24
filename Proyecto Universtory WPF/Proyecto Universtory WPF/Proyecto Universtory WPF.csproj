@@ -76,6 +76,12 @@
     <Compile Include="Datos_Tierra.xaml.cs">
       <DependentUpon>Datos_Tierra.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Datos_Urano.xaml.cs">
+      <DependentUpon>Datos_Urano.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Datos_Venus.xaml.cs">
+      <DependentUpon>Datos_Venus.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Inicio2.xaml.cs">
       <DependentUpon>Inicio2.xaml</DependentUpon>
     </Compile>
@@ -176,6 +182,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Datos_Tierra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Urano.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Venus.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
