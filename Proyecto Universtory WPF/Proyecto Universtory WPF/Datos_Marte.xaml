@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Datos_Marte" Height="290.977" Width="455.639" Background="Black">
     <Grid Background="#FF1F1C5F">
-        <Button Name = "salirDatMar" Content="Salir" HorizontalAlignment="Left" Height="106" Margin="288,164,0,-10" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click">
+        <Button Name = "salirDatMar" Content="Salir" HorizontalAlignment="Left" Height="106" Margin="288,164,0,-10" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>

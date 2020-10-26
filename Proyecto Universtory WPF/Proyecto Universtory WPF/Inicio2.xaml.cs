@@ -13,7 +13,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-
 namespace Proyecto_Universtory_WPF
 {
     /// <summary>
@@ -36,6 +35,11 @@ namespace Proyecto_Universtory_WPF
         {
             MainWindow obj = (MainWindow)Window.GetWindow(this);
             obj.frame.Content = new Trivia_inicio();
+        }
+
+        private void CloseApp(object sender, MouseButtonEventArgs e)
+        {
+
         }
     }
 }

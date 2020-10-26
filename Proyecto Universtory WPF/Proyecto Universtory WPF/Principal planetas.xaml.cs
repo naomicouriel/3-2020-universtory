@@ -24,5 +24,11 @@ namespace Proyecto_Universtory_WPF
         {
             InitializeComponent();
         }
+        
+        private void BtnSolClick(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Sol_acercamiento();
+        }
     }
 }

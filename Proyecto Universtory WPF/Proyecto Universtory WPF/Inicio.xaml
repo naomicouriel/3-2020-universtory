@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
-        mc:Ignorable="d" Height="655" Width="1134.671" WindowState="Maximized" WindowStyle="None" ResizeMode="NoResize" Background="Black">
+        mc:Ignorable="d" Height="799.954" Width="1421.741" WindowState="Maximized" WindowStyle="None" ResizeMode="NoResize" Background="Black">
     <Window.Resources>
         <ImageBrush x:Key="img_start" ImageSource="Recursos/start.png" Stretch="UniformToFill"/>
     </Window.Resources>

@@ -35,13 +35,13 @@ namespace Proyecto_Universtory_WPF
 
         }
 
-        private void LunaVolv_Click(object sender, RoutedEventArgs e)
+        private void LunaVolv_Click_1(object sender, RoutedEventArgs e)
         {
             MainWindow obj = (MainWindow)Window.GetWindow(this);
             obj.frame.Content = new Page1();
         }
 
-        private void DatLunbtn_Click_1(object sender, RoutedEventArgs e)
+        private void DatLunbtn_Click(object sender, RoutedEventArgs e)
         {
             Datos_Luna datLuna = new Datos_Luna();
             datLuna.ShowDialog();

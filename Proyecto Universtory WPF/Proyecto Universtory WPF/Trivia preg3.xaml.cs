@@ -48,3 +48,5 @@ namespace Proyecto_Universtory_WPF
             MainWindow obj = (MainWindow)Window.GetWindow(this);
             obj.frame.Content = new Trivia_preg4();
         }
+    }
+}

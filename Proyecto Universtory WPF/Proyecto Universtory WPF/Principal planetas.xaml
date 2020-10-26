@@ -5,21 +5,21 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d"
-      Title="Planetas" Foreground="White" Width="6575" Height="3695">
+      Title="Planetas" Foreground="White" Width="1421.741" Height="799.954">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/sistemasolar4.jpg" Stretch="UniformToFill"/>
+        <ImageBrush ImageSource="Recursos/sistemasolar4.jpg" Stretch="Uniform"/>
     </Page.Background>
 
     <Grid RenderTransformOrigin="0.517,0.5">
-        <Button x:Name="btnNeptuno" Content="" HorizontalAlignment="Left" Margin="5215,85,0,0" VerticalAlignment="Top" Width="240" Height="180"/>
-        <Button x:Name="btnUrano" Content="" HorizontalAlignment="Left" Margin="4700,400,0,0" VerticalAlignment="Top" Width="240" Height="180"/>
-        <Button x:Name="btnSaturno" Content="" HorizontalAlignment="Left" Margin="3975,655,0,0" VerticalAlignment="Top" Width="350" Height="310"/>
-        <Button x:Name="btnJupiter" Content="" HorizontalAlignment="Left" Margin="3095,1030,0,0" VerticalAlignment="Top" Width="480" Height="385"/>
-        <Button x:Name="btnTierra" Content="" HorizontalAlignment="Left" Margin="2110,1345,0,0" VerticalAlignment="Top" Width="160" Height="135"/>
-        <Button x:Name="btnVenus" Content="" HorizontalAlignment="Left" Margin="1605,1605,0,0" VerticalAlignment="Top" Width="145" Height="135"/>
-        <Button x:Name="btnMercurio" Content="" HorizontalAlignment="Left" Margin="1180,1825,0,0" VerticalAlignment="Top" Width="80" Height="60"/>
-        <Button x:Name="btnMarte" Content="" HorizontalAlignment="Left" Margin="2433,1035,0,0" VerticalAlignment="Top" Width="130" Height="125"/>
-        <Button x:Name="btnSol" Content="" HorizontalAlignment="Left" Margin="30,230,0,0" VerticalAlignment="Top" Width="545" Height="2555"/>
-        <Button x:Name="btnLuna" Content="" HorizontalAlignment="Left" Margin="2120,1035,0,0" VerticalAlignment="Top" Width="150" Height="90"/>
+        <Ellipse x:Name="btnNeptuno" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="80" Margin="1115,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="80"/>
+        <Ellipse x:Name="btnUrano" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="1010,75,0,0" Stroke="Black" VerticalAlignment="Top" Width="70"/>
+        <Ellipse x:Name="btnSaturno" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="80" Margin="855,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="80"/>
+        <Ellipse x:Name="btnJupiter" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="665,215,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Ellipse x:Name="btnMarte" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35" Margin="525,220,0,0" Stroke="Black" VerticalAlignment="Top" Width="35"/>
+        <Ellipse x:Name="btnLuna" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Margin="460,225,0,0" Stroke="Black" VerticalAlignment="Top" Width="25"/>
+        <Ellipse x:Name="btnTierra" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="40" Margin="450,280,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
+        <Ellipse x:Name="btnVenus" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="40" Margin="350,340,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
+        <Ellipse x:Name="btnMercurio" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Margin="255,390,0,0" Stroke="Black" VerticalAlignment="Top" Width="25"/>
+        <Ellipse x:Name="btnSol" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="550" Margin="10,70,0,0" Stroke="Black" VerticalAlignment="Top" Width="165" MouseLeftButtonDown="BtnSolClick"/>
     </Grid>
 </Page>
