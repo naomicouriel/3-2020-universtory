@@ -6,15 +6,18 @@
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-      Title="Júpiter_acercamiento" Background="White" Width="980" Height="360">
+      Title="Júpiter_acercamiento" Width="1421.741" Height="799.954">
+    <Page.Background>
+        <ImageBrush ImageSource="Recursos/júpiter.jpg" Stretch="Uniform"/>
+    </Page.Background>
 
     <Grid>
-        <Button Name= "VolJupbtn" Content="Volver" HorizontalAlignment="Left" Height="147" Margin="728,213,0,0" VerticalAlignment="Top" Width="242" FontFamily="Space Quest" Foreground="White" FontSize="24" Click="VolJupbtn_Click">
+        <Button Name= "VolJupbtn" Content="Volver" HorizontalAlignment="Left" Height="147" Margin="1160,630,0,0" VerticalAlignment="Top" Width="242" FontFamily="Space Quest" Foreground="White" FontSize="24" Click="VolJupbtn_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
         </Button>
-        <Button Name ="DatJupbtn" Content="Datos" HorizontalAlignment="Left" Height="154" Margin="10,203,0,0" VerticalAlignment="Top" Width="265" FontFamily="Space Quest" Foreground="White" FontSize="24" Click="DatJupbtn_Click">
+        <Button Name ="DatJupbtn" Content="Datos" HorizontalAlignment="Left" Height="154" Margin="15,626,0,0" VerticalAlignment="Top" Width="265" FontFamily="Space Quest" Foreground="White" FontSize="24" Click="DatJupbtn_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>

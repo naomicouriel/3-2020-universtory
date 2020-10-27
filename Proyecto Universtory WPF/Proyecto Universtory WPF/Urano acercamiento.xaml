@@ -6,15 +6,18 @@
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-      Title="Urano_acercamiento" Width="980" Height="360" Background="White">
+      Title="Urano_acercamiento" Width="1421.741" Height="799.954">
+    <Page.Background>
+        <ImageBrush ImageSource="Recursos/urano.jpg" Stretch="UniformToFill"/>
+    </Page.Background>
 
     <Grid>
-        <Button Name ="VolUrabtn" Content="Volver" HorizontalAlignment="Left" Height="151" Margin="631,187,0,0" VerticalAlignment="Top" Width="313" Foreground="White" FontFamily="space quest" FontSize = "24" Click="VolUrabtn_Click">
+        <Button Name ="VolUrabtn" Content="Volver" HorizontalAlignment="Left" Height="151" Margin="1055,614,0,0" VerticalAlignment="Top" Width="313" Foreground="White" FontFamily="space quest" FontSize = "24" Click="VolUrabtn_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
         </Button>
-        <Button Name ="DatUrabtn" Content="Datos" HorizontalAlignment="Left" Height="144" Margin="21,187,0,0" VerticalAlignment="Top" Width="320" Foreground="White" FontFamily="space quest" FontSize = "24" Click="DatUrabtn_Click">
+        <Button Name ="DatUrabtn" Content="Datos" HorizontalAlignment="Left" Height="144" Margin="45,650,0,0" VerticalAlignment="Top" Width="320" Foreground="White" FontFamily="space quest" FontSize = "24" Click="DatUrabtn_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>

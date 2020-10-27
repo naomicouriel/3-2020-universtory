@@ -6,15 +6,18 @@
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-      Title="Venus_acercamiento" Background="White" Width="980" Height="360">
+      Title="Venus_acercamiento" Width="1421.741" Height="799.954">
+    <Page.Background>
+        <ImageBrush ImageSource="Recursos/venus.jpg" Stretch="Uniform"/>
+    </Page.Background>
 
     <Grid>
-        <Button Name ="VolVenbtn" Content="Volver" HorizontalAlignment="Left" Height="173" Margin="655,163,0,0" VerticalAlignment="Top" Width="302" Foreground="White" FontSize="24" FontFamily="space quest">
+        <Button Name ="VolVenbtn" Content="Volver" HorizontalAlignment="Left" Height="173" Margin="1093,617,0,0" VerticalAlignment="Top" Width="302" Foreground="White" FontSize="24" FontFamily="space quest" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
         </Button>
-        <Button Name ="DatVenbtn" Content="Datos" HorizontalAlignment="Left" Height="169" Margin="22,165,0,0" VerticalAlignment="Top" Width="323" Foreground="white" FontSize="24" FontFamily="space quest" Click="DatVenbtn_Click">
+        <Button Name ="DatVenbtn" Content="Datos" HorizontalAlignment="Left" Height="169" Margin="25,605,0,0" VerticalAlignment="Top" Width="323" Foreground="white" FontSize="24" FontFamily="space quest" Click="DatVenbtn_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>

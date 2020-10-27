@@ -5,25 +5,25 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d" d:DesignWidth="300"
-      Title="Marte_acercamiento" Width="980" Height="565.2">
+      Title="Marte_acercamiento" Width="1421.741" Height="799.954">
     <Page.Background>
         <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/marte.jpg"/>
     </Page.Background>
 
     <Grid>
         <Button Name = "MarteVolbtn" Content="Volver" HorizontalAlignment="Left" Height="188
-                " Margin="640,377,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="MarteVolbtn_Click">
+                " Margin="1060,577,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="MarteVolbtn_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
         </Button>
         <Label x:Name="Titulo_Marte" Content="Marte" HorizontalAlignment="Left" Height="64" Margin="103,38,0,0" VerticalAlignment="Top" Width="198" AutomationProperties.Name="martetitle" Foreground="White" FontSize="48" FontFamily="Space Quest" />
-        <Button Name ="DatMarbtn" Content="Datos" HorizontalAlignment="Left" Margin="10,367,0,0" VerticalAlignment="Top" Width="330" Height="188" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatMarbtn_Click">
+        <Button Name ="DatMarbtn" Content="Datos" HorizontalAlignment="Left" Margin="30,590,0,0" VerticalAlignment="Top" Width="330" Height="188" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatMarbtn_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
         </Button>
-        <Slider x:Name="slider" Margin="356,0,359,423" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
+        <Slider x:Name="slider" Margin="603,0,112,675" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
 
     </Grid>
 </Page>

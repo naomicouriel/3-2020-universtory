@@ -31,10 +31,63 @@ namespace Proyecto_Universtory_WPF
             obj.frame.Content = new Sol_acercamiento();
         }
 
-        private void btnDatos_Click(object sender, RoutedEventArgs e)
+        private void btnMercurio_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             MainWindow obj = (MainWindow)Window.GetWindow(this);
-            obj.frame.Content = new Datos_SistemaS();
+            obj.frame.Content = new Mercurio_acercamiento();
+        }
+
+        private void btnVenus_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Venus_acercamiento();
+        }
+
+        private void btnTierra_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Tierra_acercamiento();
+        }
+
+        private void btnLuna_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Luna_acercamiento();
+        }
+
+        private void btnMarte_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Marte_acercamiento();
+
+        }
+
+        private void btnJupiter_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Júpiter_acercamiento();
+
+        }
+
+        private void btnSaturno_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Saturno_acercamiento();
+
+        }
+
+        private void btnUrano_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Urano_acercamiento();
+
+        }
+
+        private void btnNeptuno_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Neptuno_acercamiento();
+
         }
     }
 }

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Datos_Tierra" Height="300" Width="300">
     <Grid>
-        <Button Name ="salDatTie" Content="Salir" HorizontalAlignment="Left" Height="75" Margin="128,155,0,0" VerticalAlignment="Top" Width="133" FontFamily="Space Quest" Foreground="White" Click="salDatTie_Click">
+        <Button Name ="salDatTie" Content="Salir" HorizontalAlignment="Left" Height="75" Margin="128,155,0,0" VerticalAlignment="Top" Width="133" FontFamily="Space Quest" Foreground="White" Click="salDatTie_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>

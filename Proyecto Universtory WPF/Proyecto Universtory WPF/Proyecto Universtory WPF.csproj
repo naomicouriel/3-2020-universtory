@@ -154,6 +154,12 @@
     <Compile Include="Trivia resultados.xaml.cs">
       <DependentUpon>Trivia resultados.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Trivia_Correcto.xaml.cs">
+      <DependentUpon>Trivia_Correcto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Incorrecto.xaml.cs">
+      <DependentUpon>Trivia_Incorrecto.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Urano acercamiento.xaml.cs">
       <DependentUpon>Urano acercamiento.xaml</DependentUpon>
     </Compile>
@@ -308,6 +314,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Trivia_Correcto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Incorrecto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Urano acercamiento.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -385,6 +399,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Recursos\Sol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\mercurio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\neptuno.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\saturno.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\venus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\urano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\júpiter.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

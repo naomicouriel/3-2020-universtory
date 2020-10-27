@@ -11,20 +11,15 @@
     </Page.Background>
 
     <Grid RenderTransformOrigin="0.517,0.5">
-        <Ellipse x:Name="btnNeptuno" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="80" Margin="1115,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="80"/>
-        <Ellipse x:Name="btnUrano" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="1010,75,0,0" Stroke="Black" VerticalAlignment="Top" Width="70"/>
-        <Ellipse x:Name="btnSaturno" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="80" Margin="855,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="80"/>
-        <Ellipse x:Name="btnJupiter" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="665,215,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Ellipse x:Name="btnMarte" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35" Margin="525,220,0,0" Stroke="Black" VerticalAlignment="Top" Width="35"/>
-        <Ellipse x:Name="btnLuna" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Margin="460,225,0,0" Stroke="Black" VerticalAlignment="Top" Width="25"/>
-        <Ellipse x:Name="btnTierra" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="40" Margin="450,280,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
-        <Ellipse x:Name="btnVenus" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="40" Margin="350,340,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
-        <Ellipse x:Name="btnMercurio" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Margin="255,390,0,0" Stroke="Black" VerticalAlignment="Top" Width="25"/>
-        <Ellipse x:Name="btnSol" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="550" Margin="10,70,0,0" Stroke="Black" VerticalAlignment="Top" Width="165" MouseLeftButtonDown="BtnSolClick"/>
-        <Button Name ="btnDatos" Content="Datos" HorizontalAlignment="Left" Height="215" Margin="924,575,0,0" VerticalAlignment="Top" Width="488" Foreground="White" FontSize="24" FontFamily="space quest" Click="btnDatos_Click">
-            <Button.Background>
-                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
-            </Button.Background>
-        </Button>
+        <Ellipse x:Name="btnNeptuno" HorizontalAlignment="Left" Height="80" Margin="1115,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="White" MouseLeftButtonDown="btnNeptuno_MouseLeftButtonDown"/>
+        <Ellipse x:Name="btnUrano" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="1010,75,0,0" Stroke="Black" VerticalAlignment="Top" Width="70" MouseLeftButtonDown="btnUrano_MouseLeftButtonDown"/>
+        <Ellipse x:Name="btnSaturno" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="80" Margin="855,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" MouseLeftButtonDown="btnSaturno_MouseLeftButtonDown"/>
+        <Ellipse x:Name="btnJupiter" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="665,215,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" MouseLeftButtonDown="btnJupiter_MouseLeftButtonDown"/>
+        <Ellipse x:Name="btnMarte" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35" Margin="525,220,0,0" Stroke="Black" VerticalAlignment="Top" Width="35" MouseLeftButtonDown="btnMarte_MouseLeftButtonDown"/>
+        <Ellipse x:Name="btnLuna" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Margin="460,225,0,0" Stroke="Black" VerticalAlignment="Top" Width="25" MouseLeftButtonDown="btnLuna_MouseLeftButtonDown"/>
+        <Ellipse x:Name="btnTierra" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="40" Margin="450,280,0,0" Stroke="Black" VerticalAlignment="Top" Width="40" MouseLeftButtonDown="btnTierra_MouseLeftButtonDown"/>
+        <Ellipse x:Name="btnVenus" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="40" Margin="350,340,0,0" Stroke="Black" VerticalAlignment="Top" Width="40" MouseLeftButtonDown="btnVenus_MouseLeftButtonDown"/>
+        <Ellipse x:Name="btnMercurio" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Margin="255,390,0,0" Stroke="Black" VerticalAlignment="Top" Width="25" MouseLeftButtonDown="btnMercurio_MouseLeftButtonDown"/>
+        <Ellipse x:Name="btnSol" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="265" Margin="0,215,0,0" Stroke="Black" VerticalAlignment="Top" Width="205" MouseLeftButtonDown="BtnSolClick"/>
     </Grid>
 </Page>

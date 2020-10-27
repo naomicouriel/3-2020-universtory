@@ -28,26 +28,26 @@ namespace Proyecto_Universtory_WPF
         private void btnResp1_Preg7_Click(object sender, RoutedEventArgs e)
         {
             MainWindow obj = (MainWindow)Window.GetWindow(this);
-            obj.frame.Content = new Trivia_preg8();
+            obj.frame.Content = new Trivia_Incorrecto();
         }
 
         private void btnResp2_Preg7_Click(object sender, RoutedEventArgs e)
         {
             MainWindow obj = (MainWindow)Window.GetWindow(this);
-            obj.frame.Content = new Trivia_preg8();
+            obj.frame.Content = new Trivia_Correcto();
         }
 
         private void btnResp3_Preg7_Click(object sender, RoutedEventArgs e)
         {
             MainWindow obj = (MainWindow)Window.GetWindow(this);
-            obj.frame.Content = new Trivia_preg8();
+            obj.frame.Content = new Trivia_Incorrecto();
 
         }
 
         private void btnResp4_Preg7_Click(object sender, RoutedEventArgs e)
         {
             MainWindow obj = (MainWindow)Window.GetWindow(this);
-            obj.frame.Content = new Trivia_preg8();
+            obj.frame.Content = new Trivia_Incorrecto();
         }
     }
 }

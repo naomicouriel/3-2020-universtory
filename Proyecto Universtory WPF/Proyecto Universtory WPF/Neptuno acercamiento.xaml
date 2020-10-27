@@ -6,15 +6,18 @@
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-      Title="Neptuno_acercamiento" Background="White" Width="980" Height="360">
+      Title="Neptuno_acercamiento" Width="1421.741" Height="799.954">
+    <Page.Background>
+        <ImageBrush ImageSource="Recursos/neptuno.jpg" Stretch="Uniform"/>
+    </Page.Background>
 
     <Grid>
-        <Button Name ="VolNepbtn" Content="Volver" HorizontalAlignment="Left" Height="128" Margin="727,217,0,0" VerticalAlignment="Top" Width="243" FontFamily="Space quest" Foreground="White" FontSize="24" Click="VolNepbtn_Click">
+        <Button Name ="VolNepbtn" Content="Volver" HorizontalAlignment="Left" Height="128" Margin="1142,650,0,0" VerticalAlignment="Top" Width="243" FontFamily="Space quest" Foreground="White" FontSize="24" Click="VolNepbtn_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
         </Button>
-        <Button Name ="DatNepbtn" Content="Datos" HorizontalAlignment="Left" Height="136" Margin="10,209,0,0" VerticalAlignment="Top" Width="245" FontFamily="Space quest" Foreground="White" FontSize="24" Click="DatNepbtn_Click">
+        <Button Name ="DatNepbtn" Content="Datos" HorizontalAlignment="Left" Height="136" Margin="35,614,0,0" VerticalAlignment="Top" Width="245" FontFamily="Space quest" Foreground="White" FontSize="24" Click="DatNepbtn_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
