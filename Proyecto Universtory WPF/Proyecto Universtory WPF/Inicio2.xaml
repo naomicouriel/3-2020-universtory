@@ -21,7 +21,7 @@
                 <ImageBrush ImageSource="Recursos/TriviaButton.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button Content="Exit" HorizontalAlignment="Left" Margin="1260,35,0,0" VerticalAlignment="Top" Width="135" Height="55" FontSize="22" MouseLeftButtonDown="CloseApp"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="1260,35,0,0" VerticalAlignment="Top" Width="135" Height="55" FontSize="22" MouseLeftButtonDown="CloseApp" Background="White"/>
 
     </Grid>
 </Page>

@@ -6,15 +6,22 @@
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-      Title="Mercurio_acercamiento" Background="White" Width="980" Height="360">
+      Title="Mercurio_acercamiento" Width="1421.741" Height="799.954">
+    <Page.Background>
+        <ImageBrush ImageSource="Recursos/mercurio.jpg" Stretch="Uniform"/>
+    </Page.Background>
 
     <Grid>
-        <Button Name ="VolMerbtn" Content="Volver" HorizontalAlignment="Left" Height="137" Margin="635,169,0,0" VerticalAlignment="Top" Width="300" FontFamily="Space quest" Foreground="White" FontSize="24">
+        <Button Name ="VolMerbtn" Content="Volver" HorizontalAlignment="Left" Height="137" Margin="1090,645,0,0" VerticalAlignment="Top" Width="300" FontFamily="Space quest" Foreground="White" FontSize="24" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
         </Button>
-        <Button Name ="DatMerbtn" Content="Datos" HorizontalAlignment="Left" Height="82" Margin="34,219,0,0" VerticalAlignment="Top" Width="243" FontFamily="Space quest" Foreground="White" FontSize="24"/>
+        <Button Name ="DatMerbtn" Content="Datos" HorizontalAlignment="Left" Height="116" Margin="16,649,0,0" VerticalAlignment="Top" Width="344" FontFamily="Space quest" Foreground="White" FontSize="24" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>

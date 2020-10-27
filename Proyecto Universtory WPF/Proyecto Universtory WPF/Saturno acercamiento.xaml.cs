@@ -24,5 +24,15 @@ namespace Proyecto_Universtory_WPF
         {
             InitializeComponent();
         }
+
+        private void VolNepbtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void DatNepbtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

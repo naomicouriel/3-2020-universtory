@@ -379,5 +379,23 @@
   <ItemGroup>
     <Resource Include="Recursos\Sol.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\mercurio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\neptuno.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\saturno.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\venus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\urano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\júpiter.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
