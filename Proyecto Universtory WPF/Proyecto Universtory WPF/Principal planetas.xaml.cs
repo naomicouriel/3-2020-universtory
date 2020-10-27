@@ -30,5 +30,11 @@ namespace Proyecto_Universtory_WPF
             MainWindow obj = (MainWindow)Window.GetWindow(this);
             obj.frame.Content = new Sol_acercamiento();
         }
+
+        private void btnDatos_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Datos_SistemaS();
+        }
     }
 }

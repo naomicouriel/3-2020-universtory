@@ -165,3 +165,9 @@ C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Uni
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Neptuno.baml
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Sol.baml
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Tierra.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Urano.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Venus.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Urano.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Venus.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_SistemaS.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_SistemaS.baml

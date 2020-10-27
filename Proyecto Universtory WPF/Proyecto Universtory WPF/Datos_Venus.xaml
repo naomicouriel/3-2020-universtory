@@ -12,6 +12,9 @@
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
         </Button>
-
+        <ScrollViewer Margin="0, 10">
+  
+        </ScrollViewer>
+        
     </Grid>
 </Window>

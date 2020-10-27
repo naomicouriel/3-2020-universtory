@@ -21,5 +21,10 @@
         <Ellipse x:Name="btnVenus" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="40" Margin="350,340,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
         <Ellipse x:Name="btnMercurio" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Margin="255,390,0,0" Stroke="Black" VerticalAlignment="Top" Width="25"/>
         <Ellipse x:Name="btnSol" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="550" Margin="10,70,0,0" Stroke="Black" VerticalAlignment="Top" Width="165" MouseLeftButtonDown="BtnSolClick"/>
+        <Button Name ="btnDatos" Content="Datos" HorizontalAlignment="Left" Height="215" Margin="924,575,0,0" VerticalAlignment="Top" Width="488" Foreground="White" FontSize="24" FontFamily="space quest" Click="btnDatos_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Page>
