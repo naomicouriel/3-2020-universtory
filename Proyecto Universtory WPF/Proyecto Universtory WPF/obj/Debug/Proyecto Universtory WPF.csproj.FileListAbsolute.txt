@@ -170,3 +170,11 @@ C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proy
 C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Inicio2.baml
 C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia_Correcto.baml
 C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia_Incorrecto.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Urano.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Venus.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia_Correcto.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia_Incorrecto.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Urano.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Venus.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia_Correcto.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia_Incorrecto.baml
