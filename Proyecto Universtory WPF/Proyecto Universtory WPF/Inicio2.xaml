@@ -21,7 +21,7 @@
                 <ImageBrush ImageSource="Recursos/TriviaButton.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button Content="" Margin="1230,20,22,725" FontSize="22" Click="Button_Click_2" BorderBrush="{x:Null}" Foreground="{x:Null}">
+        <Button Content="" Margin="1160,20,92,725" FontSize="22" Click="Button_Click_2" BorderBrush="{x:Null}" Foreground="{x:Null}" Style="{DynamicResource btnInicio}">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/EXIT.png" Stretch="UniformToFill"/>
             </Button.Background>

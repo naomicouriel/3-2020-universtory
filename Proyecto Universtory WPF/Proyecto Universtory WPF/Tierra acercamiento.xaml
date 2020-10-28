@@ -7,23 +7,15 @@
       mc:Ignorable="d"
       Title="Tierra_acercamiento" Width="980.043" Height="565.638">
     <Page.Background>
-        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/tierra-en-el-espacio_1661937516.jpg"/>
+        <ImageBrush ImageSource="Recursos/tierra_acerc.png"/>
     </Page.Background>
 
     <Grid>
         <Button Name = "TierraVolbtn" Content="Volver" HorizontalAlignment="Left" Height="188" Margin="640,354,0,0" VerticalAlignment="Top" Width="330
-                " FontSize="24" Foreground="White" FontFamily="Space quest" Click="TierraVolbtn_Click">
-            <Button.Background>
-                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
-            </Button.Background>
-        </Button>
-        <Button Name ="DatTiebtn" Content="Datos" HorizontalAlignment="Left" Height="188" Margin="14,354,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatTiebtn_Click">
-            <Button.Background>
-                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
-            </Button.Background>
-        </Button>
+                " FontSize="24" Foreground="White" FontFamily="Space quest" Click="TierraVolbtn_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button Name ="DatTiebtn" Content="Datos" HorizontalAlignment="Left" Height="188" Margin="14,354,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatTiebtn_Click" Background="{x:Null}" BorderBrush="{x:Null}"/>
         <Label Content="Tierra" HorizontalAlignment="Left" Height="77" Margin="75,24,0,0" VerticalAlignment="Top" Width="200" Foreground="White" FontSize="48" FontFamily="Space quest"/>
-        <Slider x:Name="slider" Margin="362,0,353,417" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
+        <Slider x:Name="slider" Margin="670,0,45,431" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
 
     </Grid>
 </Page>

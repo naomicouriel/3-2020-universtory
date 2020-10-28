@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-      Title="Trivia_resultados" Background="White" Width="980" Height="360">
+      Title="Trivia_resultados" Background="White" Width="1421.741" Height="799.954">
 
     <Grid>
         

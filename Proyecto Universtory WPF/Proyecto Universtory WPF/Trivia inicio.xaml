@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d"
-      Title="Trivia_inicio" Width="940" Height="370" Background="White">
+      Title="Trivia_inicio" Width="1421.741" Height="799.954" Background="White">
 
     <Grid>
         <Label Content="Trivia blabla" HorizontalAlignment="Left" Margin="265,50,0,0" VerticalAlignment="Top" Height="95" Width="355" Background="White" FontFamily="Lucida Sans Unicode" FontSize="50" FontWeight="ExtraBold"/>

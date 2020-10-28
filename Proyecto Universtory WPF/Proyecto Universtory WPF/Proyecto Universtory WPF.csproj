@@ -428,5 +428,32 @@
   <ItemGroup>
     <Resource Include="Recursos\EXIT.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\JÚPITER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\fondo inicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\tierra_acerc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\saturno_acerc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\urano_acerc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\neptuno_acerc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\Menu principal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\bot on .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\Luna_acerc.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

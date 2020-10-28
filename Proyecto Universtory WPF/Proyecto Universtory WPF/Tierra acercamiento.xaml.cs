@@ -29,6 +29,7 @@ namespace Proyecto_Universtory_WPF
 
         private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
+            //Código para cambiar el fondo de la page
             Uri resourceUri = new Uri("Resources/TuImagen.jpg", UriKind.Relative);
             StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
             BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);

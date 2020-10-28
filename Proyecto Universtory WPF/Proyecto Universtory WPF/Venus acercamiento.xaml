@@ -12,16 +12,8 @@
     </Page.Background>
 
     <Grid>
-        <Button Name ="VolVenbtn" Content="Volver" HorizontalAlignment="Left" Height="173" Margin="1093,617,0,0" VerticalAlignment="Top" Width="302" Foreground="White" FontSize="24" FontFamily="space quest" BorderBrush="{x:Null}">
-            <Button.Background>
-                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
-            </Button.Background>
-        </Button>
-        <Button Name ="DatVenbtn" Content="Datos" HorizontalAlignment="Left" Height="169" Margin="25,605,0,0" VerticalAlignment="Top" Width="323" Foreground="white" FontSize="24" FontFamily="space quest" Click="DatVenbtn_Click" BorderBrush="{x:Null}">
-            <Button.Background>
-                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
-            </Button.Background>
-        </Button>
+        <Button Name ="VolVenbtn" Content="Volver" HorizontalAlignment="Left" Height="173" Margin="1093,617,0,0" VerticalAlignment="Top" Width="302" Foreground="White" FontSize="24" FontFamily="space quest" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button Name ="DatVenbtn" Content="Datos" HorizontalAlignment="Left" Height="169" Margin="25,605,0,0" VerticalAlignment="Top" Width="323" Foreground="white" FontSize="24" FontFamily="space quest" Click="DatVenbtn_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
 
     </Grid>
 </Page>

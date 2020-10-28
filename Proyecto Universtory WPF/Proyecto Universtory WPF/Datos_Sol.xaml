@@ -5,9 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
         mc:Ignorable="d"
-        Title="Datos_Sol" Height="300" Width="300">
+        Title="Datos_Sol" Height="500" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="Recursos/fondo inicio.png"/>
+    </Window.Background>
     <Grid>
-        <Button Name="salDatSol" Content="Salir" HorizontalAlignment="Left" Height="153" Margin="68,106,0,0" VerticalAlignment="Top" Width="214" Foreground="White" FontFamily="space quest" FontSize="24" Click="salDatSol_Click">
+        <Button Name="salDatSol" Content="Salir" HorizontalAlignment="Left" Height="153" Margin="570,305,0,0" VerticalAlignment="Top" Width="214" Foreground="White" FontFamily="space quest" FontSize="24" Click="salDatSol_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>

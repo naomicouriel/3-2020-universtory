@@ -10,7 +10,6 @@
     </Window.Resources>
     <Grid>
         <Frame x:Name="frame" Content="" Margin="0,0,0,0" NavigationUIVisibility="Hidden"/>
-        <Slider x:Name="slider" Margin="450,0,420,105" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
 
     </Grid>
 </Window>

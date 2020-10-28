@@ -25,17 +25,6 @@ namespace Proyecto_Universtory_WPF
             InitializeComponent();
             frame.Content = new Inicio2();
         }
-
-        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-
-            double valor = e.NewValue;
-
-            if (valor == 20)
-            {
-                frame.Content = new Inicio2();
-            }
-        }
         
     }
 }

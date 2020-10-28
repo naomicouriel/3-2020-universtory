@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-      Title="Trivia_preg9" Background="White" Width="1015" Height="375">
+      Title="Trivia_preg9" Background="White" Width="1421.741" Height="799.954">
 
     <Grid>
         <Label Content="Pregunta2" HorizontalAlignment="Left" Margin="60,35,0,0" VerticalAlignment="Top" Height="90" Width="900"/>
