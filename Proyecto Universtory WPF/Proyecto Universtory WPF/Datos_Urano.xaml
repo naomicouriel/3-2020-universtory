@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
         mc:Ignorable="d"
-        Title="Datos_Urano" Height="300" Width="300">
+        Title="Datos_Urano" Height="485.66" Width="772.358" Background="#FF120D4D">
     <Grid>
-        <Button Name ="salDatUra" Content="Salir" HorizontalAlignment="Left" Height="157" Margin="53,112,-33,0" VerticalAlignment="Top" Width="272" Foreground="white" FontFamily="space quest" FontSize="24" Click="salDatUra_Click">
+        <Button Name ="salDatUra" Content="Salir" HorizontalAlignment="Left" Height="157" Margin="506,325,-14,-27" VerticalAlignment="Top" Width="272" Foreground="white" FontFamily="space quest" FontSize="24" Click="salDatUra_Click">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
         </Button>
+        <TextBlock HorizontalAlignment="Left" Height="358" Margin="57,36,0,0" TextWrapping="Wrap" Text="El primer planeta encontrado con la ayuda de un telescopio, Urano, fue descubierto en 1781 por el astrónomo William Herschel, aunque originalmente pensó que era un cometa o una estrella. Urano también tiene anillos tenues. Los anillos internos son angostos y oscuros. Los anillos externos tienen colores vivos y son más fáciles de ver. Como Venus, Urano rota en dirección opuesta a la de la mayoría de los otros planetas. Y, a diferencia de cualquier otro planeta, Urano rota de lado, por lo que se le conoce como el planeta lateral." FontFamily="space quest" FontSize="19" Foreground="White" VerticalAlignment="Top" Width="434"/>
 
     </Grid>
 </Window>

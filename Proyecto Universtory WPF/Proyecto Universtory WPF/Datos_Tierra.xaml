@@ -5,13 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
         mc:Ignorable="d"
-        Title="Datos_Tierra" Height="300" Width="300">
+        Title="Datos_Tierra" Height="492.858" Width="560.526" Background="#FF160844">
     <Grid>
-        <Button Name ="salDatTie" Content="Salir" HorizontalAlignment="Left" Height="75" Margin="128,155,0,0" VerticalAlignment="Top" Width="133" FontFamily="Space Quest" Foreground="White" Click="salDatTie_Click" BorderBrush="{x:Null}">
+        <Button Name ="salDatTie" Content="Salir" HorizontalAlignment="Left" Height="91" Margin="414,334,0,0" VerticalAlignment="Top" Width="139" FontFamily="Space Quest" Foreground="White" Click="salDatTie_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
         </Button>
+        <TextBlock Name="DatTietxt" HorizontalAlignment="Left" Height="396" Margin="29,29,0,0" TextWrapping="Wrap" Text="Nuestro planeta de origen es el tercer planeta desde el Sol, y el único lugar que conocemos hasta ahora que está habitado por seres vivos. Si bien la Tierra es sólo el quinto planeta más grande del sistema solar, es el único mundo oceánico, en donde casi el 70% de su superficie está cubierta por agua. Un poco más grande que la cercana Venus, la Tierra es el más grande de los cuatro planetas más cercanos al Sol, todos los cuales están hechos de roca y metal.
+" VerticalAlignment="Top" Width="430" Foreground="White" FontFamily="space quest" FontSize="19"/>
 
     </Grid>
 </Window>

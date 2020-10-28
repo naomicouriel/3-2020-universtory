@@ -27,12 +27,14 @@ namespace Proyecto_Universtory_WPF
 
         private void VolNepbtn_Click(object sender, RoutedEventArgs e)
         {
-
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Page1();
         }
 
         private void DatNepbtn_Click(object sender, RoutedEventArgs e)
         {
-
+            Datos_Saturno datSat = new Datos_Saturno();
+            datSat.ShowDialog();
         }
     }
 }
