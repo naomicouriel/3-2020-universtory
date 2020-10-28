@@ -36,10 +36,12 @@ namespace Proyecto_Universtory_WPF
             MainWindow obj = (MainWindow)Window.GetWindow(this);
             obj.frame.Content = new Trivia_inicio();
         }
+        
 
-        private void CloseApp(object sender, MouseButtonEventArgs e)
+        private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-
+            Window main = Window.GetWindow(this);
+            main.Close();
         }
     }
 }
