@@ -70,6 +70,9 @@
     <Compile Include="Datos_Neptuno.xaml.cs">
       <DependentUpon>Datos_Neptuno.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Datos_SistemaS.xaml.cs">
+      <DependentUpon>Datos_SistemaS.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Datos_Sol.xaml.cs">
       <DependentUpon>Datos_Sol.xaml</DependentUpon>
     </Compile>
@@ -180,6 +183,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Datos_Neptuno.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_SistemaS.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

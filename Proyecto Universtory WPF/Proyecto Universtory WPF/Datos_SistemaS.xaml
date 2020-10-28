@@ -1,0 +1,20 @@
+﻿<Window x:Class="Proyecto_Universtory_WPF.Datos_SistemaS"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
+        mc:Ignorable="d"
+        Title="Datos_SistemaS" Height="456.767" Width="662.03" Background="#FF0A133C">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="371" Margin="31,30,0,0" TextWrapping="Wrap" Text="El sistema solar en uno de los miles sistemas planetarios que se encuentran en la vía láctea, una de quizás unas cien billones de galaxias en el Universo. Está formado por el Sol y los cuerpos celestes que orbitan a su alrededor gracias a su gravedad que los atrae, entre ellos, nuestra Tierra. En él se encuentran ocho grandes planetas, junto con sus satélites, planetas menores, asteroides, cometas, polvo y gas interestelar.
+Si bien nuestro planeta es de alguna manera una mera partícula en el vasto cosmos, tenemos mucha compañía ahí fuera. Parece que vivimos en un universo lleno de planetas, una red de innumerables estrellas acompañadas de familias de objetos, quizás algunos con vida propia." VerticalAlignment="Top" Width="516" FontFamily="SPACE QUEST" FontSize="17" Foreground="white"/>
+        <Button Name = "salDatSS" Content="Salir" HorizontalAlignment="Left" Height="139" Margin="397,287,0,0" VerticalAlignment="Top" Width="247" FontFamily="space quest" FontSize="24" Foreground="White" Click="salDatSS_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
+            </Button.Background>
+        </Button>
+
+
+    </Grid>
+</Window>
