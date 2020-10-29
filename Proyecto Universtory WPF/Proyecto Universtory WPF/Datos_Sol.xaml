@@ -10,11 +10,12 @@
         <ImageBrush ImageSource="Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
-        <Button Name="salDatSol" Content="Salir" HorizontalAlignment="Left" Height="153" Margin="570,305,0,0" VerticalAlignment="Top" Width="214" Foreground="White" FontFamily="space quest" FontSize="24" Click="salDatSol_Click" BorderBrush="{x:Null}">
+        <Button Name="salDatSol" Content="Salir" HorizontalAlignment="Left" Height="153" Margin="578,337,0,-21" VerticalAlignment="Top" Width="214" Foreground="White" FontFamily="space quest" FontSize="24" Click="salDatSol_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
             </Button.Background>
         </Button>
+        <TextBlock HorizontalAlignment="Left" Height="342" Margin="72,53,0,0" TextWrapping="Wrap" Text="El Sol es una estrella enana amarilla, una bola caliente de gases incandescentes en el corazón de nuestro sistema solar. Su gravedad mantiene unido al sistema solar, manteniendo todo, desde los planetas más grandes hasta las partículas más pequeñas de escombros, en su órbita. La conexión y las interacciones entre el Sol y la Tierra impulsan las estaciones, las corrientes oceánicas, el clima, los cinturones de radiación y las auroras. Se formó hace unos 4500 millones de años a partir de nubes de gas y polvo que contenían residuos de generaciones anteriores de estrellas." VerticalAlignment="Top" Width="540" Foreground="White" FontFamily="space quest" FontSize="19"/>
 
     </Grid>
 </Window>

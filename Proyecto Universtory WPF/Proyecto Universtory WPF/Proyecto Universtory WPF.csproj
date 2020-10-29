@@ -455,5 +455,53 @@
   <ItemGroup>
     <Resource Include="Recursos\Luna_acerc.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton alien trivia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton cohete trivia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton estrella trivia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton planeta trivia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EXIT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jupiter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\la tierra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu principal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neptuno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\urano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\START.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

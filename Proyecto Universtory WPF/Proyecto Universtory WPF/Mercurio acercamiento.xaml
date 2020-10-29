@@ -13,7 +13,7 @@
 
     <Grid>
         <Button Name ="VolMerbtn" Content="Volver" HorizontalAlignment="Left" Height="137" Margin="1090,645,0,0" VerticalAlignment="Top" Width="300" FontFamily="Space quest" Foreground="White" FontSize="24" BorderBrush="{x:Null}" Background="{x:Null}"/>
-        <Button Name ="DatMerbtn" Content="Datos" HorizontalAlignment="Left" Height="116" Margin="16,649,0,0" VerticalAlignment="Top" Width="344" FontFamily="Space quest" Foreground="White" FontSize="24" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button Name ="DatMerbtn" Content="Datos" HorizontalAlignment="Left" Height="116" Margin="16,649,0,0" VerticalAlignment="Top" Width="344" FontFamily="Space quest" Foreground="White" FontSize="24" BorderBrush="{x:Null}" Background="{x:Null}" Click="DatMerbtn_Click_1"/>
 
     </Grid>
 </Page>
