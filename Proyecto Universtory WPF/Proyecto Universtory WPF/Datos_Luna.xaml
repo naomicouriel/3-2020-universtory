@@ -10,11 +10,7 @@
         <ImageBrush ImageSource="Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
-        <Button Name = "salDatLun" Content="Salir" HorizontalAlignment="Left" Height="86" Margin="590,350,0,0" VerticalAlignment="Top" Width="137" FontFamily="Space Quest" Foreground="White" Click="salDatLun_Click" BorderBrush="{x:Null}" FontSize="24">
-            <Button.Background>
-                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bot_on_.png"/>
-            </Button.Background>
-        </Button>
+        <Button Name = "salDatLun" Content="Salir" HorizontalAlignment="Left" Height="86" Margin="590,350,0,0" VerticalAlignment="Top" Width="137" FontFamily="Space Quest" Foreground="White" Click="salDatLun_Click" BorderBrush="{x:Null}" FontSize="24" Background="{x:Null}"/>
         <TextBlock Name ="DatLuntxt" FontFamily="space quest" FontSize="19" Foreground ="White" HorizontalAlignment="Left" Height="318" Margin="68,52,0,0" TextWrapping="Wrap" Text="La Luna de la Tierra es nuestro único satélite, es decir, el único que orbita alrededor de este planeta, y es el único lugar más allá de la Tierra donde los humanos han puesto un pie.
 El objeto más brillante y más grande de nuestro cielo nocturno, la Luna hace que la Tierra sea un planeta más habitable. También, provoca mareas, creando un ritmo que ha guiado a los humanos durante miles de años. La Luna probablemente se formó después de que un cuerpo del tamaño de Marte chocara con la Tierra.
 Es la quinta más grande de las más de 190 lunas que orbitan planetas en nuestro sistema solar." VerticalAlignment="Top" Width="562"/>

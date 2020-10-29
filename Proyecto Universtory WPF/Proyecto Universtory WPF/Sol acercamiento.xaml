@@ -7,7 +7,7 @@
       mc:Ignorable="d"
       Title="Sol_acercamiento" Width="1421.741" Height="799.954">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/Sol.jpg" Stretch="UniformToFill"/>
+        <ImageBrush ImageSource="Recursos/Sol.jpg" Stretch="Uniform"/>
     </Page.Background>
 
     <Grid>

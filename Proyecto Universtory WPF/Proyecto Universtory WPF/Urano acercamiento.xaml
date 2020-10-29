@@ -8,7 +8,7 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="Urano_acercamiento" Width="1421.741" Height="799.954">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/urano.jpg" Stretch="UniformToFill"/>
+        <ImageBrush ImageSource="Recursos/urano.jpg" Stretch="Uniform"/>
     </Page.Background>
 
     <Grid>
