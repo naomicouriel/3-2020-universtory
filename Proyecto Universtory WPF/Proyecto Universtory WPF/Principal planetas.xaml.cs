@@ -89,5 +89,11 @@ namespace Proyecto_Universtory_WPF
             obj.frame.Content = new Neptuno_acercamiento();
 
         }
+
+        private void VolPPbtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Inicio2();
+        }
     }
 }
