@@ -506,5 +506,11 @@
   <ItemGroup>
     <Resource Include="Recursos\marte.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mercurio.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

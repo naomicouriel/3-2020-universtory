@@ -181,4 +181,10 @@
   <data name="urano" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\urano.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mercurio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mercurio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

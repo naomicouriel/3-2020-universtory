@@ -213,6 +213,16 @@ namespace Proyecto_Universtory_WPF.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mercurio {
+            get {
+                object obj = ResourceManager.GetObject("mercurio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap neptuno {
             get {
                 object obj = ResourceManager.GetObject("neptuno", resourceCulture);
@@ -226,6 +236,16 @@ namespace Proyecto_Universtory_WPF.Properties {
         internal static System.Drawing.Bitmap saturno {
             get {
                 object obj = ResourceManager.GetObject("saturno", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sol {
+            get {
+                object obj = ResourceManager.GetObject("Sol", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
