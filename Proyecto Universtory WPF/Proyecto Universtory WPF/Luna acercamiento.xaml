@@ -7,7 +7,7 @@
       mc:Ignorable="d"
       Title="Luna_acercamiento" Width="1421.741" Height= "799.954">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/Luna_acerc.jpg" Stretch="UniformToFill"/>
+        <ImageBrush ImageSource="Recursos/Luna_acerc.jpg" Stretch="Uniform"/>
     </Page.Background>
 
     <Grid>
