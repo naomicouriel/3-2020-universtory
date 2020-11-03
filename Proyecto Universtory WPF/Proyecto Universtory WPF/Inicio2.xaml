@@ -5,18 +5,31 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d"
-      Title="Inicio2" Width="1421.741" Height="799.954">
+      Title="Inicio2" Width="1421.741" Height="799.954" Loaded="FormLoad">
     <Page.Background>
         <ImageBrush ImageSource="Recursos/universtory fondo.png" Stretch="UniformToFill"/>
     </Page.Background>
 
+    <Page.Resources>
+        <Storyboard x:Key = "Movimiento" RepeatBehavior ="Forever">
+            <ThicknessAnimation Storyboard.TargetProperty="Margin" From="887,610,0,0" To="887,540,0,0" Duration="0:0:03.0"/>
+            <ThicknessAnimation  Storyboard.TargetProperty="Margin" From="887,540,0,0" To="887,610,0,0" Duration="0:00:03.0"/>
+        </Storyboard>
+
+        <Storyboard x:Key = "Trivia" RepeatBehavior = "Forever">
+            <ThicknessAnimation Storyboard.TargetProperty="Margin" From="245,540,0,0" To="245,610,0,0" Duration="0:0:03.0"/>
+            <ThicknessAnimation Storyboard.TargetProperty="Margin" From="245,610,0,0" To="245,540,0,0" Duration="0:0:03.0"/>
+        </Storyboard>
+
+    </Page.Resources>
+
     <Grid>
-        <Button Content="" Margin="0,0,245,103" HorizontalAlignment="Right" Width="290" Height="87" VerticalAlignment="Bottom" BorderBrush="{x:Null}" Click="Button_Click" Style="{DynamicResource btnInicio}">
+        <Button x:Name="btnStart" Content="" Margin="887,610,0,0" BorderBrush="{x:Null}" Click="Button_Click" Style="{DynamicResource btnInicio}" Height="87" VerticalAlignment="Top" HorizontalAlignment="Left" Width="290">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/StartButton png.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button Content="" Margin="245,0,0,103" HorizontalAlignment="Left" Width="290" Height="87" VerticalAlignment="Bottom" BorderBrush="{x:Null}" Click="Button_Click_1" Style="{DynamicResource btnInicio}">
+        <Button x:Name="btnTrivia" Content="" Margin="245,610,0,0" HorizontalAlignment="Left" Width="290" Height="87" VerticalAlignment="Top" BorderBrush="{x:Null}" Click="Button_Click_1" Style="{DynamicResource btnInicio}">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/TriviaButton.png" Stretch="Uniform"/>
             </Button.Background>
@@ -26,6 +39,7 @@
                 <ImageBrush ImageSource="Recursos/EXIT.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
+        <Image HorizontalAlignment="Left" Height="100" Margin="15,10,0,0" VerticalAlignment="Top" Width="105" Source="Recursos/muted.png" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
 
     </Grid>
 </Page>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -9,6 +10,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -24,6 +26,10 @@ namespace Proyecto_Universtory_WPF
         {
             InitializeComponent();
         }
+
+        SoundPlayer Player;
+        int x = 1;
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -42,6 +48,35 @@ namespace Proyecto_Universtory_WPF
         {
             Window main = Window.GetWindow(this);
             main.Close();
+        }
+
+        private void FormLoad(object sender, RoutedEventArgs e)
+        {
+           var st = (Storyboard)Resources["Movimiento"];
+            st.Begin(btnStart);
+
+           var trivia = (Storyboard)Resources["Trivia"];
+            trivia.Begin(btnTrivia);
+
+            Player = new SoundPlayer
+            {
+                SoundLocation = "C:/Users/ALUMNO/Downloads/universtory_song.wav"
+            };
+            Player.Play(); 
+        }
+
+        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+             if (Player != null)
+             {
+                Player.Stop();
+             }
+            
+             else if (Player == null)
+             {
+                Player.Play();
+             }
+            
         }
     }
 }

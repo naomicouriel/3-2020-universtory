@@ -12,7 +12,11 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Height="371" Margin="31,30,0,0" TextWrapping="Wrap" Text="El sistema solar en uno de los miles sistemas planetarios que se encuentran en la vía láctea, una de quizás unas cien billones de galaxias en el Universo. Está formado por el Sol y los cuerpos celestes que orbitan a su alrededor gracias a su gravedad que los atrae, entre ellos, nuestra Tierra. En él se encuentran ocho grandes planetas, junto con sus satélites, planetas menores, asteroides, cometas, polvo y gas interestelar.
 Si bien nuestro planeta es de alguna manera una mera partícula en el vasto cosmos, tenemos mucha compañía ahí fuera. Parece que vivimos en un universo lleno de planetas, una red de innumerables estrellas acompañadas de familias de objetos, quizás algunos con vida propia." VerticalAlignment="Top" Width="516" FontFamily="SPACE QUEST" FontSize="20" Foreground="white"/>
-        <Button Name = "salDatSS" Content="Salir" HorizontalAlignment="Left" Height="139" Margin="510,305,0,0" VerticalAlignment="Top" Width="247" FontFamily="space quest" FontSize="24" Foreground="White" Click="salDatSS_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button Name = "salDatSS" Content="" HorizontalAlignment="Left" Height="56" Margin="600,395,0,0" VerticalAlignment="Top" Width="166" FontFamily="space quest" FontSize="24" Foreground="White" Click="salDatSS_Click" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Recursos/atrás.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
 
 
     </Grid>

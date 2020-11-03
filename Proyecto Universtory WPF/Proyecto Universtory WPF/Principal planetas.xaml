@@ -7,7 +7,7 @@
       mc:Ignorable="d"
       Title="Planetas" Foreground="White" Width="1421.741" Height="799.954">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/Menu principal.png" Stretch="Uniform" TileMode="None"/>
+        <ImageBrush ImageSource="Recursos/Menu principal_principal planetas.png" Stretch="Uniform" TileMode="None"/>
     </Page.Background>
 
     <Grid RenderTransformOrigin="0.517,0.5">
@@ -57,6 +57,10 @@
                 <SolidColorBrush Color="White" Opacity="0.01"/>
             </Ellipse.Fill>
         </Ellipse>
-        <Button Name="VolPPbtn" Content="Volver" HorizontalAlignment="Left" Height="92" Margin="1088,626,0,0" VerticalAlignment="Top" Width="270" FontFamily="space quest" FontSize="24" Click="VolPPbtn_Click"/>
+        <Button Name="VolPPbtn" Content="" HorizontalAlignment="Left" Height="50" Margin="1075,700,0,0" VerticalAlignment="Top" Width="272" FontFamily="space quest" FontSize="24" Click="VolPPbtn_Click" BorderBrush="{x:Null}" Style="{DynamicResource btnInicio}">
+            <Button.Background>
+                <ImageBrush ImageSource="Recursos/atrás.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Page>

@@ -512,5 +512,29 @@
   <ItemGroup>
     <None Include="Resources\mercurio.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\Menu principal planetas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\Menu principal_principal planetas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\iniciar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\atrás.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\datos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\mute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\muted.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
