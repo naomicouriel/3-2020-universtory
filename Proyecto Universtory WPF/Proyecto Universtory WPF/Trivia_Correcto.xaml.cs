@@ -25,6 +25,8 @@ namespace Proyecto_Universtory_WPF
             InitializeComponent();
         }
 
+        Puntos puntajes = new Puntos();
+
         int contador = 1;
 
         private void btn_continuar_Click(object sender, RoutedEventArgs e)
