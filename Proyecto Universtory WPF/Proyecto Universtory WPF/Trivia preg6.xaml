@@ -30,5 +30,6 @@
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
+        <TextBox x:Name="timer" HorizontalAlignment="Left" Height="102" Margin="1080,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="313"/>
     </Grid>
 </Page>

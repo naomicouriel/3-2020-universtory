@@ -29,6 +29,7 @@
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
+        <Label x:Name="lblTimer" Content="" HorizontalAlignment="Left" Margin="1122,56,0,0" VerticalAlignment="Top" Height="118" Width="206"/>
 
     </Grid>
 </Page>

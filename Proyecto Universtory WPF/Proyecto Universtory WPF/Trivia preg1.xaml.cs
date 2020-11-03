@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace Proyecto_Universtory_WPF
 {
@@ -23,7 +24,29 @@ namespace Proyecto_Universtory_WPF
         public Trivia_preg1()
         {
             InitializeComponent();
+
+            int tiempo = 45;
+
+            DispatcherTimer temporizador = new DispatcherTimer();
+
+            temporizador.Interval = new TimeSpan(0, 0, 0, 0, 1000);
+
+            temporizador.Tick +=(a, b) =>
+            {
+                lblTimer.Content = Convert.ToString((tiempo--));
+
+                if (tiempo == 0)
+                {
+                    MainWindow obj = (MainWindow)Window.GetWindow(this);
+                    obj.frame.Content = new Trivia_Incorrecto();
+                }
+            };
+
+            temporizador.Start();
         }
+
+
+        
 
         private void btnResp1_Preg1_Click(object sender, RoutedEventArgs e)
         {

@@ -163,8 +163,62 @@
     <Compile Include="Trivia_Correcto.xaml.cs">
       <DependentUpon>Trivia_Correcto.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Trivia_Correcto10.xaml.cs">
+      <DependentUpon>Trivia_Correcto10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Correcto2.xaml.cs">
+      <DependentUpon>Trivia_Correcto2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Correcto3.xaml.cs">
+      <DependentUpon>Trivia_Correcto3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Correcto4.xaml.cs">
+      <DependentUpon>Trivia_Correcto4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Correcto5.xaml.cs">
+      <DependentUpon>Trivia_Correcto5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Correcto6.xaml.cs">
+      <DependentUpon>Trivia_Correcto6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Correcto7.xaml.cs">
+      <DependentUpon>Trivia_Correcto7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Correcto8.xaml.cs">
+      <DependentUpon>Trivia_Correcto8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Correcto9.xaml.cs">
+      <DependentUpon>Trivia_Correcto9.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Trivia_Incorrecto.xaml.cs">
       <DependentUpon>Trivia_Incorrecto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Incorrecto10.xaml.cs">
+      <DependentUpon>Trivia_Incorrecto10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Incorrecto2.xaml.cs">
+      <DependentUpon>Trivia_Incorrecto2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Incorrecto3.xaml.cs">
+      <DependentUpon>Trivia_Incorrecto3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Incorrecto4.xaml.cs">
+      <DependentUpon>Trivia_Incorrecto4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Incorrecto5.xaml.cs">
+      <DependentUpon>Trivia_Incorrecto5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Incorrecto6.xaml.cs">
+      <DependentUpon>Trivia_Incorrecto6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Incorrecto7.xaml.cs">
+      <DependentUpon>Trivia_Incorrecto7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Incorrecto8.xaml.cs">
+      <DependentUpon>Trivia_Incorrecto8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trivia_Incorrecto9.xaml.cs">
+      <DependentUpon>Trivia_Incorrecto9.xaml</DependentUpon>
     </Compile>
     <Compile Include="Urano acercamiento.xaml.cs">
       <DependentUpon>Urano acercamiento.xaml</DependentUpon>
@@ -332,7 +386,79 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Trivia_Correcto10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Correcto2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Correcto3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Correcto4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Correcto5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Correcto6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Correcto7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Correcto8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Correcto9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Trivia_Incorrecto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Incorrecto10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Incorrecto2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Incorrecto3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Incorrecto4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Incorrecto5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Incorrecto6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Incorrecto7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Incorrecto8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trivia_Incorrecto9.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
