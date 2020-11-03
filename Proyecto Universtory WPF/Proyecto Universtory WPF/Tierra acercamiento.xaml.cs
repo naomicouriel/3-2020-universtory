@@ -21,19 +21,25 @@ namespace Proyecto_Universtory_WPF
     /// </summary>
     public partial class Tierra_acercamiento : Page
     {
+        private double valSliderT = 0;
         public Tierra_acercamiento()
         {
             InitializeComponent();
+            
         }
 
-
-        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        public void sliderTierra_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
+            double valSliderT = e.NewValue;
+            valSliderT = sliderTierra.Value;
+            /*if (valSliderT == 20) { 
             //Código para cambiar el fondo de la page
+             
             Uri resourceUri = new Uri("Resources/TuImagen.jpg", UriKind.Relative);
             StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
             BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
             var icon = new ImageBrush { ImageSource = temp };
+            }*/
         }
 
         private void TierraVolbtn_Click(object sender, RoutedEventArgs e)
@@ -42,10 +48,17 @@ namespace Proyecto_Universtory_WPF
             obj.frame.Content = new Page1();
         }
 
-        private void DatTiebtn_Click(object sender, RoutedEventArgs e)
+        public void DatTiebtn_Click(object sender, RoutedEventArgs e)
         {
+            if (valSliderT == 0) { 
             Datos_Tierra datTierra = new Datos_Tierra();
             datTierra.ShowDialog();
+            }
+            if (valSliderT == 20)
+            {
+                Datos_Tierra_E1 datTieE1 = new Datos_Tierra_E1();
+                datTieE1.ShowDialog();
+            }
         }
     }
 }
