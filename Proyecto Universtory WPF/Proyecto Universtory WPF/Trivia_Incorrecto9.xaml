@@ -9,7 +9,7 @@
       Title="Trivia_Incorrecto9" Background="White">
 
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="549,243,0,0" VerticalAlignment="Top" Width="242" Height="69" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="853,438,0,0" VerticalAlignment="Top" Width="242" Height="69" Click="Button_Click"/>
 
     </Grid>
 </Page>
