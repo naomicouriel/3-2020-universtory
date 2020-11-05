@@ -536,5 +536,20 @@
   <ItemGroup>
     <Resource Include="Recursos\muted.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\trivia fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\resp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\resp2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\resp3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\resp4.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

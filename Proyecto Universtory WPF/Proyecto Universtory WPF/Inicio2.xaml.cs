@@ -62,7 +62,7 @@ namespace Proyecto_Universtory_WPF
             {
                 SoundLocation = "C:/Users/ALUMNO/Downloads/universtory_song.wav"
             };
-            Player.Play(); 
+            Player.PlayLooping(); 
         }
 
         private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -74,7 +74,7 @@ namespace Proyecto_Universtory_WPF
             
              else if (Player == null)
              {
-                Player.Play();
+                Player.PlayLooping();
              }
             
         }
