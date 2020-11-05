@@ -222,3 +222,4 @@ C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proy
 C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia_Incorrecto7.baml
 C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia_Incorrecto8.baml
 C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Trivia_Incorrecto9.baml
+C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Tierra_E1.g.cs
