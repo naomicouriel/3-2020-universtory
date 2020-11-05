@@ -21,7 +21,7 @@ namespace Proyecto_Universtory_WPF
     /// </summary>
     public partial class Tierra_acercamiento : Page
     {
-        private double valSliderT = 0;
+        
         public Tierra_acercamiento()
         {
             InitializeComponent();
@@ -30,8 +30,8 @@ namespace Proyecto_Universtory_WPF
 
         public void sliderTierra_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            double valSliderT = e.NewValue;
-
+            Datos_Jupiter datjupp = new Datos_Jupiter();
+            datjupp.ShowDialog();
         }
 
         private void TierraVolbtn_Click(object sender, RoutedEventArgs e)
@@ -42,15 +42,10 @@ namespace Proyecto_Universtory_WPF
 
         public void DatTiebtn_Click(object sender, RoutedEventArgs e)
         {
-            if (valSliderT == 0) { 
             Datos_Tierra datTierra = new Datos_Tierra();
             datTierra.Show();
-            }
-            if (valSliderT == 20)
-            {
-                Datos_Tierra_E1 datTieE1 = new Datos_Tierra_E1();
-                datTieE1.ShowDialog();
-            }
+
+         
         }
     }
 }
