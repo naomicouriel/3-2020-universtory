@@ -31,45 +31,37 @@ namespace Proyecto_Universtory_WPF
 
             temporizador.Interval = new TimeSpan(0, 0, 0, 0, 1000);
 
-            temporizador.Tick +=(a, b) =>
-            {
-                lblTimer.Content = Convert.ToString((tiempo--));
+            temporizador.Tick += (a, b) =>
+             {
+                 lblTimer.Content = Convert.ToString((tiempo--));
 
-                if (tiempo == 0)
-                {
-                    MainWindow obj = (MainWindow)Window.GetWindow(this);
-                    obj.frame.Content = new Trivia_Incorrecto();
-                }
-            };
+                 if (tiempo == 0)
+                 {
+
+                 }
+             };
 
             temporizador.Start();
-        }
 
+            void btnResp1_Preg1_Click(object sender, RoutedEventArgs e)
+            {
+                temporizador.Stop();
+            }
 
-        
+             void btnResp2_Preg1_Click(object sender, RoutedEventArgs e)
+             {
+                temporizador.Stop();
+             }
 
-        private void btnResp1_Preg1_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow obj = (MainWindow)Window.GetWindow(this);
-            obj.frame.Content = new Trivia_Incorrecto();
-        }
+             void btnResp3_Preg1_Click(object sender, RoutedEventArgs e)
+             {
+                temporizador.Stop();
+             }
 
-        private void btnResp2_Preg1_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow obj = (MainWindow)Window.GetWindow(this);
-            obj.frame.Content = new Trivia_Incorrecto();
-        }
-
-        private void btnResp3_Preg1_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow obj = (MainWindow)Window.GetWindow(this);
-            obj.frame.Content = new Trivia_Correcto();
-        }
-
-        private void btnResp4_Preg1_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow obj = (MainWindow)Window.GetWindow(this);
-            obj.frame.Content = new Trivia_Incorrecto();
+             void btnResp4_Preg1_Click(object sender, RoutedEventArgs e)
+             {
+                temporizador.Stop();
+             } 
         }
     }
 }

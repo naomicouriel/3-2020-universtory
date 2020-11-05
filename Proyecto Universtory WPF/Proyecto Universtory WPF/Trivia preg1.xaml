@@ -5,31 +5,32 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d"
-      Title="Trivia_preg1" Background="White" Width="1421.741" Height="799.954">
+      Title="Trivia_preg1" Background="White" Width="1920" Height="1080">
 
     <Grid>
         <Label Content="Pregunta1" HorizontalAlignment="Left" Margin="60,35,0,0" VerticalAlignment="Top" Height="90" Width="900"/>
-        <Button x:Name="btnResp4_Preg1" Margin="439,204,-100,-47.8" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnResp4_Preg1_Click">
+        <Button x:Name="btnResp4_Preg1" Margin="623,699,-284,0" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnResp4_Preg1_Click">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnResp1_Preg1" Content="" Margin="-100,0,457.2,84.2" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnResp1_Preg1_Click">
+        <Button x:Name="btnResp1_Preg1" Content="" Margin="-272,0,629,535" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnResp1_Preg1_Click">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnResp3_Preg1" Content="" Margin="439,0,-100,84.2" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnResp3_Preg1_Click">
+        <Button x:Name="btnResp3_Preg1" Content="" Margin="623,0,-284,535" VerticalAlignment="Bottom" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnResp3_Preg1_Click">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnResp2_Preg1" Margin="-100,204,457.2,-47.8" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnResp2_Preg1_Click">
+        <Button x:Name="btnResp2_Preg1" Margin="-272,699,630,0" VerticalAlignment="Top" Height="219" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnResp2_Preg1_Click">
             <Button.Background>
                 <ImageBrush ImageSource="Recursos/Boton respuestas.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Label x:Name="lblTimer" Content="" HorizontalAlignment="Left" Margin="1122,56,0,0" VerticalAlignment="Top" Height="118" Width="206"/>
+        <Button x:Name="btnSiguiente" Content="Button" HorizontalAlignment="Left" Margin="692,976,0,0" VerticalAlignment="Top" Width="560" Height="54" Background="{x:Null}"/>
 
     </Grid>
 </Page>
