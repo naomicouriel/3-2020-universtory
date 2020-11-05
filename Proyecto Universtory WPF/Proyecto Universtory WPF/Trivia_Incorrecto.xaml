@@ -5,10 +5,11 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d" 
-      d:DesignHeight="799.954" d:DesignWidth="1421.741"
+      d:DesignHeight="1080" d:DesignWidth="1920"
       Title="Trivia_Incorrecto" Background="White">
 
     <Grid>
-        
+        <Button Content="Button" HorizontalAlignment="Left" Margin="777,440,0,0" VerticalAlignment="Top" Width="523" Height="104" Click="Button_Click"/>
+
     </Grid>
 </Page>
