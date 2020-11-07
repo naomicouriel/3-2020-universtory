@@ -45,7 +45,7 @@ namespace Proyecto_Universtory_WPF
 
             temporizador.Start();
 
-            void btnResp1_Preg1_Click(object sender, RoutedEventArgs e)
+            void btnResp1_Click(object sender, RoutedEventArgs e)
             {
                 temporizador.Stop();
 
@@ -89,7 +89,7 @@ namespace Proyecto_Universtory_WPF
                 }
             }
 
-            void btnResp2_Preg1_Click(object sender, RoutedEventArgs e)
+            void btnResp2_Click(object sender, RoutedEventArgs e)
             {
                 temporizador.Stop();
 
@@ -225,6 +225,31 @@ namespace Proyecto_Universtory_WPF
                 }
             }
    
+        }
+
+        private void btnResp1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnResp2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnResp3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnResp4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSiguiente_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -130,7 +130,7 @@
   <data name="tierra_en_el_espacio_1661937516" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tierra-en-el-espacio_1661937516.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_896f325e15d28a384baea6fc00bb2942" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="luna" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\896f325e15d28a384baea6fc00bb2942.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">

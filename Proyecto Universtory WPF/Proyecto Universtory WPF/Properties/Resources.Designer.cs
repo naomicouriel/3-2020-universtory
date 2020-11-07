@@ -63,16 +63,6 @@ namespace Proyecto_Universtory_WPF.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _896f325e15d28a384baea6fc00bb2942 {
-            get {
-                object obj = ResourceManager.GetObject("_896f325e15d28a384baea6fc00bb2942", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap back {
             get {
                 object obj = ResourceManager.GetObject("back", resourceCulture);
@@ -176,6 +166,16 @@ namespace Proyecto_Universtory_WPF.Properties {
         internal static System.Drawing.Bitmap la_tierra {
             get {
                 object obj = ResourceManager.GetObject("la_tierra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap luna {
+            get {
+                object obj = ResourceManager.GetObject("luna", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
