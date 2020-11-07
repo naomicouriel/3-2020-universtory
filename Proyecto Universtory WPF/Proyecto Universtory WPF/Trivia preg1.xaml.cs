@@ -27,6 +27,8 @@ namespace Proyecto_Universtory_WPF
 
             int tiempo = 45;
 
+            int contador = 1;
+
             DispatcherTimer temporizador = new DispatcherTimer();
 
             temporizador.Interval = new TimeSpan(0, 0, 0, 0, 1000);
@@ -46,22 +48,183 @@ namespace Proyecto_Universtory_WPF
             void btnResp1_Preg1_Click(object sender, RoutedEventArgs e)
             {
                 temporizador.Stop();
+
+                
+
+                // Falta como cambiar el texto todavia no se 
+
+                switch (contador)
+                {
+                    case 1:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 2:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 3:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 4:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 5:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 6:
+                        btnResp1.Background = Brushes.Green;
+                        break;
+                    case 7:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 8:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 9:
+                        btnResp1.Background = Brushes.Green;
+                        break;
+                    case 10:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+
+                }
             }
 
-             void btnResp2_Preg1_Click(object sender, RoutedEventArgs e)
-             {
+            void btnResp2_Preg1_Click(object sender, RoutedEventArgs e)
+            {
                 temporizador.Stop();
-             }
 
-             void btnResp3_Preg1_Click(object sender, RoutedEventArgs e)
-             {
-                temporizador.Stop();
-             }
+                
 
-             void btnResp4_Preg1_Click(object sender, RoutedEventArgs e)
-             {
+                switch (contador)
+                {
+                    case 1:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 2:
+                        btnResp1.Background = Brushes.Green;
+                        break;
+                    case 3:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 4:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 5:
+                        btnResp1.Background = Brushes.Green;
+                        break;
+                    case 6:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 7:
+                        btnResp1.Background = Brushes.Green;
+                        break;
+                    case 8:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 9:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 10:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                }
+            }
+
+            void btnResp3_Preg1_Click(object sender, RoutedEventArgs e)
+            {
                 temporizador.Stop();
-             } 
+
+                
+
+                switch (contador)
+                {
+                    case 1:
+                        btnResp1.Background = Brushes.Green;
+                        break;
+                    case 2:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 3:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 4:
+                        btnResp1.Background = Brushes.Green;
+                        break;
+                    case 5:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 6:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 7:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 8:
+                        btnResp1.Background = Brushes.Green;
+                        break;
+                    case 9:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 10:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                }
+            }
+
+            void btnResp4_Preg1_Click(object sender, RoutedEventArgs e)
+            {
+                temporizador.Stop();
+
+                
+                switch (contador)
+                {
+                    case 1:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 2:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 3:
+                        btnResp1.Background = Brushes.Green;
+                        break;
+                    case 4:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 5:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 6:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 7:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 8:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 9:
+                        btnResp1.Background = Brushes.Red;
+                        break;
+                    case 10:
+                        btnResp1.Background = Brushes.Green;
+                        break;
+                }
+            }
+
+
+            void btnSiguiente(object sender, RoutedEventArgs e)
+            {
+                ++contador;
+
+                switch(contador)
+                {
+                    case 2:
+                        
+                        break;
+
+                }
+            }
+   
         }
     }
 }
