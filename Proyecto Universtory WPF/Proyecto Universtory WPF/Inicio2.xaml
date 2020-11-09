@@ -21,6 +21,8 @@
             <ThicknessAnimation Storyboard.TargetProperty="Margin" From="245,610,0,0" To="245,540,0,0" Duration="0:0:03.0"/>
         </Storyboard>
 
+        <Image x:Key ="salir" Source="Resources/Recursos/atrás.png" Height="200" Width="590" />
+
     </Page.Resources>
 
     <Grid>

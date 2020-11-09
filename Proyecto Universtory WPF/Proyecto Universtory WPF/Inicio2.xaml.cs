@@ -86,7 +86,7 @@ namespace Proyecto_Universtory_WPF
 
         private void btnSalir_MouseEnter(object sender, MouseEventArgs e)
         {
-            //btnSalir.Background = ImageSource(Properties.Resources.back);
+            btnSalir.Content = FindResource("salir");
         }
     }
 }
