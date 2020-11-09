@@ -1,0 +1,22 @@
+﻿<Window x:Class="Proyecto_Universtory_WPF.Datos_Sol_E2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
+        mc:Ignorable="d"
+        Title="Datos_Sol_E2" Height="500" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/fondo.png"/>
+        </Grid.Background>
+        <TextBlock Name ="datSolE2txt" Text="El Sol se encuentra relativamente cerca de la Tierra, el cual es el tercer planeta del Sistema Solar. La distancia que separa a ambos cuerpos celestes es de 150 millones de kilómetros, según el acuerdo de la Unión Astronómica Internacional. La luz que emite el Sol tarda aproximadamente 8 minutos y 19 segundos en realizar el recorrido desde allí hasta la Tierra." HorizontalAlignment="Left" Height="156" Margin="64,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
+        <Button Name ="salirDatSolE2" Content="" HorizontalAlignment="Left" Height="50" Margin="580,377,0,0" VerticalAlignment="Top" Width="180" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/atrás.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="SEGUNDA ETAPA" HorizontalAlignment="Left" Height="48" Margin="64,49,0,0" VerticalAlignment="Top" Width="224" Foreground="WHITE" FontFamily="space quest" FontSize="26"/>
+
+    </Grid>
+</Window>

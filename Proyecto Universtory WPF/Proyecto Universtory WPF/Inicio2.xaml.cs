@@ -29,7 +29,7 @@ namespace Proyecto_Universtory_WPF
 
         SoundPlayer Player = new System.Media.SoundPlayer(Properties.Resources.universtory_song);
 
-        int x = 1;
+        //int x = 1;
 
 
         private void Button_Click(object sender, RoutedEventArgs e)

@@ -1,0 +1,22 @@
+﻿<Window x:Class="Proyecto_Universtory_WPF.Datos_Tierra_E5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
+        mc:Ignorable="d"
+        Title="Datos_Tierra_E5" Height="500" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/fondo.png"/>
+        </Grid.Background>
+        <TextBlock Name ="datTieE1txt" Text="La corteza terrestre se dividió y se separó en los distintos continentes. Luego, comenzó a formarse la vida. Le tomó miles de millones de años a la Tierra para verse como la conocemos en el día de hoy, siendo el único planeta habitado del que sabemos hasta el momento, además de nuestro hogar." HorizontalAlignment="Left" Height="288" Margin="89,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
+        <Button Name ="salirDatTieE1" Content="" HorizontalAlignment="Left" Height="50" Margin="580,377,0,0" VerticalAlignment="Top" Width="180" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/atrás.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="QUINTA ETAPA" HorizontalAlignment="Left" Height="68" Margin="89,54,0,0" VerticalAlignment="Top" Width="284" Foreground="White" FontFamily="space quest" FontSize="26" />
+
+    </Grid>
+</Window>

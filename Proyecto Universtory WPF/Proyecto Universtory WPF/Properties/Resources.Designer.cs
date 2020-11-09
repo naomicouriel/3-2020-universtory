@@ -123,6 +123,16 @@ namespace Proyecto_Universtory_WPF.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap COHETE_VOL {
+            get {
+                object obj = ResourceManager.GetObject("COHETE_VOL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap data__1_ {
             get {
                 object obj = ResourceManager.GetObject("data__1_", resourceCulture);
@@ -295,6 +305,16 @@ namespace Proyecto_Universtory_WPF.Properties {
         internal static System.Drawing.Bitmap urano {
             get {
                 object obj = ResourceManager.GetObject("urano", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VOLVER {
+            get {
+                object obj = ResourceManager.GetObject("VOLVER", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
