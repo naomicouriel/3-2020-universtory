@@ -1,0 +1,22 @@
+﻿<Window x:Class="Proyecto_Universtory_WPF.Datos_Tierra_E3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
+        mc:Ignorable="d"
+        Title="Datos_Tierra_E3" Height="500" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/fondo.png"/>
+        </Grid.Background>
+        <TextBlock Name ="datTieE3txt" Text="Con el tiempo la corteza se secó y se volvió sólida. En las partes más bajas se acumuló el agua mientras que, por encima de la corteza terrestre, se formaba una capa de gases, la atmósfera. Esto se generó gracias a la gran cantidad de erupciones volcánicas." HorizontalAlignment="Left" Height="156" Margin="64,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
+        <Button Name ="salirDatTieE3" Content="" HorizontalAlignment="Left" Height="50" Margin="580,377,0,0" VerticalAlignment="Top" Width="180" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/atrás.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="TERCERA ETAPA" HorizontalAlignment="Left" Height="48" Margin="64,49,0,0" VerticalAlignment="Top" Width="224" Foreground="WHITE" FontFamily="space quest" FontSize="26"/>
+
+    </Grid>
+</Window>

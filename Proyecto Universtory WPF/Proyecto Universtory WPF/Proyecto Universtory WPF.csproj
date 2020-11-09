@@ -82,11 +82,32 @@
     <Compile Include="Datos_Sol.xaml.cs">
       <DependentUpon>Datos_Sol.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Datos_Sol_E1.xaml.cs">
+      <DependentUpon>Datos_Sol_E1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Datos_Sol_E2.xaml.cs">
+      <DependentUpon>Datos_Sol_E2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Datos_Sol_E3.xaml.cs">
+      <DependentUpon>Datos_Sol_E3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Datos_Tierra.xaml.cs">
       <DependentUpon>Datos_Tierra.xaml</DependentUpon>
     </Compile>
     <Compile Include="Datos_Tierra_E1.xaml.cs">
       <DependentUpon>Datos_Tierra_E1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Datos_Tierra_E2.xaml.cs">
+      <DependentUpon>Datos_Tierra_E2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Datos_Tierra_E3.xaml.cs">
+      <DependentUpon>Datos_Tierra_E3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Datos_Tierra_E4.xaml.cs">
+      <DependentUpon>Datos_Tierra_E4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Datos_Tierra_E5.xaml.cs">
+      <DependentUpon>Datos_Tierra_E5.xaml</DependentUpon>
     </Compile>
     <Compile Include="Datos_Urano.xaml.cs">
       <DependentUpon>Datos_Urano.xaml</DependentUpon>
@@ -174,11 +195,39 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Datos_Sol_E1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Sol_E2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Sol_E3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Datos_Tierra.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Datos_Tierra_E1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Tierra_E2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Tierra_E3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Tierra_E4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Datos_Tierra_E5.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -486,6 +535,7 @@
     <Resource Include="Resources\Recursos\resp4.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\VOLVER.png" />
     <Resource Include="Resources\URANO_este_si.png" />
     <Resource Include="Resources\sol.png" />
     <Resource Include="Resources\VOLUMEN PAUSA.png" />
@@ -503,6 +553,7 @@
     <Resource Include="Resources\earth panoramic view.jpg" />
     <Resource Include="Resources\moon panoramic view.jpg" />
     <Resource Include="Resources\NEPTUNO_este_si.png" />
+    <None Include="Resources\COHETE VOL.png" />
     <Content Include="Resources\Recursos\Sonidos\universtory_song.wav" />
     <None Include="Resources\universtory_song.wav" />
   </ItemGroup>

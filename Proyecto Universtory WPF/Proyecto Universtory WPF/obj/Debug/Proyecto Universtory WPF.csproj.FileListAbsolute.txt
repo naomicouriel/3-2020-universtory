@@ -74,3 +74,17 @@ C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Uni
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF.exe
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF.pdb
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\bin\Debug\MACTrackBarLib.dll
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Tierra_E2.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Tierra_E2.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Tierra_E3.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Tierra_E4.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Tierra_E5.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Sol_E1.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Sol_E2.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Sol_E3.g.cs
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Tierra_E3.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Tierra_E4.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Tierra_E5.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Sol_E1.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Sol_E2.baml
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Sol_E3.baml

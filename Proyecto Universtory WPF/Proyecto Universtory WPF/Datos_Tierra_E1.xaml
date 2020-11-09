@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
         mc:Ignorable="d"
-        Title="Datos_Tierra_E1" Height="300" Width="300">
+        Title="Datos_Tierra_E1" Height="500" Width="800">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/fondo.png"/>
+        </Grid.Background>
+        <TextBlock Name ="datTieE1txt" Text="La tierra se formó hace unos 4.700 millones de años a partir de una nebulosa inicial, al tiempo que lo hacía el resto de planetas de nuestro Sistema Solar. 
+La materia de la nebulosa se colocó alrededor del Sol por su atracción gravitatoria, de manera que la materia más ligera se alejó del Sol, y la más densa quedó más cerca. Esta última es la que sirvió para formar la Tierra.
+Los pedazos de esa materia densa empezaron a acumularse y se originó una enorme masa de material incandescente y fundido, es decir, iluminaba. A esta se la llamó Prototierra." HorizontalAlignment="Left" Height="288" Margin="61,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
+        <Button Name ="salirDatTieE1" Content="" HorizontalAlignment="Left" Height="50" Margin="580,377,0,0" VerticalAlignment="Top" Width="180" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/atrás.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="PRIMERA ETAPA" HorizontalAlignment="Left" Height="68" Margin="61,37,0,0" VerticalAlignment="Top" Width="284" Foreground="White" FontFamily="space quest" FontSize="26" />
+
     </Grid>
 </Window>
