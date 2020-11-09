@@ -127,7 +127,7 @@ namespace Proyecto_Universtory_WPF
             }
         }
 
-        void btnResp3_Preg1_Click(object sender, RoutedEventArgs e)
+        void btnResp3_Click(object sender, RoutedEventArgs e)
         {
             temporizador.Stop();
 
@@ -166,7 +166,7 @@ namespace Proyecto_Universtory_WPF
             }
         }
 
-        void btnResp4_Preg1_Click(object sender, RoutedEventArgs e)
+        void btnResp4_Click(object sender, RoutedEventArgs e)
         {
             temporizador.Stop();
 
@@ -218,15 +218,11 @@ namespace Proyecto_Universtory_WPF
                     break;
 
             }
-        }
-
-        private void btnResp3_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void btnResp4_Click(object sender, RoutedEventArgs e)
-        {
+            
+            btnResp1.Content = FindResource("Resp1");
+            btnResp2.Content = FindResource("Resp2");
+            btnResp3.Content = FindResource("Resp3");
+            btnResp4.Content = FindResource("Resp4");
 
         }
     }

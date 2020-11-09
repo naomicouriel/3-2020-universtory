@@ -10,6 +10,13 @@
         <ImageBrush ImageSource="Resources/Recursos/trivia fondo.png" Stretch="Uniform"/>
     </Page.Background>
 
+    <Page.Resources>
+        <Image x:Key ="Resp1" Source="Resources/Recursos/resp2.png" Height="200" Width="590" />
+        <Image x:Key ="Resp2" Source="Resources/Recursos/resp1.png" Height="200" Width="590" />
+        <Image x:Key ="Resp3" Source="Resources/Recursos/resp4.png" Height="200" Width="590" />
+        <Image x:Key ="Resp4" Source="Resources/Recursos/resp3.png" Height="200" Width="590" />
+    </Page.Resources>
+
     <Grid>
         <Button x:Name="btnResp3" Margin="745,340,86.6,0" VerticalAlignment="Top" Height="200" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnResp3_Click" Width="590">
             <Button.Background>
@@ -31,8 +38,8 @@
                 <ImageBrush ImageSource="Resources/Recursos/resp2.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Label x:Name="lblTimer" Content="" HorizontalAlignment="Left" Margin="606,164,0,0" VerticalAlignment="Top" Height="118" Width="206"/>
-        <Button x:Name="btnSiguiente" Content="Button" HorizontalAlignment="Left" Margin="1552,340,-886.4,-20" Width="756" Background="{x:Null}" Click="btnSiguiente_Click"/>
+        <Label x:Name="lblTimer" Content="" HorizontalAlignment="Left" Margin="1165,215,0,0" VerticalAlignment="Top" Height="43" Width="190" Background="White"/>
+        <Button x:Name="btnSiguiente" Content="Siguiente" HorizontalAlignment="Left" Margin="665,215,0,505" Width="115" Background="Black" Click="btnSiguiente_Click" Foreground="White" FontSize="22"/>
 
     </Grid>
 </Page>
