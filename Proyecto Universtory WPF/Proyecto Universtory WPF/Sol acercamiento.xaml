@@ -11,7 +11,7 @@
     </Page.Background>
 
     <Grid>
-        <Slider x:Name="sliderSol" Margin="73,0,597,715" Background="Black" Foreground="Black" Height="45" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
+        <Slider x:Name="sliderSol" Margin="60,0,840,735" Background="Black" Foreground="White" Height="45" VerticalAlignment="Bottom" Maximum="99" TickFrequency="33" IsSnapToTickEnabled="True" ValueChanged="sliderSol_ValueChanged" TickPlacement="BottomRight" BorderBrush="{x:Null}" LargeChange="33"/>
         <Button Name ="VolSolbtn" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontFamily="Space quest" Foreground="White" FontSize="24" Click="VolSolbtn_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>

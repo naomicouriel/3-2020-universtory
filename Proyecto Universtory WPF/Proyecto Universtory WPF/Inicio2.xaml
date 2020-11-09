@@ -26,9 +26,9 @@
     </Page.Resources>
 
     <Grid>
-        <Button x:Name="btnStart" Content="" Margin="887,610,0,0" BorderBrush="{x:Null}" Click="Button_Click" Style="{DynamicResource btnInicio}" Height="87" VerticalAlignment="Top" HorizontalAlignment="Left" Width="290">
+        <Button x:Name="btnStart" Content="" Margin="887,618,0,0" BorderBrush="{x:Null}" Click="Button_Click" Style="{DynamicResource btnInicio}" Height="67" VerticalAlignment="Top" HorizontalAlignment="Left" Width="290">
             <Button.Background>
-                <ImageBrush ImageSource="Resources/Recursos/iniciar.png" Stretch="Uniform"/>
+                <ImageBrush ImageSource="Resources/INICIO_este_si.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
         <Button x:Name="btnTrivia" Content="" Margin="245,610,0,0" HorizontalAlignment="Left" Width="290" Height="87" VerticalAlignment="Top" BorderBrush="{x:Null}" Click="Button_Click_1" Style="{DynamicResource btnInicio}" Foreground="{x:Null}">

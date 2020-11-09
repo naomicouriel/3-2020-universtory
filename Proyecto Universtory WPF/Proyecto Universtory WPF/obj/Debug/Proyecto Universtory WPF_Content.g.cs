@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/resources/recursos/sonidos/universtory_song.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/recursos/sonidos/universtory_song.wav")]
 
 

@@ -41,6 +41,46 @@ namespace Proyecto_Universtory_WPF
 
                 this.Background = icon;
             }
+
+            else if (sliderTierra == 40)
+            {
+                Uri resourceUri = new Uri("Resources/Recursos/", UriKind.Relative);
+                StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
+                BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
+                var icon = new ImageBrush { ImageSource = temp };
+
+                this.Background = icon;
+            }
+
+            else if (sliderTierra == 60)
+            {
+                Uri resourceUri = new Uri("Resources/Recursos/", UriKind.Relative);
+                StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
+                BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
+                var icon = new ImageBrush { ImageSource = temp };
+
+                this.Background = icon;
+            }
+
+            else if (sliderTierra == 80)
+            {
+                Uri resourceUri = new Uri("Resources/Recursos/", UriKind.Relative);
+                StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
+                BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
+                var icon = new ImageBrush { ImageSource = temp };
+
+                this.Background = icon;
+            }
+
+            else if (sliderTierra == 100)
+            {
+                Uri resourceUri = new Uri("Resources/Recursos/", UriKind.Relative);
+                StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
+                BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
+                var icon = new ImageBrush { ImageSource = temp };
+
+                this.Background = icon;
+            }
         }
 
         private void TierraVolbtn_Click(object sender, RoutedEventArgs e)

@@ -26,12 +26,33 @@ namespace Proyecto_Universtory_WPF
             InitializeComponent();
         }
 
-        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        private void sliderSol_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            Uri resourceUri = new Uri("Resources/TuImagen.jpg", UriKind.Relative);
-            StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
-            BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
-            var icon = new ImageBrush { ImageSource = temp };
+            double sliderSol = e.NewValue;
+
+            if (sliderSol == 33)
+            {
+                Uri resourceUri = new Uri("Resources/TuImagen.jpg", UriKind.Relative);
+                StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
+                BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
+                var icon = new ImageBrush { ImageSource = temp };
+            }
+
+            else if (sliderSol == 66)
+            {
+                Uri resourceUri = new Uri("Resources/TuImagen.jpg", UriKind.Relative);
+                StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
+                BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
+                var icon = new ImageBrush { ImageSource = temp };
+            }
+
+            else if (sliderSol == 99)
+            {
+                Uri resourceUri = new Uri("Resources/TuImagen.jpg", UriKind.Relative);
+                StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
+                BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
+                var icon = new ImageBrush { ImageSource = temp };
+            }
         }
 
         private void VolSolbtn_Click(object sender, RoutedEventArgs e)
@@ -45,5 +66,6 @@ namespace Proyecto_Universtory_WPF
             Datos_Sol datSol = new Datos_Sol();
             datSol.ShowDialog();
         }
+        
     }
 }

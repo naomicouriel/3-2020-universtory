@@ -535,7 +535,7 @@
     <Resource Include="Resources\Recursos\resp4.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\VOLVER.png" />
+    <Resource Include="Resources\VOLVER.png" />
     <Resource Include="Resources\URANO_este_si.png" />
     <Resource Include="Resources\sol.png" />
     <Resource Include="Resources\VOLUMEN PAUSA.png" />
@@ -554,6 +554,7 @@
     <Resource Include="Resources\moon panoramic view.jpg" />
     <Resource Include="Resources\NEPTUNO_este_si.png" />
     <None Include="Resources\COHETE VOL.png" />
+    <Resource Include="Resources\INICIO_este_si.png" />
     <Content Include="Resources\Recursos\Sonidos\universtory_song.wav" />
     <None Include="Resources\universtory_song.wav" />
   </ItemGroup>
