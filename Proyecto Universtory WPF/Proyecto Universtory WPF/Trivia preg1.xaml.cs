@@ -37,7 +37,17 @@ namespace Proyecto_Universtory_WPF
 
                 if (tiempo == 0)
                 {
+                    btnResp1.Background = Brushes.Red;
 
+                    btnResp2.Background = Brushes.Red;
+
+                    btnResp3.Background = Brushes.Red;
+
+                    btnResp4.Background = Brushes.Red;
+
+                    btnSiguiente.IsEnabled = true;
+
+                    temporizador.Stop();
                 }
             };
 
@@ -46,10 +56,7 @@ namespace Proyecto_Universtory_WPF
 
         void btnResp1_Click(object sender, RoutedEventArgs e)
         {
-            temporizador.Stop();
-
-
-
+            
             // Falta como cambiar el texto todavia no se 
 
             switch (contador)
@@ -71,6 +78,10 @@ namespace Proyecto_Universtory_WPF
                     break;
                 case 6:
                     btnResp1.Background = Brushes.Green;
+
+                    temporizador.Stop();
+
+                    btnSiguiente.IsEnabled = true;
                     break;
                 case 7:
                     btnResp1.Background = Brushes.Red;
@@ -80,6 +91,10 @@ namespace Proyecto_Universtory_WPF
                     break;
                 case 9:
                     btnResp1.Background = Brushes.Green;
+
+                    temporizador.Stop();
+
+                    btnSiguiente.IsEnabled = true;
                     break;
                 case 10:
                     btnResp1.Background = Brushes.Red;
@@ -90,7 +105,7 @@ namespace Proyecto_Universtory_WPF
 
         void btnResp2_Click(object sender, RoutedEventArgs e)
         {
-            temporizador.Stop();
+
 
             switch (contador)
             {
@@ -99,6 +114,10 @@ namespace Proyecto_Universtory_WPF
                     break;
                 case 2:
                     btnResp2.Background = Brushes.Green;
+
+                    temporizador.Stop();
+
+                    btnSiguiente.IsEnabled = true;
                     break;
                 case 3:
                     btnResp2.Background = Brushes.Red;
@@ -108,12 +127,20 @@ namespace Proyecto_Universtory_WPF
                     break;
                 case 5:
                     btnResp2.Background = Brushes.Green;
+
+                    btnSiguiente.IsEnabled = true;
+
+                    temporizador.Stop();
                     break;
                 case 6:
                     btnResp2.Background = Brushes.Red;
                     break;
                 case 7:
                     btnResp2.Background = Brushes.Green;
+
+                    temporizador.Stop();
+
+                    btnSiguiente.IsEnabled = true;
                     break;
                 case 8:
                     btnResp2.Background = Brushes.Red;
@@ -129,12 +156,16 @@ namespace Proyecto_Universtory_WPF
 
         void btnResp3_Click(object sender, RoutedEventArgs e)
         {
-            temporizador.Stop();
+
 
             switch (contador)
             {
                 case 1:
                     btnResp3.Background = Brushes.Green;
+
+                    temporizador.Stop();
+
+                    btnSiguiente.IsEnabled = true;
                     break;
                 case 2:
                     btnResp3.Background = Brushes.Red;
@@ -144,6 +175,10 @@ namespace Proyecto_Universtory_WPF
                     break;
                 case 4:
                     btnResp3.Background = Brushes.Green;
+
+                    temporizador.Stop();
+
+                    btnSiguiente.IsEnabled = true;
                     break;
                 case 5:
                     btnResp3.Background = Brushes.Red;
@@ -156,6 +191,10 @@ namespace Proyecto_Universtory_WPF
                     break;
                 case 8:
                     btnResp3.Background = Brushes.Green;
+
+                    temporizador.Stop();
+
+                    btnSiguiente.IsEnabled = true;
                     break;
                 case 9:
                     btnResp3.Background = Brushes.Red;
@@ -168,7 +207,6 @@ namespace Proyecto_Universtory_WPF
 
         void btnResp4_Click(object sender, RoutedEventArgs e)
         {
-            temporizador.Stop();
 
 
             switch (contador)
@@ -181,6 +219,10 @@ namespace Proyecto_Universtory_WPF
                     break;
                 case 3:
                     btnResp4.Background = Brushes.Green;
+
+                    temporizador.Stop();
+
+                    btnSiguiente.IsEnabled = true;
                     break;
                 case 4:
                     btnResp4.Background = Brushes.Red;
@@ -202,6 +244,10 @@ namespace Proyecto_Universtory_WPF
                     break;
                 case 10:
                     btnResp4.Background = Brushes.Green;
+
+                    temporizador.Stop();
+
+                    btnSiguiente.IsEnabled = true;
                     break;
             }
         }
@@ -209,6 +255,8 @@ namespace Proyecto_Universtory_WPF
 
         void btnSiguiente_Click(object sender, RoutedEventArgs e)
         {
+            btnSiguiente.IsEnabled = false;
+
             contador++;
 
             tiempo = 45;
@@ -314,12 +362,6 @@ namespace Proyecto_Universtory_WPF
 
 
             }
-            
-            //btnResp1.Content = FindResource("Resp1");
-            //btnResp2.Content = FindResource("Resp2");
-            //btnResp3.Content = FindResource("Resp3");
-            //btnResp4.Content = FindResource("Resp4");
-
         }
     }
 }
