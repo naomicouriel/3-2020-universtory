@@ -21,7 +21,6 @@ namespace Proyecto_Universtory_WPF
     /// </summary>
     public partial class Tierra_acercamiento : Page
     {
-        public double slidertierra;
 
         public Tierra_acercamiento()
         {
@@ -31,14 +30,16 @@ namespace Proyecto_Universtory_WPF
 
         public void sliderTierra_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            double slidertierra = e.NewValue;
+            double sliderTierra = e.NewValue;
 
-            if (slidertierra == 20)
+            if (sliderTierra == 20)
             {
                 Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
-                StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
+                StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
+
+                this.Background = icon;
             }
         }
 
@@ -50,13 +51,13 @@ namespace Proyecto_Universtory_WPF
 
         public void DatTiebtn_Click(object sender, RoutedEventArgs e)
         {
-            if (slidertierra == 0)
+            if (sliderTierra.Value == 0)
             {
                 Datos_Tierra datTierra = new Datos_Tierra();
                 datTierra.ShowDialog();
             }
 
-            else if (slidertierra == 20)
+            else if (sliderTierra.Value == 20)
             {
                 Datos_Jupiter datjupp = new Datos_Jupiter();
                 datjupp.ShowDialog();
