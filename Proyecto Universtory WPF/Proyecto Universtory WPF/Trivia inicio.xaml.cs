@@ -23,7 +23,11 @@ namespace Proyecto_Universtory_WPF
         public Trivia_inicio()
         {
             InitializeComponent();
+
+            lblTriviaInicio.Content = "En esta trivia vas a poner a prueba todo lo que aprendiste\nsobre nuestro sistema solar, asi que si crees que\ntodavia no lo tenes muy claro no empiezes.Son\n10 preguntas, cada una con 4 respuestas  pero solo una\ncorrecta. Si la respuesta que elegis es incorrecta se pone\nen rojo y si es correcta se pone en verde.\nPara pasar a la siguinte pregunta toca el boton  SIGUIENTE.\nCuando termines la trivia podes ver tus resultados.";
         }
+
+        
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
