@@ -22,7 +22,11 @@ namespace Proyecto_Universtory_WPF
     public partial class Trivia_preg1 : Page
     {
         int tiempo = 45;
+
         int contador = 1;
+
+        public int puntaje;
+
         DispatcherTimer temporizador = new DispatcherTimer();
 
         public Trivia_preg1()
@@ -48,6 +52,8 @@ namespace Proyecto_Universtory_WPF
                     btnSiguiente.IsEnabled = true;
 
                     temporizador.Stop();
+
+                    puntaje = puntaje - 5;
                 }
             };
 
@@ -63,18 +69,28 @@ namespace Proyecto_Universtory_WPF
             {
                 case 1:
                     btnResp1.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 2:
                     btnResp1.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 3:
                     btnResp1.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 4:
                     btnResp1.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 5:
                     btnResp1.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 6:
                     btnResp1.Background = Brushes.Green;
@@ -82,12 +98,18 @@ namespace Proyecto_Universtory_WPF
                     temporizador.Stop();
 
                     btnSiguiente.IsEnabled = true;
+
+                    puntaje = puntaje + 10;
                     break;
                 case 7:
                     btnResp1.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 8:
                     btnResp1.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 9:
                     btnResp1.Background = Brushes.Green;
@@ -95,9 +117,13 @@ namespace Proyecto_Universtory_WPF
                     temporizador.Stop();
 
                     btnSiguiente.IsEnabled = true;
+
+                    puntaje = puntaje + 10;
                     break;
                 case 10:
                     btnResp1.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
 
             }
@@ -111,6 +137,8 @@ namespace Proyecto_Universtory_WPF
             {
                 case 1:
                     btnResp2.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 2:
                     btnResp2.Background = Brushes.Green;
@@ -118,15 +146,23 @@ namespace Proyecto_Universtory_WPF
                     temporizador.Stop();
 
                     btnSiguiente.IsEnabled = true;
+
+                    puntaje = puntaje + 10;
                     break;
                 case 3:
                     btnResp2.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 4:
                     btnResp2.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 5:
                     btnResp2.Background = Brushes.Green;
+
+                    puntaje = puntaje + 10;
 
                     btnSiguiente.IsEnabled = true;
 
@@ -134,9 +170,13 @@ namespace Proyecto_Universtory_WPF
                     break;
                 case 6:
                     btnResp2.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 7:
                     btnResp2.Background = Brushes.Green;
+
+                    puntaje = puntaje + 10;
 
                     temporizador.Stop();
 
@@ -144,12 +184,18 @@ namespace Proyecto_Universtory_WPF
                     break;
                 case 8:
                     btnResp2.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 9:
                     btnResp2.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 10:
                     btnResp2.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
             }
         }
@@ -166,12 +212,18 @@ namespace Proyecto_Universtory_WPF
                     temporizador.Stop();
 
                     btnSiguiente.IsEnabled = true;
+
+                    puntaje = puntaje + 10;
                     break;
                 case 2:
                     btnResp3.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 3:
                     btnResp3.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 4:
                     btnResp3.Background = Brushes.Green;
@@ -179,18 +231,28 @@ namespace Proyecto_Universtory_WPF
                     temporizador.Stop();
 
                     btnSiguiente.IsEnabled = true;
+
+                    puntaje = puntaje + 10;
                     break;
                 case 5:
                     btnResp3.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 6:
                     btnResp3.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 7:
                     btnResp3.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 8:
                     btnResp3.Background = Brushes.Green;
+
+                    puntaje = puntaje + 10;
 
                     temporizador.Stop();
 
@@ -198,9 +260,13 @@ namespace Proyecto_Universtory_WPF
                     break;
                 case 9:
                     btnResp3.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 10:
                     btnResp3.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
             }
         }
@@ -213,12 +279,18 @@ namespace Proyecto_Universtory_WPF
             {
                 case 1:
                     btnResp4.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 2:
                     btnResp4.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 3:
                     btnResp4.Background = Brushes.Green;
+
+                    puntaje = puntaje + 10;
 
                     temporizador.Stop();
 
@@ -226,24 +298,38 @@ namespace Proyecto_Universtory_WPF
                     break;
                 case 4:
                     btnResp4.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 5:
                     btnResp4.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 6:
                     btnResp4.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 7:
                     btnResp4.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 8:
                     btnResp4.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 9:
                     btnResp4.Background = Brushes.Red;
+
+                    puntaje = puntaje - 2;
                     break;
                 case 10:
                     btnResp4.Background = Brushes.Green;
+
+                    puntaje = puntaje + 10;
 
                     temporizador.Stop();
 
