@@ -7,14 +7,26 @@
       mc:Ignorable="d"
       Title="Luna_acercamiento" Width="1421.741" Height= "799.954">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/Luna_acerc.jpg" Stretch="Uniform"/>
+        <ImageBrush ImageSource="Resources/luna acercamiento.png" Stretch="Uniform"/>
     </Page.Background>
 
     <Grid>
-        <Button Name ="LunaVolv" Content="Volver" HorizontalAlignment="Left" Height="188" Margin="1065,587,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="LunaVolv_Click_1" Background="{x:Null}" BorderBrush="{x:Null}"/>
-        <Button Name = "DatLunbtn" Content="Datos" HorizontalAlignment="Left" Height="188" Margin="35,582,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatLunbtn_Click" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Button Name ="LunaVolv" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="LunaVolv_Click_1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Name = "DatLunbtn" Content="" Height="54" Margin="0,695,1160,0" VerticalAlignment="Top" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatLunbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Resources/Recursos/datos.png"/>
+            </Button.Background>
+        </Button>
         <Label Content="Luna" HorizontalAlignment="Left" Height="134" Margin="87,40,0,0" VerticalAlignment="Top" Width="276" Foreground="White" FontSize="48" FontFamily="Space Quest"/>
         <Slider x:Name="slider" Margin="0,20,35,0" Background="Black" Foreground="Black" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000" HorizontalAlignment="Right" Width="527" Height="70" VerticalAlignment="Top"/>
-
+        <Ellipse x:Name="EllipseLuna" Margin="405,115,437,95" MouseLeftButtonDown="EllipseLuna_MouseLeftButtonDown">
+            <Ellipse.Fill>
+                <SolidColorBrush Color="White" Opacity="0.01"/>
+            </Ellipse.Fill>
+        </Ellipse>
     </Grid>
 </Page>

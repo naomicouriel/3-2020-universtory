@@ -27,7 +27,8 @@ namespace Proyecto_Universtory_WPF
             InitializeComponent();
         }
 
-        SoundPlayer Player;
+        SoundPlayer Player = new System.Media.SoundPlayer(Properties.Resources.universtory_song);
+
         int x = 1;
 
 
@@ -58,26 +59,34 @@ namespace Proyecto_Universtory_WPF
            var trivia = (Storyboard)Resources["Trivia"];
             trivia.Begin(btnTrivia);
 
-            Player = new SoundPlayer
-            {
-                SoundLocation = "C:/Users/ALUMNO/Downloads/universtory_song.wav"
-            };
+            menuVol.Visibility = Visibility.Hidden;
 
-            Player.Play(); 
         }
 
         private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-             if (Player != null)
-             {
-                Player.Stop();
-             }
-            
-             else if (Player == null)
-             {
-                Player.Play();
-             }
-            
+            menuVol.Visibility = Visibility.Visible;
+
+        }
+
+        private void btnStopMusic_Click(object sender, RoutedEventArgs e)
+        {
+            Player.Stop();
+        }
+
+        private void btnPlayMusic_Click(object sender, RoutedEventArgs e)
+        {
+            Player.PlayLooping();
+        }
+
+        private void btnCerrarMenu_Click(object sender, RoutedEventArgs e)
+        {
+            menuVol.Visibility = Visibility.Hidden;
+        }
+
+        private void btnSalir_MouseEnter(object sender, MouseEventArgs e)
+        {
+            //btnSalir.Background = ImageSource(Properties.Resources.back);
         }
     }
 }

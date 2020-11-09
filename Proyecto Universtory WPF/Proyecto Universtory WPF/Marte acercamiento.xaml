@@ -7,14 +7,21 @@
       mc:Ignorable="d" d:DesignWidth="300"
       Title="Marte_acercamiento" Width="1421.741" Height="799.954">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/marte.png" Stretch="Uniform"/>
+        <ImageBrush ImageSource="Resources/Recursos/marte.png" Stretch="Uniform"/>
     </Page.Background>
 
     <Grid>
-        <Button Name = "MarteVolbtn" Content="Volver" HorizontalAlignment="Left" Height="188
-                " Margin="1060,577,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="MarteVolbtn_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button Name = "MarteVolbtn" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0"  VerticalAlignment="Top" Width="165" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="MarteVolbtn_Click" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
         <Label x:Name="Titulo_Marte" Content="Marte" HorizontalAlignment="Left" Height="64" Margin="103,38,0,0" VerticalAlignment="Top" Width="198" AutomationProperties.Name="martetitle" Foreground="White" FontSize="48" FontFamily="Space Quest" />
-        <Button Name ="DatMarbtn" Content="Datos" HorizontalAlignment="Left" Margin="30,590,0,0" VerticalAlignment="Top" Width="330" Height="188" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatMarbtn_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button Name ="DatMarbtn" Content="" Margin="0,695,1160,0"   VerticalAlignment="Top" Height="54" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatMarbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/datos.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
         <Slider x:Name="slider" Margin="603,0,112,675" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
 
     </Grid>

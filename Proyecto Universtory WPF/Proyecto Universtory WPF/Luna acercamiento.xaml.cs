@@ -38,13 +38,19 @@ namespace Proyecto_Universtory_WPF
         private void LunaVolv_Click_1(object sender, RoutedEventArgs e)
         {
             MainWindow obj = (MainWindow)Window.GetWindow(this);
-            obj.frame.Content = new Page1();
+            obj.frame.Content = new Tierra_acercamiento();
         }
 
         private void DatLunbtn_Click(object sender, RoutedEventArgs e)
         {
             Datos_Luna datLuna = new Datos_Luna();
             datLuna.ShowDialog();
+        }
+
+        private void EllipseLuna_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Luna_panorámica();
         }
     }
 }

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Datos_Venus" Height="500" Width="800">
     <Window.Background>
-        <ImageBrush ImageSource="Recursos/fondo inicio.png"/>
+        <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
 

@@ -8,12 +8,20 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="Mercurio_acercamiento" Width="1421.741" Height="799.954">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/mercurio.jpg" Stretch="Uniform"/>
+        <ImageBrush ImageSource="Resources/Recursos/mercurio.jpg" Stretch="Uniform"/>
     </Page.Background>
 
     <Grid>
-        <Button Name ="VolMerbtn" Content="Volver" HorizontalAlignment="Left" Height="137" Margin="1090,645,0,0" VerticalAlignment="Top" Width="300" FontFamily="Space quest" Foreground="White" FontSize="24" BorderBrush="{x:Null}" Background="{x:Null}" Click="VolMerbtn_Click_1"/>
-        <Button Name ="DatMerbtn" Content="Datos" HorizontalAlignment="Left" Height="116" Margin="16,649,0,0" VerticalAlignment="Top" Width="344" FontFamily="Space quest" Foreground="White" FontSize="24" BorderBrush="{x:Null}" Background="{x:Null}" Click="DatMerbtn_Click_1"/>
+        <Button Name ="VolMerbtn" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0"  VerticalAlignment="Top" Width="165" FontFamily="Space quest" Foreground="White" FontSize="24" BorderBrush="{x:Null}" Click="VolMerbtn_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Name ="DatMerbtn" Content="" Height="54" Margin="0,695,1160,0" VerticalAlignment="Top" FontFamily="Space quest" Foreground="White" FontSize="24" BorderBrush="{x:Null}" Click="DatMerbtn_Click_1" HorizontalAlignment="Right" Width="165">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/datos.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>

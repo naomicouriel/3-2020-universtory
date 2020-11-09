@@ -7,13 +7,21 @@
       mc:Ignorable="d"
       Title="Sol_acercamiento" Width="1421.741" Height="799.954">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/Sol.jpg" Stretch="Uniform"/>
+        <ImageBrush ImageSource="Resources/sol.png" Stretch="Uniform"/>
     </Page.Background>
 
     <Grid>
         <Slider x:Name="sliderSol" Margin="73,0,597,715" Background="Black" Foreground="Black" Height="45" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000"/>
-        <Button Name ="VolSolbtn" Content="Volver" HorizontalAlignment="Left" Height="272" Margin="950,515,0,0" VerticalAlignment="Top" Width="470" FontSize="24" FontFamily="space quest" Foreground="White" Click="VolSolbtn_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
-        <Button Name="DatSolbtn" Content="Datos" HorizontalAlignment="Left" Height="305" Margin="-13,490,0,0" VerticalAlignment="Top" Width="518" FontSize="24" FontFamily="space quest" Foreground="White" Click="DatSolbtn_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button Name ="VolSolbtn" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontFamily="Space quest" Foreground="White" FontSize="24" Click="VolSolbtn_Click" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Name="DatSolbtn" Height="54" Margin="0,695,1160,0"  VerticalAlignment="Top" FontFamily="Space quest" Foreground="White" FontSize="24" Click="DatSolbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Resources/Recursos/datos.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>

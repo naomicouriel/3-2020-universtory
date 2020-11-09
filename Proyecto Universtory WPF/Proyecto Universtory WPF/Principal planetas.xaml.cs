@@ -49,12 +49,6 @@ namespace Proyecto_Universtory_WPF
             obj.frame.Content = new Tierra_acercamiento();
         }
 
-        private void btnLuna_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow obj = (MainWindow)Window.GetWindow(this);
-            obj.frame.Content = new Luna_acercamiento();
-        }
-
         private void btnMarte_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             MainWindow obj = (MainWindow)Window.GetWindow(this);

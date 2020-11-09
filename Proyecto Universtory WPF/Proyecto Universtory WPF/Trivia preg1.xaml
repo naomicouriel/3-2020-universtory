@@ -7,28 +7,28 @@
       mc:Ignorable="d"
       Title="" Width="1421.741" Height="799.954" Foreground="{x:Null}">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/trivia fondo.png" Stretch="Uniform"/>
+        <ImageBrush ImageSource="Resources/Recursos/trivia fondo.png" Stretch="Uniform"/>
     </Page.Background>
 
     <Grid>
         <Button x:Name="btnResp3" Margin="745,340,86.6,0" VerticalAlignment="Top" Height="200" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnResp3_Click" Width="590">
             <Button.Background>
-                <ImageBrush ImageSource="Recursos/resp4.png" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="Resources/Recursos/resp4.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="btnResp2" Content="" Margin="80,0,752,25" VerticalAlignment="Bottom" Height="200" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnResp2_Click" Width="590">
             <Button.Background>
-                <ImageBrush ImageSource="Recursos/resp1.png" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="Resources/Recursos/resp1.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="btnResp4" Content="" Margin="745,0,86.6,25" VerticalAlignment="Bottom" Height="200" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnResp4_Click" Width="590">
             <Button.Background>
-                <ImageBrush Stretch="UniformToFill" ImageSource="Recursos/resp3.png"/>
+                <ImageBrush Stretch="UniformToFill" ImageSource="Resources/Recursos/resp3.png"/>
             </Button.Background>
         </Button>
         <Button x:Name="btnResp1" Margin="80,340,751.6,0" VerticalAlignment="Top" Height="200" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnResp1_Click">
             <Button.Background>
-                <ImageBrush ImageSource="Recursos/resp2.png" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="Resources/Recursos/resp2.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Label x:Name="lblTimer" Content="" HorizontalAlignment="Left" Margin="606,164,0,0" VerticalAlignment="Top" Height="118" Width="206"/>

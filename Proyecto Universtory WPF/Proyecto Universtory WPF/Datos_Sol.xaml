@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Datos_Sol" Height="500" Width="800">
     <Window.Background>
-        <ImageBrush ImageSource="Recursos/fondo inicio.png"/>
+        <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
         <Button Name="salDatSol" Content="" HorizontalAlignment="Left" Height="153" Margin="578,337,0,-21" VerticalAlignment="Top" Width="214" Foreground="White" FontFamily="space quest" FontSize="24" Click="salDatSol_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>

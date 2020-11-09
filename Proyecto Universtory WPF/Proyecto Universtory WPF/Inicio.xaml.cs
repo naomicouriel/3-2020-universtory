@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -19,12 +20,18 @@ namespace Proyecto_Universtory_WPF
     /// Lógica de interacción para MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
+
     {
+
         public MainWindow()
         {
             InitializeComponent();
             frame.Content = new Inicio2();
+
+            Player.PlayLooping();
         }
-        
+
+        public static SoundPlayer Player = new System.Media.SoundPlayer(Properties.Resources.universtory_song);
+
     }
 }

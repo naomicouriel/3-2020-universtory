@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
         mc:Ignorable="d" Height="1080" Width="1920" WindowState="Maximized" WindowStyle="None" ResizeMode="NoResize" Background="Black">
     <Window.Resources>
-        <ImageBrush x:Key="img_start" ImageSource="Recursos/start.png" Stretch="UniformToFill"/>
+        <ImageBrush x:Key="img_start" ImageSource="Resources/Recursos/start.png" Stretch="UniformToFill"/>
     </Window.Resources>
     <Grid>
         <Frame x:Name="frame" Content="" Margin="0,0,0,0" NavigationUIVisibility="Hidden"/>

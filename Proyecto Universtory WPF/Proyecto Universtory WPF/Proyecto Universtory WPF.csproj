@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MACTrackBarLib, Version=1.0.5896.38740, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MACTrackBarLib.dll.1.0.2\lib\net40\MACTrackBarLib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -289,6 +292,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -298,32 +302,32 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\universtory 2.png" />
+    <Resource Include="Resources\Recursos\universtory 2.png" />
     <None Include="Resources\marte.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\start.png" />
+    <Resource Include="Resources\Recursos\start.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\sistemasolar4.jpg" />
+    <Resource Include="Resources\Recursos\sistemasolar4.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\Boton respuestas.png" />
+    <Resource Include="Resources\Recursos\Boton respuestas.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\universtory fondo.png" />
+    <Resource Include="Resources\Recursos\universtory fondo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\trivia.png" />
+    <Resource Include="Resources\Recursos\trivia.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\START png.png" />
+    <Resource Include="Resources\Recursos\START png.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\StartButton png.png" />
+    <Resource Include="Resources\Recursos\StartButton png.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\TriviaButton.png" />
+    <Resource Include="Resources\Recursos\TriviaButton.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bot_on_.png" />
@@ -335,55 +339,55 @@
     <None Include="Resources\Image1.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\Sol.jpg" />
+    <Resource Include="Resources\Recursos\Sol.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\mercurio.jpg" />
+    <Resource Include="Resources\Recursos\mercurio.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\neptuno.jpg" />
+    <Resource Include="Resources\Recursos\neptuno.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\saturno.jpg" />
+    <Resource Include="Resources\Recursos\saturno.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\venus.jpg" />
+    <Resource Include="Resources\Recursos\venus.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\urano.jpg" />
+    <Resource Include="Resources\Recursos\urano.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\júpiter.jpg" />
+    <Resource Include="Resources\Recursos\júpiter.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\EXIT.png" />
+    <Resource Include="Resources\Recursos\EXIT.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\JÚPITER.png" />
+    <Resource Include="Resources\Recursos\JÚPITER.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\fondo inicio.png" />
+    <Resource Include="Resources\Recursos\fondo inicio.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\tierra_acerc.png" />
+    <Resource Include="Resources\Recursos\tierra_acerc.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\saturno_acerc.png" />
+    <Resource Include="Resources\Recursos\saturno_acerc.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\urano_acerc.png" />
+    <Resource Include="Resources\Recursos\urano_acerc.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\neptuno_acerc.png" />
+    <Resource Include="Resources\Recursos\neptuno_acerc.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\Menu principal.png" />
+    <Resource Include="Resources\Recursos\Menu principal.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\bot on .png" />
+    <Resource Include="Resources\Recursos\bot on .png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\Luna_acerc.jpg" />
+    <Resource Include="Resources\Recursos\Luna_acerc.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\back.png" />
@@ -434,7 +438,7 @@
     <None Include="Resources\START.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\marte.png" />
+    <Resource Include="Resources\Recursos\marte.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sol.jpg" />
@@ -443,43 +447,64 @@
     <None Include="Resources\mercurio.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\Menu principal planetas.png" />
+    <Resource Include="Resources\Recursos\Menu principal planetas.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\Menu principal_principal planetas.png" />
+    <Resource Include="Resources\Recursos\Menu principal_principal planetas.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\iniciar.png" />
+    <Resource Include="Resources\Recursos\iniciar.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\atrás.png" />
+    <Resource Include="Resources\Recursos\atrás.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\datos.png" />
+    <Resource Include="Resources\Recursos\datos.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\salir.png" />
+    <Resource Include="Resources\Recursos\salir.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\mute.png" />
+    <Resource Include="Resources\Recursos\mute.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\muted.png" />
+    <Resource Include="Resources\Recursos\muted.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\trivia fondo.png" />
+    <Resource Include="Resources\Recursos\trivia fondo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\resp1.png" />
+    <Resource Include="Resources\Recursos\resp1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\resp2.png" />
+    <Resource Include="Resources\Recursos\resp2.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\resp3.png" />
+    <Resource Include="Resources\Recursos\resp3.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Recursos\resp4.png" />
+    <Resource Include="Resources\Recursos\resp4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\URANO_este_si.png" />
+    <Resource Include="Resources\sol.png" />
+    <Resource Include="Resources\VOLUMEN PAUSA.png" />
+    <Resource Include="Resources\SALIR btn.png" />
+    <Resource Include="Resources\settings white.png" />
+    <Resource Include="Resources\settings.png" />
+    <Resource Include="Resources\salir.png" />
+    <Resource Include="Resources\luna acercamiento.png" />
+    <Resource Include="Resources\iniciar.png" />
+    <Resource Include="Resources\configuracion.png" />
+    <Resource Include="Resources\PLAY.png" />
+    <Resource Include="Resources\milky way.png" />
+    <Resource Include="Resources\milky way 2.jpg" />
+    <Resource Include="Resources\earth panoramic view 2.jpg" />
+    <Resource Include="Resources\earth panoramic view.jpg" />
+    <Resource Include="Resources\moon panoramic view.jpg" />
+    <Resource Include="Resources\NEPTUNO_este_si.png" />
+    <Content Include="Resources\Recursos\Sonidos\universtory_song.wav" />
+    <None Include="Resources\universtory_song.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

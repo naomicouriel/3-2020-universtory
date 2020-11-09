@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Datos_Tierra" Height="500" Width="800">
     <Window.Background>
-        <ImageBrush ImageSource="Recursos/fondo inicio.png"/>
+        <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
         <Button Name ="salDatTie" Content="Salir" HorizontalAlignment="Left" Height="91" Margin="616,349,0,0" VerticalAlignment="Top" Width="139" FontFamily="Space Quest" Foreground="White" Click="salDatTie_Click" BorderBrush="{x:Null}" FontSize="24" Background="{x:Null}"/>

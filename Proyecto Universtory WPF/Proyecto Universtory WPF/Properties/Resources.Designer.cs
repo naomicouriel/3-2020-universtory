@@ -281,6 +281,15 @@ namespace Proyecto_Universtory_WPF.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream universtory_song {
+            get {
+                return ResourceManager.GetStream("universtory_song", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap urano {

@@ -5,17 +5,34 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
       mc:Ignorable="d"
-      Title="Tierra_acercamiento" Width="980.043" Height="565.638">
+      Title="Tierra_acercamiento" Width="1421.741" Height= "799.954">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/tierra_acerc.png"/>
+        <ImageBrush ImageSource="Resources/Recursos/tierra_acerc.png" Stretch="Uniform"/>
     </Page.Background>
 
     <Grid>
-        <Button Name = "TierraVolbtn" Content="Volver" HorizontalAlignment="Left" Height="188" Margin="640,354,0,0" VerticalAlignment="Top" Width="330
-                " FontSize="24" Foreground="White" FontFamily="Space quest" Click="TierraVolbtn_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
-        <Button Name ="DatTiebtn" Content="Datos" HorizontalAlignment="Left" Height="188" Margin="14,354,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatTiebtn_Click" Background="{x:Null}" BorderBrush="{x:Null}"/>
-        <Label Content="Tierra" HorizontalAlignment="Left" Height="77" Margin="75,24,0,0" VerticalAlignment="Top" Width="200" Foreground="White" FontSize="48" FontFamily="Space quest"/>
-        <Slider x:Name="sliderTierra" Margin="670,0,45,431" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="sliderTierra_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000" Value="{Binding CurrentProgress}"/>
+        <Button Name = "TierraVolbtn" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontSize="24" Foreground="{x:Null}" FontFamily="Space quest" Click="TierraVolbtn_Click" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
 
+        <Slider x:Name="sliderTierra" Margin="785,0,47,680" Background="Black" Foreground="Black" Height="70" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="sliderTierra_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000" Value="{Binding CurrentProgress}"/>
+        <Ellipse x:Name="EllipseTierra" HorizontalAlignment="Left" Height="698" Margin="135,35,0,0" VerticalAlignment="Top" Width="701" MouseLeftButtonDown="EllipseTierra_MouseLeftButtonDown">
+            <Ellipse.Fill>
+                <SolidColorBrush Color="White" Opacity="0.01"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Image HorizontalAlignment="Left" Height="305" Margin="877,170,0,0" VerticalAlignment="Top" Width="523" Source="Resources/luna acercamiento.png" Stretch="UniformToFill"/>
+        <Ellipse x:Name="EllipseLuna" Margin="1030,215,172,360" MouseLeftButtonDown="EllipseLuna_MouseLeftButtonDown">
+            <Ellipse.Fill>
+                <SolidColorBrush Color="White" Opacity="0.01"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Button Name ="DatTiebtn" Content="" Height="54" Margin="0,695,1160,0" VerticalAlignment="Top" FontSize="24" Foreground="{x:Null}" FontFamily="Space Quest" Click="DatTiebtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/datos.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Page>

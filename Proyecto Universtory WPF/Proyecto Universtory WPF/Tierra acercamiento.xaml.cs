@@ -35,7 +35,7 @@ namespace Proyecto_Universtory_WPF
 
             if (slidertierra == 20)
             {
-                Uri resourceUri = new Uri("Recursos/universtory fondo.png", UriKind.Relative);
+                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
                 StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
@@ -53,7 +53,7 @@ namespace Proyecto_Universtory_WPF
             if (slidertierra == 0)
             {
                 Datos_Tierra datTierra = new Datos_Tierra();
-                datTierra.Show();
+                datTierra.ShowDialog();
             }
 
             else if (slidertierra == 20)
@@ -63,6 +63,18 @@ namespace Proyecto_Universtory_WPF
             }
 
          
+        }
+
+        private void EllipseTierra_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Tierra_panorámica();
+        }
+
+        private void EllipseLuna_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Luna_acercamiento();
         }
     }
 }

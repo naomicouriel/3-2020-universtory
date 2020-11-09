@@ -8,12 +8,20 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="Urano_acercamiento" Width="1421.741" Height="799.954">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/urano.jpg" Stretch="Uniform"/>
+        <ImageBrush ImageSource="Resources/URANO_este_si.png" Stretch="Uniform"/>
     </Page.Background>
 
     <Grid>
-        <Button Name ="VolUrabtn" Content="Volver" HorizontalAlignment="Left" Height="151" Margin="1055,614,0,0" VerticalAlignment="Top" Width="313" Foreground="White" FontFamily="space quest" FontSize = "24" Click="VolUrabtn_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
-        <Button Name ="DatUrabtn" Content="Datos" HorizontalAlignment="Left" Height="144" Margin="45,650,0,0" VerticalAlignment="Top" Width="320" Foreground="White" FontFamily="space quest" FontSize = "24" Click="DatUrabtn_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button Name ="VolUrabtn" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontFamily="Space quest" Foreground="White" FontSize="24" Click="VolUrabtn_Click" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Name ="DatUrabtn" Height="54" Margin="0,695,1160,0"  VerticalAlignment="Top" FontFamily="Space quest" Foreground="White" FontSize="24" Click="DatUrabtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Resources/Recursos/datos.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>

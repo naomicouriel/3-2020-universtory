@@ -8,12 +8,20 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="Venus_acercamiento" Width="1421.741" Height="799.954">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/venus.jpg" Stretch="Uniform"/>
+        <ImageBrush ImageSource="Resources/Recursos/venus.jpg" Stretch="Uniform"/>
     </Page.Background>
 
     <Grid>
-        <Button Name ="VolVenbtn" Content="Volver" HorizontalAlignment="Left" Height="173" Margin="1093,617,0,0" VerticalAlignment="Top" Width="302" Foreground="White" FontSize="24" FontFamily="space quest" BorderBrush="{x:Null}" Background="{x:Null}" Click="VolVenbtn_Click"/>
-        <Button Name ="DatVenbtn" Content="Datos" HorizontalAlignment="Left" Height="169" Margin="25,605,0,0" VerticalAlignment="Top" Width="323" Foreground="white" FontSize="24" FontFamily="space quest" Click="DatVenbtn_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button Name ="VolVenbtn" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontFamily="Space quest" Foreground="White" FontSize="24" Click="VolVenbtn_Click" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Name ="DatVenbtn" Height="54" Margin="0,695,1160,0"  VerticalAlignment="Top" FontFamily="Space quest" Foreground="White" FontSize="24" Click="DatVenbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Resources/Recursos/datos.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>

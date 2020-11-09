@@ -24,5 +24,11 @@ namespace Proyecto_Universtory_WPF
         {
             InitializeComponent();
         }
+
+        private void TierraVolbtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Tierra_acercamiento();
+        }
     }
 }

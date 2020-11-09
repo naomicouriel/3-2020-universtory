@@ -7,12 +7,12 @@
         mc:Ignorable="d"
         Title="Datos_Neptuno" Height="500" Width="800">
     <Window.Background>
-        <ImageBrush ImageSource="Recursos/fondo inicio.png"/>
+        <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
         <Button Name ="salDatNep" Content="" HorizontalAlignment="Left" Height="56" Margin="600,395,0,0" VerticalAlignment="Top" Width="166" Foreground="White" FontFamily="Space quest" FontSize="24" Click="salDatNep_Click" BorderBrush="{x:Null}">
             <Button.Background>
-                <ImageBrush ImageSource="Recursos/atrás.png" Stretch="Uniform"/>
+                <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
         <TextBlock HorizontalAlignment="Left" Height="345" Margin="25,41,0,0" TextWrapping="Wrap" Text="Neptuno es oscuro, frío y muy ventoso. Es el último de los planetas de nuestro sistema solar. Está más de 30 veces más lejos del Sol que la Tierra. Neptuno es muy parecido a Urano. Este planeta tiene seis anillos que no se ven fácilmente. Es el único planeta de nuestro sistema solar que no es visible a simple vista y el primero predicho por las matemáticas antes de su descubrimiento. La Voyager 2 de la NASA es la única nave espacial que ha visitado Neptuno de cerca. Pasó volando en 1989 al salir del sistema solar." FontFamily="space quest" FontSize="22" Foreground="White" VerticalAlignment="Top" Width="540"/>

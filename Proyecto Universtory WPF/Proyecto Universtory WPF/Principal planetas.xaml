@@ -7,7 +7,7 @@
       mc:Ignorable="d"
       Title="Planetas" Foreground="White" Width="1421.741" Height="799.954">
     <Page.Background>
-        <ImageBrush ImageSource="Recursos/Menu principal_principal planetas.png" Stretch="Uniform" TileMode="None"/>
+        <ImageBrush ImageSource="Resources/Recursos/Menu principal_principal planetas.png" Stretch="Uniform" TileMode="None"/>
     </Page.Background>
 
     <Grid RenderTransformOrigin="0.517,0.5">
@@ -36,7 +36,6 @@
                 <SolidColorBrush Color="White" Opacity="0.01"/>
             </Ellipse.Fill>
         </Ellipse>
-        <Ellipse x:Name="btnLuna" HorizontalAlignment="Left" Height="25" Margin="465,360,0,0" Stroke="Black" VerticalAlignment="Top" Width="25" MouseLeftButtonDown="btnLuna_MouseLeftButtonDown" Fill="Black"/>
         <Ellipse x:Name="btnTierra" HorizontalAlignment="Left" Height="60" Margin="425,390,0,0" VerticalAlignment="Top" Width="65" MouseLeftButtonDown="btnTierra_MouseLeftButtonDown" Opacity="0.2">
             <Ellipse.Fill>
                 <SolidColorBrush Color="White" Opacity="0.01"/>
@@ -59,7 +58,7 @@
         </Ellipse>
         <Button Name="VolPPbtn" Content="" HorizontalAlignment="Left" Height="50" Margin="1075,700,0,0" VerticalAlignment="Top" Width="272" FontFamily="space quest" FontSize="24" Click="VolPPbtn_Click" BorderBrush="{x:Null}" Style="{DynamicResource btnInicio}">
             <Button.Background>
-                <ImageBrush ImageSource="Recursos/atrás.png" Stretch="Uniform"/>
+                <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
     </Grid>
