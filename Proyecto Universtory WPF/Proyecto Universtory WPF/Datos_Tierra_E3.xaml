@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
         mc:Ignorable="d"
         Title="Datos_Tierra_E3" Height="500" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
+    </Window.Background>
     <Grid>
-        <Grid.Background>
-            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/fondo.png"/>
-        </Grid.Background>
         <TextBlock Name ="datTieE3txt" Text="Con el tiempo la corteza se secó y se volvió sólida. En las partes más bajas se acumuló el agua mientras que, por encima de la corteza terrestre, se formaba una capa de gases, la atmósfera. Esto se generó gracias a la gran cantidad de erupciones volcánicas." HorizontalAlignment="Left" Height="156" Margin="64,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
         <Button Name ="salirDatTieE3" Content="" HorizontalAlignment="Left" Height="50" Margin="580,377,0,0" VerticalAlignment="Top" Width="180" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
             <Button.Background>

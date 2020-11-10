@@ -32,7 +32,7 @@ namespace Proyecto_Universtory_WPF
 
             if (sliderSol == 33)
             {
-                Uri resourceUri = new Uri("Resources/TuImagen.jpg", UriKind.Relative);
+                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
                 StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
@@ -40,7 +40,7 @@ namespace Proyecto_Universtory_WPF
 
             else if (sliderSol == 66)
             {
-                Uri resourceUri = new Uri("Resources/TuImagen.jpg", UriKind.Relative);
+                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
                 StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
@@ -48,7 +48,7 @@ namespace Proyecto_Universtory_WPF
 
             else if (sliderSol == 99)
             {
-                Uri resourceUri = new Uri("Resources/TuImagen.jpg", UriKind.Relative);
+                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
                 StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
@@ -63,8 +63,26 @@ namespace Proyecto_Universtory_WPF
 
         private void DatSolbtn_Click(object sender, RoutedEventArgs e)
         {
-            Datos_Sol datSol = new Datos_Sol();
-            datSol.ShowDialog();
+            if (sliderSol.Value == 0)
+            {
+                Datos_Sol datSol = new Datos_Sol();
+                datSol.ShowDialog();
+            }
+            else if (sliderSol.Value == 33)
+            {
+                Datos_Sol_E1 datSolE1 = new Datos_Sol_E1();
+                datSolE1.ShowDialog();
+            }
+            else if (sliderSol.Value == 66)
+            {
+                Datos_Sol_E2 datSolE2 = new Datos_Sol_E2();
+                datSolE2.ShowDialog();
+            }
+            else if (sliderSol.Value == 99)
+            {
+                Datos_Sol_E3 datSolE3 = new Datos_Sol_E3();
+                datSolE3.ShowDialog();
+            }
         }
         
     }

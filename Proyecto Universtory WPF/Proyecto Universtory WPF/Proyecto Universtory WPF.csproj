@@ -561,7 +561,8 @@
     <Resource Include="Resources\INICIO_este_si_brillante.png" />
     <Resource Include="Resources\datos_brillante.png" />
     <Resource Include="Resources\atrás_brillante.png" />
-    <Resource Include="Resources\fondo inicio.png" />
+    <None Include="Resources\fondo inicio.png" />
+    <None Include="Resources\atrás.png" />
     <Content Include="Resources\Recursos\Sonidos\universtory_song.wav" />
     <None Include="Resources\universtory_song.wav" />
   </ItemGroup>

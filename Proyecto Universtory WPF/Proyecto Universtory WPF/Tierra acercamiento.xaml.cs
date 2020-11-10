@@ -44,7 +44,7 @@ namespace Proyecto_Universtory_WPF
 
             else if (sliderTierra == 40)
             {
-                Uri resourceUri = new Uri("Resources/Recursos/", UriKind.Relative);
+                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
                 StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
@@ -54,7 +54,7 @@ namespace Proyecto_Universtory_WPF
 
             else if (sliderTierra == 60)
             {
-                Uri resourceUri = new Uri("Resources/Recursos/", UriKind.Relative);
+                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
                 StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
@@ -64,7 +64,7 @@ namespace Proyecto_Universtory_WPF
 
             else if (sliderTierra == 80)
             {
-                Uri resourceUri = new Uri("Resources/Recursos/", UriKind.Relative);
+                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
                 StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
@@ -74,7 +74,7 @@ namespace Proyecto_Universtory_WPF
 
             else if (sliderTierra == 100)
             {
-                Uri resourceUri = new Uri("Resources/Recursos/", UriKind.Relative);
+                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
                 StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
@@ -102,7 +102,26 @@ namespace Proyecto_Universtory_WPF
                 Datos_Tierra_E1 datTieE1 = new Datos_Tierra_E1();
                 datTieE1.ShowDialog();
             }
-
+            else if (sliderTierra.Value == 40)
+            {
+                Datos_Tierra_E2 datTieE2 = new Datos_Tierra_E2();
+                datTieE2.ShowDialog();
+            }
+            else if (sliderTierra.Value == 60)
+            {
+                Datos_Tierra_E3 datTieE3 = new Datos_Tierra_E3();
+                datTieE3.ShowDialog();
+            }
+            else if (sliderTierra.Value == 80)
+            {
+                Datos_Tierra_E4 datTieE4 = new Datos_Tierra_E4();
+                datTieE4.ShowDialog();
+            }
+            else if (sliderTierra.Value == 100)
+            {
+                Datos_Tierra_E5 datTieE5 = new Datos_Tierra_E5();
+                datTieE5.ShowDialog();
+            }
          
         }
 
