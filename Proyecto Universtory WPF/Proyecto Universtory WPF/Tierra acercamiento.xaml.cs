@@ -99,8 +99,8 @@ namespace Proyecto_Universtory_WPF
 
             else if (sliderTierra.Value == 20)
             {
-                Datos_Jupiter datjupp = new Datos_Jupiter();
-                datjupp.ShowDialog();
+                Datos_Tierra_E1 datTieE1 = new Datos_Tierra_E1();
+                datTieE1.ShowDialog();
             }
 
          

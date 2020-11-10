@@ -21,7 +21,10 @@ namespace Proyecto_Universtory_WPF
     {
         public Datos_Tierra_E1()
         {
+
             InitializeComponent();
+  
+   
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
