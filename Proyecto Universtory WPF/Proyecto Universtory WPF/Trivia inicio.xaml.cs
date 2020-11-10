@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Media.Animation;
 
 namespace Proyecto_Universtory_WPF
 {
@@ -24,7 +25,13 @@ namespace Proyecto_Universtory_WPF
         {
             InitializeComponent();
 
-            lblTriviaInicio.Content = "En esta trivia vas a poner a prueba todo lo que aprendiste\nsobre nuestro sistema solar, asi que si crees que\ntodavia no lo tenes muy claro no empiezes.Son\n10 preguntas, cada una con 4 respuestas  pero solo una\ncorrecta. Si la respuesta que elegis es incorrecta se pone\nen rojo y si es correcta se pone en verde.\nPara pasar a la siguinte pregunta toca el boton  SIGUIENTE.\nCuando termines la trivia podes ver tus resultados.";
+            var fadeAnimation = new DoubleAnimation();
+            fadeAnimation.From = 1;
+            fadeAnimation.To = 0;
+
+            fadeAnimation.AutoReverse = true;
+
+            InfoTrivia.BeginAnimation(TextBlock.OpacityProperty, fadeAnimation);
         }
 
         
@@ -33,6 +40,12 @@ namespace Proyecto_Universtory_WPF
         {
             MainWindow obj = (MainWindow)Window.GetWindow(this);
             obj.frame.Content = new Trivia_preg1();
+        }
+
+        private void atrasTrivInibtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Inicio2();
         }
     }
 }
