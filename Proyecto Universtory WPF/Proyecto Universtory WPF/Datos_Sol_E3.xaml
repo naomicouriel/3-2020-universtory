@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
         mc:Ignorable="d"
         Title="Datos_Sol_E3" Height="500" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
+    </Window.Background>
     <Grid>
-        <Grid.Background>
-            <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/fondo.png"/>
-        </Grid.Background>
         <TextBlock Name ="datSolE3txt" Text="Como todas las estrellas, el Sol algún día se quedará sin energía. Cuando el Sol comience a morir, se convertirá en una gigante roja, y se hinchará tanto que se va a ´tragar´ a Mercurio y Venus y tal vez incluso a la Tierra. Los científicos predicen que el Sol está un poco menos de la mitad de su vida y que durará otros 6.500 millones de años antes de que se reduzca hasta convertirse en una enana blanca." HorizontalAlignment="Left" Height="156" Margin="64,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
         <Button Name ="salirDatSolE3" Content="" HorizontalAlignment="Left" Height="50" Margin="580,377,0,0" VerticalAlignment="Top" Width="180" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
             <Button.Background>
