@@ -10,9 +10,9 @@
         <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
-        <Button Name = "salDatLun" Content="" HorizontalAlignment="Left" Height="56" Margin="600,395,0,0" VerticalAlignment="Top" Width="166" FontFamily="Space Quest" Foreground="White" Click="salDatLun_Click" BorderBrush="{x:Null}" FontSize="24">
+        <Button Name = "salDatLun" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="salDatLun_Click" BorderBrush="{x:Null}" FontSize="24">
             <Button.Background>
-                <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
+                <ImageBrush ImageSource="Resources/Recursos/salir.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
         <TextBlock Name ="DatLuntxt" FontFamily="space quest" FontSize="19" Foreground ="White" HorizontalAlignment="Left" Height="318" Margin="68,52,0,0" TextWrapping="Wrap" Text="La Luna de la Tierra es nuestro único satélite, es decir, el único que orbita alrededor de este planeta, y es el único lugar más allá de la Tierra donde los humanos han puesto un pie.

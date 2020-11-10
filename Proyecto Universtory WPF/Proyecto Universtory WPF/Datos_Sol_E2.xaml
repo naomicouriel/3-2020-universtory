@@ -11,9 +11,9 @@
     </Window.Background>
     <Grid>
         <TextBlock Name ="datSolE2txt" Text="El Sol se encuentra relativamente cerca de la Tierra, el cual es el tercer planeta del Sistema Solar. La distancia que separa a ambos cuerpos celestes es de 150 millones de kilómetros, según el acuerdo de la Unión Astronómica Internacional. La luz que emite el Sol tarda aproximadamente 8 minutos y 19 segundos en realizar el recorrido desde allí hasta la Tierra." HorizontalAlignment="Left" Height="156" Margin="64,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
-        <Button Name ="salirDatSolE2" Content="" HorizontalAlignment="Left" Height="50" Margin="580,377,0,0" VerticalAlignment="Top" Width="180" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
+        <Button Name ="salirDatSolE2" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
             <Button.Background>
-                <ImageBrush ImageSource="Resources/Recursos/atrás.png"/>
+                <ImageBrush ImageSource="Resources/Recursos/salir.png"/>
             </Button.Background>
         </Button>
         <Label Content="SEGUNDA ETAPA" HorizontalAlignment="Left" Height="48" Margin="64,49,0,0" VerticalAlignment="Top" Width="224" Foreground="WHITE" FontFamily="space quest" FontSize="26"/>

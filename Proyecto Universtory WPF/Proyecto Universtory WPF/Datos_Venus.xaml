@@ -12,7 +12,11 @@
     <Grid>
 
 
-        <Button Name="salDatVen" Content="Salir" HorizontalAlignment="Left" Height="158" Margin="556,330,0,-19" VerticalAlignment="Top" Width="236" Foreground="white" FontFamily="space quest" FontSize="24" Click="salDatVen_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button Name="salDatVen" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" Foreground="white" FontFamily="space quest" FontSize="24" Click="salDatVen_Click" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/salir.png"/>
+            </Button.Background>
+        </Button>
         <TextBlock Name ="DatVentxt" HorizontalAlignment="Left" Height="359" Margin="60,49,0,0" TextWrapping="Wrap" Text="A Venus lo llamamos Lucero, y es el objeto más brillante del cielo exceptuando al sol y a la luna, y se lo suele confundir con una estrella que se puede ver al comienzo del atardecer y al amanecer. Es el planeta más caliente y se ve como un planeta muy activo. Tiene montañas y volcanes. Venus es similar a la Tierra, en tamaño. La Tierra es solo un poco más grande. Este planeta es poco común porque gira en dirección contraria a la de la Tierra y la mayoría de los otros planetas.
 Venus fue el primer planeta en ser explorado por una nave espacial: el Mariner 2 de la NASA voló con éxito y escaneó el mundo cubierto de nubes el 14 de diciembre de 1962. Desde entonces, numerosas naves espaciales de los EE. UU. y otras agencias espaciales han explorado Venus." VerticalAlignment="Top" Width="626" FontFamily="space quest" FontSize="19" Foreground="white"/>
 

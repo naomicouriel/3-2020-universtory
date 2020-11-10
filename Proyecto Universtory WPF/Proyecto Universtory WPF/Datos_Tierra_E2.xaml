@@ -11,9 +11,9 @@
     </Window.Background>
     <Grid>
         <TextBlock Name ="datTieE2txt" Text="Luego de miles de años, las capas exteriores comenzaron a solidificarse, pero el calor que venía del interior las fundía de nuevo. Finalmente, se enfrió lo suficiente para permitir la formación de una corteza terrestre estable." HorizontalAlignment="Left" Height="139" Margin="100,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
-        <Button Name ="salirDatTieE2" Content="" HorizontalAlignment="Left" Height="50" Margin="580,377,0,0" VerticalAlignment="Top" Width="180" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
+        <Button Name ="salirDatTieE2" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
             <Button.Background>
-                <ImageBrush ImageSource="Resources/Recursos/atrás.png"/>
+                <ImageBrush ImageSource="Resources/Recursos/salir.png"/>
             </Button.Background>
         </Button>
         <Label Content="SEGUNDA ETAPA" HorizontalAlignment="Left" Height="54" Margin="100,43,0,0" VerticalAlignment="Top" Width="294" Foreground="White" FontFamily="space quest" FontSize="26"/>

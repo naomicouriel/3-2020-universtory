@@ -481,6 +481,8 @@
     <None Include="Resources\saturno.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Space Quest.ttf" />
+    <Resource Include="Resources\Tipografía\Space Quest.ttf" />
     <None Include="Resources\urano.png" />
   </ItemGroup>
   <ItemGroup>
@@ -566,8 +568,6 @@
     <Content Include="Resources\Recursos\Sonidos\universtory_song.wav" />
     <None Include="Resources\universtory_song.wav" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\Tipografía\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

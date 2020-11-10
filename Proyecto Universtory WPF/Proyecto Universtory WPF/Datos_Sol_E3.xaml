@@ -11,9 +11,9 @@
     </Window.Background>
     <Grid>
         <TextBlock Name ="datSolE3txt" Text="Como todas las estrellas, el Sol algún día se quedará sin energía. Cuando el Sol comience a morir, se convertirá en una gigante roja, y se hinchará tanto que se va a ´tragar´ a Mercurio y Venus y tal vez incluso a la Tierra. Los científicos predicen que el Sol está un poco menos de la mitad de su vida y que durará otros 6.500 millones de años antes de que se reduzca hasta convertirse en una enana blanca." HorizontalAlignment="Left" Height="156" Margin="64,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
-        <Button Name ="salirDatSolE3" Content="" HorizontalAlignment="Left" Height="50" Margin="580,377,0,0" VerticalAlignment="Top" Width="180" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
+        <Button Name ="salirDatSolE3" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
             <Button.Background>
-                <ImageBrush ImageSource="Resources/Recursos/atrás.png"/>
+                <ImageBrush ImageSource="Resources/Recursos/salir.png"/>
             </Button.Background>
         </Button>
         <Label Content="ULTIMA ETAPA" HorizontalAlignment="Left" Height="48" Margin="64,49,0,0" VerticalAlignment="Top" Width="224" Foreground="WHITE" FontFamily="space quest" FontSize="26"/>

@@ -49,7 +49,7 @@ namespace Proyecto_Universtory_WPF {
         #line hidden
         
         
-        #line 16 "..\..\Datos_Venus.xaml"
+        #line 20 "..\..\Datos_Venus.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBlock DatVentxt;
         

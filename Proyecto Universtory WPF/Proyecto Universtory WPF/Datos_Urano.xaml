@@ -10,8 +10,12 @@
         <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
-        <Button Name ="salDatUra" Content="Salir" HorizontalAlignment="Left" Height="157" Margin="513,308,0,0" VerticalAlignment="Top" Width="272" Foreground="white" FontFamily="space quest" FontSize="24" Click="salDatUra_Click" BorderBrush="{x:Null}" Background="{x:Null}"/>
-        <TextBlock HorizontalAlignment="Left" Height="389" Margin="45,36,0,0" TextWrapping="Wrap" Text="El primer planeta encontrado con la ayuda de un telescopio, Urano, fue descubierto en 1781 por el astrónomo William Herschel, aunque originalmente pensó que era un cometa o una estrella. Urano también tiene anillos tenues. Los anillos internos son angostos y oscuros. Los anillos externos tienen colores vivos y son más fáciles de ver. Como Venus, Urano rota en dirección opuesta a la de la mayoría de los otros planetas. Y, a diferencia de cualquier otro planeta, Urano rota de lado, por lo que se le conoce como el planeta lateral." FontFamily="space quest" FontSize="22" Foreground="White" VerticalAlignment="Top" Width="490"/>
+        <Button Name ="salDatUra" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" Foreground="white" FontFamily="space quest" FontSize="24" Click="salDatUra_Click" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Recursos/salir.png"/>
+            </Button.Background>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Height="389" Margin="45,36,0,0" TextWrapping="Wrap" Text="El primer planeta encontrado con la ayuda de un telescopio, Urano, fue descubierto en 1781 por el astrónomo William Herschel, aunque originalmente pensó que era un cometa o una estrella. Urano también tiene anillos tenues. Los anillos internos son angostos y oscuros. Los anillos externos tienen colores vivos y son más fáciles de ver. Como Venus, Urano rota en dirección opuesta a la de la mayoría de los otros planetas. Y, a diferencia de cualquier otro planeta, Urano rota de lado, por lo que se le conoce como el planeta lateral." FontFamily="space quest" FontSize="22" Foreground="White" VerticalAlignment="Top" Width="586"/>
 
     </Grid>
 </Window>

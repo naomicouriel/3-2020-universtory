@@ -11,9 +11,9 @@
     </Window.Background>
     <Grid>
         <TextBlock Name ="datTieE4txt" Text="En las erupciones se generaba vapor de agua que, al ascender por la atmósfera, se hacía líquida, dando origen a las primeras lluvias. Al cabo del tiempo, con la corteza más fría, el agua de las precipitaciones se pudo mantener líquida en las zonas más profundas de la corteza terrestre, formando mares y océanos, es decir, una hidrosfera." HorizontalAlignment="Left" Height="288" Margin="61,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
-        <Button Name ="salirDatTieE4" Content="" HorizontalAlignment="Left" Height="50" Margin="580,377,0,0" VerticalAlignment="Top" Width="180" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
+        <Button Name ="salirDatTieE4" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
             <Button.Background>
-                <ImageBrush ImageSource="Resources/Recursos/atrás.png"/>
+                <ImageBrush ImageSource="Resources/Recursos/salir.png"/>
             </Button.Background>
         </Button>
         <Label Content="CUARTA ETAPA" HorizontalAlignment="Left" Height="68" Margin="61,37,0,0" VerticalAlignment="Top" Width="284" Foreground="White" FontFamily="space quest" FontSize="26" />

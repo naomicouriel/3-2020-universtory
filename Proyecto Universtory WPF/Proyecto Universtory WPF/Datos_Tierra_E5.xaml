@@ -11,9 +11,9 @@
     </Window.Background>
     <Grid>
         <TextBlock Name ="datTieE1txt" Text="La corteza terrestre se dividió y se separó en los distintos continentes. Luego, comenzó a formarse la vida. Le tomó miles de millones de años a la Tierra para verse como la conocemos en el día de hoy, siendo el único planeta habitado del que sabemos hasta el momento, además de nuestro hogar." HorizontalAlignment="Left" Height="288" Margin="89,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
-        <Button Name ="salirDatTieE1" Content="" HorizontalAlignment="Left" Height="50" Margin="580,377,0,0" VerticalAlignment="Top" Width="180" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
+        <Button Name ="salirDatTieE1" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
             <Button.Background>
-                <ImageBrush ImageSource="Resources/Recursos/atrás.png"/>
+                <ImageBrush ImageSource="Resources/Recursos/salir.png"/>
             </Button.Background>
         </Button>
         <Label Content="QUINTA ETAPA" HorizontalAlignment="Left" Height="68" Margin="89,54,0,0" VerticalAlignment="Top" Width="284" Foreground="White" FontFamily="space quest" FontSize="26" />
