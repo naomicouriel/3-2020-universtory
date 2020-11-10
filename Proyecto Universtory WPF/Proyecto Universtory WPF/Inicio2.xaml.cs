@@ -86,7 +86,12 @@ namespace Proyecto_Universtory_WPF
 
         private void btnSalir_MouseEnter(object sender, MouseEventArgs e)
         {
-            btnSalir.Content = FindResource("salir");
+            btnSalir.Content = FindResource("salirbrillante");
+        }
+
+        private void btnCerrarMenu_MouseEnter(object sender, MouseEventArgs e)
+        {
+            btnCerrarMenu.Content = FindResource("atrasbrillante");
         }
     }
 }

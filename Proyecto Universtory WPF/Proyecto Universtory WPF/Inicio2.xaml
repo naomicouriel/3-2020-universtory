@@ -21,7 +21,10 @@
             <ThicknessAnimation Storyboard.TargetProperty="Margin" From="245,610,0,0" To="245,540,0,0" Duration="0:0:03.0"/>
         </Storyboard>
 
-        <Image x:Key ="salir" Source="Resources/Recursos/atrás.png" Height="200" Width="590" />
+        <Image x:Key ="salirbrillante" Source="Resources/SALIR btn_brillante.png" Height="47" Width="145" Stretch="Uniform"/>
+        <Image x:Key ="triviabrillante" Source="Resources/TriviaButton_brillante.png" Height="200" Width="590" Stretch="Uniform"/>
+        <Image x:Key ="iniciobrillante" Source="Resources/INICIO_este_si_brillante.png" Height="200" Width="590" Stretch="Uniform"/>
+        <Image x:Key ="atrasbrillante" Source="Resources/atrás_brillante.png" Height="70" Width="90" Stretch="Uniform"/>
 
     </Page.Resources>
 
@@ -36,7 +39,7 @@
                 <ImageBrush ImageSource="Resources/Recursos/TriviaButton.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnSalir" Content="" Margin="0,30,82,0" FontSize="22" Click="Button_Click_2" BorderBrush="White" Foreground="{x:Null}" Opacity="0.8" HorizontalAlignment="Right" Width="145" Height="47" VerticalAlignment="Top" BorderThickness="2" MouseEnter="btnSalir_MouseEnter">
+        <Button x:Name="btnSalir" Content="" Margin="0,30,82,0" FontSize="22" Click="Button_Click_2" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0.8" HorizontalAlignment="Right" Width="145" Height="47" VerticalAlignment="Top" BorderThickness="2" MouseEnter="btnSalir_MouseEnter">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/SALIR btn.png" Stretch="Uniform"/>
             </Button.Background>
@@ -53,7 +56,7 @@
                     <ImageBrush ImageSource="Resources/PLAY.png" Stretch="Uniform"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btnCerrarMenu" Height="70" Width="90" Margin="175,139,0,0" Click="btnCerrarMenu_Click" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button x:Name="btnCerrarMenu" Height="70" Width="90" Margin="175,139,0,0" Click="btnCerrarMenu_Click" BorderBrush="{x:Null}" Foreground="{x:Null}" MouseEnter="btnCerrarMenu_MouseEnter">
                 <Button.Background>
                     <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
                 </Button.Background>
