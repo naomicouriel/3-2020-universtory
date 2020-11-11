@@ -20,6 +20,7 @@ namespace Proyecto_Universtory_WPF
     /// </summary>
     public partial class Trivia_resultados : Page
     {
+
         public Trivia_resultados()
         {
             InitializeComponent();
@@ -29,6 +30,11 @@ namespace Proyecto_Universtory_WPF
         {
             MainWindow obj = (MainWindow)Window.GetWindow(this);
             obj.frame.Content = new Inicio2();
+        }
+
+        public void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            lblResFinal.Content = ("El resultado es " + Trivia_preg1.puntaje + "/100");
         }
     }
 }

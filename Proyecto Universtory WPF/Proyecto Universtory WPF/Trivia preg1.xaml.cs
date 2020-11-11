@@ -25,7 +25,7 @@ namespace Proyecto_Universtory_WPF
 
         int contador = 1;
 
-        public int puntaje;
+        internal static int puntaje;
 
         DispatcherTimer temporizador = new DispatcherTimer();
 

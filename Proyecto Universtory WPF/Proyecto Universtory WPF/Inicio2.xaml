@@ -56,7 +56,8 @@
                     <ImageBrush ImageSource="Resources/PLAY.png" Stretch="Uniform"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btnCerrarMenu" Height="70" Width="90" Margin="175,139,0,0" Click="btnCerrarMenu_Click" BorderBrush="{x:Null}" Foreground="{x:Null}" MouseEnter="btnCerrarMenu_MouseEnter">
+            <Slider x:Name="sliderVol" Height="33" Width="230" Margin="20,80,0,0" ValueChanged="sliderVol_ValueChanged"/>
+            <Button x:Name="btnCerrarMenu" Height="70" Width="90" Margin="175,20,0,0" Click="btnCerrarMenu_Click" BorderBrush="{x:Null}" Foreground="{x:Null}" MouseEnter="btnCerrarMenu_MouseEnter">
                 <Button.Background>
                     <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
                 </Button.Background>

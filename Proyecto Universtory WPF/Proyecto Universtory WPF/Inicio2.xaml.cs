@@ -93,5 +93,14 @@ namespace Proyecto_Universtory_WPF
         {
             btnCerrarMenu.Content = FindResource("atrasbrillante");
         }
+
+        private void sliderVol_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            Slider sliderVol = sender as Slider;
+            if (sliderVol != null)
+            {
+                //Player. = sliderVol.Value;
+            }
+        }
     }
 }
