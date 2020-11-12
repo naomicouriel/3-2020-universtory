@@ -39,7 +39,7 @@
             </Button.Background>
         </Button>
         <Label x:Name="lblTimer" Content="" HorizontalAlignment="Left" Margin="1165,215,0,0" VerticalAlignment="Top" Height="43" Width="190" Background="White"/>
-        <Button x:Name="btnSiguiente" Content="Siguiente" HorizontalAlignment="Left" Margin="653,215,0,505" Width="115" Background="Black" Click="btnSiguiente_Click" Foreground="White" FontSize="22" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <Button x:Name="btnSiguiente" Content="Siguiente" HorizontalAlignment="Left" Margin="653,215,0,505" Width="115" Background="Black" Click="btnSiguiente_Click" Foreground="White" FontSize="22" BorderBrush="{x:Null}" IsEnabled="False" Visibility="Hidden"/>
 
     </Grid>
 </Page>
