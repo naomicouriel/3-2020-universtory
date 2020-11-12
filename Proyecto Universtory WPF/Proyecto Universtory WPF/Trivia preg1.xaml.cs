@@ -479,86 +479,113 @@ namespace Proyecto_Universtory_WPF
 
             switch (contador)
             {
+                //¿Cuál fue el primer planeta encontrado con un telescopio?
+
                 case 2:
-                    btnResp1.Content = "Resp1-Preg2";
+                    btnResp1.Content = "Marte";
 
-                    btnResp2.Content = "Resp3-Preg2";
+                    btnResp2.Content = "Urano";
 
-                    btnResp3.Content = "Resp3-Preg2";
+                    btnResp3.Content = "Mercurio";
 
-                    btnResp4.Content = "Resp4-Preg2";
+                    btnResp4.Content = "Neptuno";
                     break;
+
+                //¿Cuál es el planeta más caliente del Sistema Solar?
+
+
                 case 3:
-                    btnResp1.Content = "Resp1-Preg3";
+                    btnResp1.Content = "Mercurio";
 
-                    btnResp2.Content = "Resp3-Preg3";
+                    btnResp2.Content = "La Tierra";
 
-                    btnResp3.Content = "Resp3-Preg3";
+                    btnResp3.Content = "Neptuno";
 
-                    btnResp4.Content = "Resp4-Preg3";
+                    btnResp4.Content = "Venus";
                     break;
+
+                //¿Cuánto tiempo tarda el sistema solar en completar su órbita alrededor del centro de la galaxia?
+
                 case 4:
-                    btnResp1.Content = "Resp1-Preg4";
+                    btnResp1.Content = "1.200 millones de años";
 
-                    btnResp2.Content = "Resp3-Preg4";
+                    btnResp2.Content = "150.000 años";
 
-                    btnResp3.Content = "Resp3-Preg4";
+                    btnResp3.Content = "230 millones de años";
 
-                    btnResp4.Content = "Resp4-Preg4";
+                    btnResp4.Content = "8,4 millones de años";
                     break;
+
+                //¿Cuales son los únicos planetas que rotan en dirección opuesta a los demás planetas?
+
                 case 5:
-                    btnResp1.Content = "Resp1-Preg5";
+                    btnResp1.Content = "La Tierra y Marte";
 
-                    btnResp2.Content = "Resp3-Preg5";
+                    btnResp2.Content = "Urano y Venus";
 
-                    btnResp3.Content = "Resp3-Preg5";
+                    btnResp3.Content = "Saturno y Jupiter";
 
-                    btnResp4.Content = "Resp4-Preg5";
+                    btnResp4.Content = "Mercurio y Venus";
                     break;
+
+                //¿Cuántos planetas tienen anillos?
+
                 case 6:
-                    btnResp1.Content = "Resp1-Preg6";
+                    btnResp1.Content = "4";
 
-                    btnResp2.Content = "Resp3-Preg6";
+                    btnResp2.Content = "2";
 
-                    btnResp3.Content = "Resp3-Preg6";
+                    btnResp3.Content = "Ninguno";
 
-                    btnResp4.Content = "Resp4-Preg6";
+                    btnResp4.Content = "Todos";
                     break;
+
+                //¿Qué planeta se cree que haya podido albergar vida en el pasado dadas sus condiciones, además de la Tierra?
+
                 case 7:
-                    btnResp1.Content = "Resp1-Preg7";
+                    btnResp1.Content = "Mercurio";
 
-                    btnResp2.Content = "Resp3-Preg7";
+                    btnResp2.Content = "Marte";
 
-                    btnResp3.Content = "Resp3-Preg7";
+                    btnResp3.Content = "Urano";
 
-                    btnResp4.Content = "Resp4-Preg7";
+                    btnResp4.Content = "Saturno";
                     break;
+
+                //¿Cuál es el objeto más brillante del sistema solar después del sol?
+
                 case 8:
-                    btnResp1.Content = "Resp1-Preg8";
+                    btnResp1.Content = "Jupiter";
 
-                    btnResp2.Content = "Resp3-Preg8";
+                    btnResp2.Content = "La Tierra";
 
-                    btnResp3.Content = "Resp3-Preg8";
+                    btnResp3.Content = "La Luna";
 
-                    btnResp4.Content = "Resp4-Preg8";
+                    btnResp4.Content = "Venus";
                     break;
+
+                //Cómo se llama la unica nave que abandono el sistema solar?
+
                 case 9:
-                    btnResp1.Content = "Resp1-Preg9";
+                    btnResp1.Content = "Voyager 1";
 
-                    btnResp2.Content = "Resp3-Preg9";
+                    btnResp2.Content = "Apolo 11";
 
-                    btnResp3.Content = "Resp3-Preg9";
+                    btnResp3.Content = "Solar Orbiter";
 
-                    btnResp4.Content = "Resp4-Preg9";
+                    btnResp4.Content = "Por ahora ninguna nave abandono el sistema solar";
                     break;
+
+                //¿Cómo se llama la nube gigante que formó el sistema solar?
+
                 case 10:
-                    btnResp1.Content = "Resp1-Preg10";
+                    btnResp1.Content = "Niebla Creadora";
 
-                    btnResp2.Content = "Resp3-Preg10";
+                    btnResp2.Content = "Solticio";
 
-                    btnResp3.Content = "Resp3-Preg10";
+                    btnResp3.Content = "Big-Bang";
 
-                    btnResp4.Content = "Resp4-Preg10";
+                    btnResp4.Content = "Nebulosa";
                     break;
                 case 11:
                     MainWindow obj = (MainWindow)Window.GetWindow(this);

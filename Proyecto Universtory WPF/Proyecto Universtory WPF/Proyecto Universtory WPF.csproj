@@ -537,8 +537,12 @@
     <Resource Include="Resources\Recursos\resp4.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Resources\timer .png" />
     <None Include="Resources\SIG. TRIVIA.png" />
+=======
+    <Resource Include="Resources\timer .png" />
+>>>>>>> 0641575495838808c35166f90a72c0dc887c0194
     <Resource Include="Resources\SALIR btn_brillante.png" />
     <Resource Include="Resources\TriviaButton_brillante.png" />
     <Resource Include="Resources\VOLVER_brillante.png" />
