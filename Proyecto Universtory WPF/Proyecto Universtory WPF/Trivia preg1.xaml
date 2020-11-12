@@ -18,22 +18,22 @@
     </Page.Resources>
 
     <Grid>
-        <Button x:Name="btnResp3" Margin="745,340,86.6,0" VerticalAlignment="Top" Height="200" BorderBrush="{x:Null}" Foreground="Black" Click="btnResp3_Click" Width="590" Content="resp3-preg1" FontSize="48">
+        <Button x:Name="btnResp3" Margin="745,340,86.6,0" VerticalAlignment="Top" Height="200" BorderBrush="{x:Null}" Foreground="Black" Click="btnResp3_Click" Width="590" Content="1" FontSize="48">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/resp4.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnResp2" Content="resp2-preg1" Margin="80,0,752,25" VerticalAlignment="Bottom" Height="200" BorderBrush="{x:Null}" Foreground="Black" Click="btnResp2_Click" Width="590" FontSize="48">
+        <Button x:Name="btnResp2" Content="4" Margin="80,0,751.6,25" VerticalAlignment="Bottom" Height="200" BorderBrush="{x:Null}" Foreground="Black" Click="btnResp2_Click" Width="590" FontSize="48">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/resp1.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnResp4" Content="resp4-preg1" Margin="745,0,86.6,25" VerticalAlignment="Bottom" Height="200" BorderBrush="{x:Null}" Foreground="Black" Click="btnResp4_Click" Width="590" FontSize="48">
+        <Button x:Name="btnResp4" Content="0" Margin="745,0,86.6,25" VerticalAlignment="Bottom" Height="200" BorderBrush="{x:Null}" Foreground="Black" Click="btnResp4_Click" Width="590" FontSize="48">
             <Button.Background>
                 <ImageBrush Stretch="UniformToFill" ImageSource="Resources/Recursos/resp3.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnResp1" Margin="80,340,751.6,0" VerticalAlignment="Top" Height="200" BorderBrush="{x:Null}" Foreground="Black" Click="btnResp1_Click" FontSize="48" Content="resp1-preg1">
+        <Button x:Name="btnResp1" Margin="80,340,751.6,0" VerticalAlignment="Top" Height="200" BorderBrush="{x:Null}" Foreground="Black" Click="btnResp1_Click" FontSize="48" Content="2" FontFamily="Century Gothic">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/resp2.png" Stretch="UniformToFill"/>
             </Button.Background>
