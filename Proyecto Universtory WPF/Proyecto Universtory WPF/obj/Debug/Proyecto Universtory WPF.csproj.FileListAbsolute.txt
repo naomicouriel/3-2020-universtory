@@ -134,7 +134,6 @@ C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proy
 C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\bin\Debug\Proyecto Universtory WPF.exe.config
 C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\bin\Debug\Proyecto Universtory WPF.exe
 C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\bin\Debug\Proyecto Universtory WPF.pdb
-C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\bin\Debug\MACTrackBarLib.dll
 C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\App.baml
 C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Jupiter.baml
 C:\Users\livsz\Documents\GitHub\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Datos_Luna.baml

@@ -482,6 +482,10 @@ namespace Proyecto_Universtory_WPF
                 //¿Cuál fue el primer planeta encontrado con un telescopio?
 
                 case 2:
+                    txtBlockPregunta.Text = "¿Cual fue el primer planeta encontrado con un telescopio?";
+
+                    txtBlockPregunta.FontSize = 50;
+
                     btnResp1.Content = "Marte";
 
                     btnResp2.Content = "Urano";
@@ -491,10 +495,14 @@ namespace Proyecto_Universtory_WPF
                     btnResp4.Content = "Neptuno";
                     break;
 
-                //¿Cuál es el planeta más caliente del Sistema Solar?
+                //¿Cual es el planeta mas caliente del Sistema Solar?
 
 
                 case 3:
+                    txtBlockPregunta.Text = "¿Cual es el planeta mas caliente del Sistema Solar?";
+
+                    txtBlockPregunta.FontSize = 50;
+
                     btnResp1.Content = "Mercurio";
 
                     btnResp2.Content = "La Tierra";
@@ -504,9 +512,13 @@ namespace Proyecto_Universtory_WPF
                     btnResp4.Content = "Venus";
                     break;
 
-                //¿Cuánto tiempo tarda el sistema solar en completar su órbita alrededor del centro de la galaxia?
+                //¿Cuanto tiempo tarda el sistema solar en completar su orbita alrededor del centro de la galaxia?
 
                 case 4:
+                    txtBlockPregunta.Text = "¿Cuanto tiempo tarda el sistema solar en completar su orbita alrededor del centro de la galaxia?";
+
+                    txtBlockPregunta.FontSize = 50;
+
                     btnResp1.Content = "1.200 millones de años";
 
                     btnResp2.Content = "150.000 años";
@@ -516,9 +528,13 @@ namespace Proyecto_Universtory_WPF
                     btnResp4.Content = "8,4 millones de años";
                     break;
 
-                //¿Cuales son los únicos planetas que rotan en dirección opuesta a los demás planetas?
+                //¿Cuales son los unicos planetas que rotan en direccion opuesta a los demas planetas?
 
                 case 5:
+                    txtBlockPregunta.Text = "¿Cuales son los unicos planetas que rotan en direccion opuesta a los demas planetas?";
+
+                    txtBlockPregunta.FontSize = 50;
+
                     btnResp1.Content = "La Tierra y Marte";
 
                     btnResp2.Content = "Urano y Venus";
@@ -528,9 +544,13 @@ namespace Proyecto_Universtory_WPF
                     btnResp4.Content = "Mercurio y Venus";
                     break;
 
-                //¿Cuántos planetas tienen anillos?
+                //¿Cuantos planetas tienen anillos?
 
                 case 6:
+                    txtBlockPregunta.Text = "¿Cuantos planetas tienen anillos?";
+
+                    txtBlockPregunta.FontSize = 72;
+
                     btnResp1.Content = "4";
 
                     btnResp2.Content = "2";
@@ -540,9 +560,13 @@ namespace Proyecto_Universtory_WPF
                     btnResp4.Content = "Todos";
                     break;
 
-                //¿Qué planeta se cree que haya podido albergar vida en el pasado dadas sus condiciones, además de la Tierra?
+                //¿Que planeta se cree que haya podido albergar vida en el pasado dadas sus condiciones, ademas de la Tierra?
 
                 case 7:
+                    txtBlockPregunta.Text = "¿Que planeta se cree que haya podido albergar vida en el pasado dadas sus condiciones, ademas de la Tierra?";
+
+                    txtBlockPregunta.FontSize = 40;
+
                     btnResp1.Content = "Mercurio";
 
                     btnResp2.Content = "Marte";
@@ -552,9 +576,13 @@ namespace Proyecto_Universtory_WPF
                     btnResp4.Content = "Saturno";
                     break;
 
-                //¿Cuál es el objeto más brillante del sistema solar después del sol?
+                //¿Cual es el objeto más brillante del sistema solar despues del sol?
 
                 case 8:
+                    txtBlockPregunta.Text = "¿Cual es el objeto más brillante del sistema solar después del sol?";
+
+                    txtBlockPregunta.FontSize = 50;
+
                     btnResp1.Content = "Jupiter";
 
                     btnResp2.Content = "La Tierra";
@@ -564,9 +592,13 @@ namespace Proyecto_Universtory_WPF
                     btnResp4.Content = "Venus";
                     break;
 
-                //Cómo se llama la unica nave que abandono el sistema solar?
+                //Como se llama la unica nave que abandono el sistema solar?
 
                 case 9:
+                    txtBlockPregunta.Text = "¿Como se llama la unica nave que abandono el sistema solar?";
+
+                    txtBlockPregunta.FontSize = 50;
+
                     btnResp1.Content = "Voyager 1";
 
                     btnResp2.Content = "Apolo 11";
@@ -576,12 +608,16 @@ namespace Proyecto_Universtory_WPF
                     btnResp4.Content = "Por ahora ninguna nave abandono el sistema solar";
                     break;
 
-                //¿Cómo se llama la nube gigante que formó el sistema solar?
+                //¿Como se llama la nube gigante que formo el sistema solar?
 
                 case 10:
+                    txtBlockPregunta.Text = "¿Como se llama la nube gigante que formo el sistema solar?";
+
+                    txtBlockPregunta.FontSize = 50;
+
                     btnResp1.Content = "Niebla Creadora";
 
-                    btnResp2.Content = "Solticio";
+                    btnResp2.Content = "Solsticio";
 
                     btnResp3.Content = "Big-Bang";
 
