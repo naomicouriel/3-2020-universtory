@@ -21,8 +21,6 @@
                 <ImageBrush Stretch="Uniform" ImageSource="Resources/Recursos/datos.png"/>
             </Button.Background>
         </Button>
-        <Label Content="Luna" HorizontalAlignment="Left" Height="134" Margin="87,40,0,0" VerticalAlignment="Top" Width="276" Foreground="White" FontSize="48" FontFamily="Space Quest"/>
-        <Slider x:Name="slider" Margin="0,20,35,0" Background="Black" Foreground="Black" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight" BorderBrush="#00080000" HorizontalAlignment="Right" Width="527" Height="70" VerticalAlignment="Top"/>
         <Ellipse x:Name="EllipseLuna" Margin="405,115,437,95" MouseLeftButtonDown="EllipseLuna_MouseLeftButtonDown">
             <Ellipse.Fill>
                 <SolidColorBrush Color="White" Opacity="0.01"/>

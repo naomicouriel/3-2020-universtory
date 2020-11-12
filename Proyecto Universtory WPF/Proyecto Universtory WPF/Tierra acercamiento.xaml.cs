@@ -25,8 +25,10 @@ namespace Proyecto_Universtory_WPF
         public Tierra_acercamiento()
         {
             InitializeComponent();
-            
+            sliderTierra.Visibility = Visibility.Hidden;
+            deslizalbl.Visibility = Visibility.Hidden;
         }
+        int contadormas = 0;
 
         public void sliderTierra_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
@@ -140,6 +142,23 @@ namespace Proyecto_Universtory_WPF
         {
             MainWindow obj = (MainWindow)Window.GetWindow(this);
             obj.frame.Content = new Luna_acercamiento();
+        }
+
+        private void masbtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (contadormas == 0) {
+                sliderTierra.Visibility = Visibility.Visible;
+                masbtn.Content = "-";
+                deslizalbl.Visibility = Visibility.Visible;
+                contadormas = 1;
+            }
+            else if (contadormas == 1)
+            {
+                sliderTierra.Visibility = Visibility.Hidden;
+                masbtn.Content = "+";
+                deslizalbl.Visibility = Visibility.Hidden;
+                contadormas = 0;
+            }
         }
     }
 }

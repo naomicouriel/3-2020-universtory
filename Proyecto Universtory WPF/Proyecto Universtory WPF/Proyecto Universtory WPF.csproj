@@ -537,6 +537,12 @@
     <Resource Include="Resources\Recursos\resp4.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <None Include="Resources\timer .png" />
+    <None Include="Resources\SIG. TRIVIA.png" />
+=======
+    <Resource Include="Resources\timer .png" />
+>>>>>>> 0641575495838808c35166f90a72c0dc887c0194
     <Resource Include="Resources\SALIR btn_brillante.png" />
     <Resource Include="Resources\TriviaButton_brillante.png" />
     <Resource Include="Resources\VOLVER_brillante.png" />
@@ -565,6 +571,14 @@
     <Resource Include="Resources\atrás_brillante.png" />
     <None Include="Resources\fondo inicio.png" />
     <None Include="Resources\atrás.png" />
+    <None Include="Resources\etapa 1 sol.png" />
+    <None Include="Resources\etapa 2 sol.png" />
+    <None Include="Resources\etapa 3 sol.png" />
+    <None Include="Resources\etapa 3 tierra.png" />
+    <None Include="Resources\etapa tierra 1.png" />
+    <None Include="Resources\etapa tierra 2 .png" />
+    <None Include="Resources\etapa tierra 4.png" />
+    <None Include="Resources\etapa tierra 5.png" />
     <Content Include="Resources\Recursos\Sonidos\universtory_song.wav" />
     <None Include="Resources\universtory_song.wav" />
   </ItemGroup>

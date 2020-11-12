@@ -11,17 +11,19 @@
     </Page.Background>
 
     <Grid>
-        <Slider x:Name="sliderSol" Margin="60,0,840,735" Background="Black" Foreground="White" Height="45" VerticalAlignment="Bottom" Maximum="99" TickFrequency="33" IsSnapToTickEnabled="True" ValueChanged="sliderSol_ValueChanged" TickPlacement="BottomRight" BorderBrush="{x:Null}" LargeChange="33"/>
-        <Button Name ="VolSolbtn" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontFamily="Space quest" Foreground="White" FontSize="24" Click="VolSolbtn_Click" BorderBrush="{x:Null}" Style="{DynamicResource btnAtras}">
+        <Slider x:Name="sliderSol" Margin="852,0,48,719" Background="Black" Foreground="White" Height="45" VerticalAlignment="Bottom" Maximum="99" TickFrequency="33" IsSnapToTickEnabled="True" ValueChanged="sliderSol_ValueChanged" TickPlacement="BottomRight" BorderBrush="{x:Null}" LargeChange="33"/>
+        <Button Name ="VolSolbtn" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontFamily="Space quest" Foreground="White" FontSize="24" Click="VolSolbtn_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button Name="DatSolbtn" Height="54" Margin="0,695,1160,0"  VerticalAlignment="Top" FontFamily="Space quest" Foreground="White" FontSize="24" Click="DatSolbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165" Style="{DynamicResource btnDatos}">
+        <Button Name="DatSolbtn" Height="54" Margin="0,695,1160,0"  VerticalAlignment="Top" FontFamily="Space quest" Foreground="White" FontSize="24" Click="DatSolbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165">
             <Button.Background>
                 <ImageBrush Stretch="Uniform" ImageSource="Resources/Recursos/datos.png"/>
             </Button.Background>
         </Button>
+        <Button FontFamily ="space quest" Name ="masbtn" Content="+" HorizontalAlignment="Center" Foreground ="White" Height="80" Margin="1288,160,48,0" VerticalAlignment="Top" Width="86" FontSize="50" Click="masbtn_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="#FF1F1C72"/>
+        <TextBlock Name ="deslizalbl" Foreground ="White"  Text="Desliza para ver las etapas" HorizontalAlignment="Left" Height="74" Margin="929,81,0,0" VerticalAlignment="Top" Width="378" FontFamily="space quest" FontSize="24" TextAlignment="Center" />
 
     </Grid>
 </Page>

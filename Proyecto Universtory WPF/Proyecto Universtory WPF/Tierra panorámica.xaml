@@ -17,6 +17,10 @@
                 <ImageBrush ImageSource="Resources/VOLVER.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
+        <Button Name ="flecha2" Content="" HorizontalAlignment="Left" Height="86" Margin="1258,270,0,0" VerticalAlignment="Top" Width="112" Click="flecha2_Click"/>
+        <Button Name= "flecha1" Content="" HorizontalAlignment="Left" Height="86" Margin="68,270,0,0" VerticalAlignment="Top" Width="112" Click="flecha1_Click"/>
+        <TextBlock Name ="datcuritxt" HorizontalAlignment="Left" Height="272" Margin="364,236,0,0" TextWrapping="Wrap" Text="La Tierra es el unico lugar en el Sistema Solar donde el agua puede estar en sus tres estados: liquido, gaseoso y solido" VerticalAlignment="Top" Width="688" Foreground="White" FontSize="35" FontFamily="space quest" TextAlignment="Center"/>
+        <Label Name ="datcurilbl" Content="Datos Curiosos" Foreground ="white" FontFamily="space quest" FontSize="50" HorizontalAlignment="Left" Height="100" Margin="482,56,0,0" VerticalAlignment="Top" Width="454"/>
 
     </Grid>
 </Page>
