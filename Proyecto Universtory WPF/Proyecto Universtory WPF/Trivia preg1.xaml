@@ -40,7 +40,7 @@
         </Button>
         <Image HorizontalAlignment="Right" Height="356" Margin="0,32,-106.4,0" VerticalAlignment="Top" Width="573" Source="Resources/timer .png" Stretch="UniformToFill"/>
         <Label x:Name="lblTimer" Content="" HorizontalAlignment="Right" Margin="0,158,9.6,0" VerticalAlignment="Top" Height="157" Width="211" Background="{x:Null}" Foreground="White" FontSize="72"/>
-        <Button x:Name="btnSiguiente" Content="Siguiente" HorizontalAlignment="Left" Margin="653,215,0,505" Width="115" Background="Black" Click="btnSiguiente_Click" Foreground="White" FontSize="22" BorderBrush="{x:Null}" IsEnabled="False" Visibility="Hidden"/>
+        <Button x:Name="btnSiguiente" Content="Siguiente" HorizontalAlignment="Left" Margin="653,215,0,505" Width="115" Background="#FF1F1C72" Click="btnSiguiente_Click" Foreground="White" FontSize="22" BorderBrush="Black" IsEnabled="False" Visibility="Hidden"  Style="{DynamicResource btnFondoAzul}"/>
 
 
     </Grid>

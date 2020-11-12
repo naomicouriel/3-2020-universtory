@@ -8,6 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/mactrackbarlib.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/proyecto%20universtory%20wpf.exe")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/proyecto%20universtory%20wpf.pdb")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/resources/recursos/sonidos/universtory_song.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/resources/universtory_song.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/recursos/sonidos/universtory_song.wav")]
 
 

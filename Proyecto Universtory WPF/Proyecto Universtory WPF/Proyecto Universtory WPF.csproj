@@ -341,6 +341,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="bin\Debug\Proyecto Universtory WPF.exe.config" />
+    <Resource Include="bin\Debug\Resources\Space Quest.ttf" />
+    <Resource Include="bin\Debug\Resources\Tipografía\Space Quest.ttf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -537,12 +540,9 @@
     <Resource Include="Resources\Recursos\resp4.png" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <None Include="Resources\timer .png" />
     <None Include="Resources\SIG. TRIVIA.png" />
-=======
     <Resource Include="Resources\timer .png" />
->>>>>>> 0641575495838808c35166f90a72c0dc887c0194
     <Resource Include="Resources\SALIR btn_brillante.png" />
     <Resource Include="Resources\TriviaButton_brillante.png" />
     <Resource Include="Resources\VOLVER_brillante.png" />
@@ -579,6 +579,113 @@
     <None Include="Resources\etapa tierra 2 .png" />
     <None Include="Resources\etapa tierra 4.png" />
     <None Include="Resources\etapa tierra 5.png" />
+    <Content Include="bin\Debug\MACTrackBarLib.dll" />
+    <Content Include="bin\Debug\Proyecto Universtory WPF.exe" />
+    <Content Include="bin\Debug\Proyecto Universtory WPF.pdb" />
+    <Resource Include="bin\Debug\Resources\896f325e15d28a384baea6fc00bb2942.jpg" />
+    <Resource Include="bin\Debug\Resources\atrás.png" />
+    <Resource Include="bin\Debug\Resources\atrás_brillante.png" />
+    <Resource Include="bin\Debug\Resources\back.png" />
+    <Resource Include="bin\Debug\Resources\boton alien trivia.png" />
+    <Resource Include="bin\Debug\Resources\boton cohete trivia.png" />
+    <Resource Include="bin\Debug\Resources\boton estrella trivia.png" />
+    <Resource Include="bin\Debug\Resources\boton planeta trivia.png" />
+    <Resource Include="bin\Debug\Resources\bot_on_.png" />
+    <Resource Include="bin\Debug\Resources\COHETE VOL.png" />
+    <Resource Include="bin\Debug\Resources\configuracion.png" />
+    <Resource Include="bin\Debug\Resources\data %281%29.png" />
+    <Resource Include="bin\Debug\Resources\datos_brillante.png" />
+    <Resource Include="bin\Debug\Resources\earth panoramic view 2.jpg" />
+    <Resource Include="bin\Debug\Resources\earth panoramic view.jpg" />
+    <Resource Include="bin\Debug\Resources\etapa 1 sol.png" />
+    <Resource Include="bin\Debug\Resources\etapa 2 sol.png" />
+    <Resource Include="bin\Debug\Resources\etapa 3 sol.png" />
+    <Resource Include="bin\Debug\Resources\etapa 3 tierra.png" />
+    <Resource Include="bin\Debug\Resources\etapa tierra 1.png" />
+    <Resource Include="bin\Debug\Resources\etapa tierra 2 .png" />
+    <Resource Include="bin\Debug\Resources\etapa tierra 4.png" />
+    <Resource Include="bin\Debug\Resources\etapa tierra 5.png" />
+    <Resource Include="bin\Debug\Resources\EXIT.png" />
+    <Resource Include="bin\Debug\Resources\fondo inicio.png" />
+    <Resource Include="bin\Debug\Resources\fondo.png" />
+    <Resource Include="bin\Debug\Resources\Image1.bmp" />
+    <Resource Include="bin\Debug\Resources\iniciar.png" />
+    <Resource Include="bin\Debug\Resources\INICIO_este_si.png" />
+    <Resource Include="bin\Debug\Resources\INICIO_este_si_brillante.png" />
+    <Resource Include="bin\Debug\Resources\jupiter.png" />
+    <Resource Include="bin\Debug\Resources\la tierra.png" />
+    <Resource Include="bin\Debug\Resources\luna acercamiento.png" />
+    <Resource Include="bin\Debug\Resources\marte.jpg" />
+    <Resource Include="bin\Debug\Resources\marte.png" />
+    <Resource Include="bin\Debug\Resources\Menu principal.png" />
+    <Resource Include="bin\Debug\Resources\mercurio.jpg" />
+    <Resource Include="bin\Debug\Resources\milky way 2.jpg" />
+    <Resource Include="bin\Debug\Resources\milky way.png" />
+    <Resource Include="bin\Debug\Resources\moon panoramic view.jpg" />
+    <Resource Include="bin\Debug\Resources\neptuno.png" />
+    <Resource Include="bin\Debug\Resources\NEPTUNO_este_si.png" />
+    <Resource Include="bin\Debug\Resources\PLAY.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\atrás.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\bot on .png" />
+    <Resource Include="bin\Debug\Resources\Recursos\Boton respuestas.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\datos.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\EXIT.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\fondo inicio.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\iniciar.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\júpiter.jpg" />
+    <Resource Include="bin\Debug\Resources\Recursos\JÚPITER.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\Luna_acerc.jpg" />
+    <Resource Include="bin\Debug\Resources\Recursos\marte.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\Menu principal planetas.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\Menu principal.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\Menu principal_principal planetas.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\mercurio.jpg" />
+    <Resource Include="bin\Debug\Resources\Recursos\mute.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\muted.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\neptuno.jpg" />
+    <Resource Include="bin\Debug\Resources\Recursos\neptuno_acerc.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\resp1.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\resp2.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\resp3.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\resp4.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\salir.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\saturno.jpg" />
+    <Resource Include="bin\Debug\Resources\Recursos\saturno_acerc.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\sistemasolar4.jpg" />
+    <Resource Include="bin\Debug\Resources\Recursos\Sol.jpg" />
+    <Content Include="bin\Debug\Resources\Recursos\Sonidos\universtory_song.wav" />
+    <Resource Include="bin\Debug\Resources\Recursos\START png.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\start.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\StartButton png.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\tierra_acerc.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\trivia fondo.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\trivia.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\TriviaButton.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\universtory 2.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\universtory fondo.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\urano.jpg" />
+    <Resource Include="bin\Debug\Resources\Recursos\urano_acerc.png" />
+    <Resource Include="bin\Debug\Resources\Recursos\venus.jpg" />
+    <Resource Include="bin\Debug\Resources\SALIR btn.png" />
+    <Resource Include="bin\Debug\Resources\SALIR btn_brillante.png" />
+    <Resource Include="bin\Debug\Resources\salir.png" />
+    <Resource Include="bin\Debug\Resources\saturno.png" />
+    <Resource Include="bin\Debug\Resources\settings white.png" />
+    <Resource Include="bin\Debug\Resources\settings.png" />
+    <Resource Include="bin\Debug\Resources\SIG. TRIVIA.png" />
+    <Resource Include="bin\Debug\Resources\Sol.jpg" />
+    <Resource Include="bin\Debug\Resources\sol.png" />
+    <Resource Include="bin\Debug\Resources\Space Quest.png" />
+    <Resource Include="bin\Debug\Resources\START.png" />
+    <Resource Include="bin\Debug\Resources\tierra-en-el-espacio_1661937516.jpg" />
+    <Resource Include="bin\Debug\Resources\timer .png" />
+    <Resource Include="bin\Debug\Resources\TriviaButton_brillante.png" />
+    <Content Include="bin\Debug\Resources\universtory_song.wav" />
+    <Resource Include="bin\Debug\Resources\urano.png" />
+    <Resource Include="bin\Debug\Resources\URANO_este_si.png" />
+    <Resource Include="bin\Debug\Resources\VOLUMEN PAUSA.png" />
+    <Resource Include="bin\Debug\Resources\VOLVER.png" />
+    <Resource Include="bin\Debug\Resources\VOLVER_brillante.png" />
     <Content Include="Resources\Recursos\Sonidos\universtory_song.wav" />
     <None Include="Resources\universtory_song.wav" />
   </ItemGroup>

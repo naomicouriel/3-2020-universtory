@@ -34,9 +34,18 @@ namespace Proyecto_Universtory_WPF
         {
             double sliderTierra = e.NewValue;
 
-            if (sliderTierra == 20)
+            if (sliderTierra == 0)
             {
-                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
+                Uri resourceUri = new Uri("Resources/Recursos/tierra_acerc.png", UriKind.Relative);
+                StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
+                BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
+                var icon = new ImageBrush { ImageSource = temp };
+                this.Background = icon;
+            }
+
+            else if (sliderTierra == 20)
+            {
+                Uri resourceUri = new Uri("Resources/etapa tierra 1.png", UriKind.Relative);
                 StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
@@ -47,7 +56,7 @@ namespace Proyecto_Universtory_WPF
 
             else if (sliderTierra == 40)
             {
-                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
+                Uri resourceUri = new Uri("Resources/etapa tierra 2 .png", UriKind.Relative);
                 StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
@@ -58,7 +67,7 @@ namespace Proyecto_Universtory_WPF
 
             else if (sliderTierra == 60)
             {
-                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
+                Uri resourceUri = new Uri("Resources/etapa 3 tierra.png", UriKind.Relative);
                 StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
@@ -69,7 +78,7 @@ namespace Proyecto_Universtory_WPF
 
             else if (sliderTierra == 80)
             {
-                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
+                Uri resourceUri = new Uri("Resources/etapa tierra 4.png", UriKind.Relative);
                 StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
@@ -80,7 +89,7 @@ namespace Proyecto_Universtory_WPF
 
             else if (sliderTierra == 100)
             {
-                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
+                Uri resourceUri = new Uri("Resources/etapa tierra 5.png", UriKind.Relative);
                 StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };

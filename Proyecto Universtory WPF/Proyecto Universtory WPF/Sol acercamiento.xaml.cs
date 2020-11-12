@@ -33,28 +33,40 @@ namespace Proyecto_Universtory_WPF
         {
             double sliderSol = e.NewValue;
 
-            if (sliderSol == 33)
+            if (sliderSol == 0)
             {
-                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
-                StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
+                Uri resourceUri = new Uri("Resources/sol.png", UriKind.Relative);
+                StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
+                this.Background = icon;
+            }
+
+            else if (sliderSol == 33)
+            {
+                Uri resourceUri = new Uri("Resources/etapa 1 sol.png", UriKind.Relative);
+                StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
+                BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
+                var icon = new ImageBrush { ImageSource = temp };
+                this.Background = icon;
             }
 
             else if (sliderSol == 66)
             {
-                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
-                StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
+                Uri resourceUri = new Uri("Resources/etapa 2 sol.png", UriKind.Relative);
+                StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
+                this.Background = icon;
             }
 
             else if (sliderSol == 99)
             {
-                Uri resourceUri = new Uri("Resources/Recursos/universtory fondo.png", UriKind.Relative);
-                StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
+                Uri resourceUri = new Uri("Resources/etapa 3 sol.png", UriKind.Relative);
+                StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
+                this.Background = icon;
             }
         }
 

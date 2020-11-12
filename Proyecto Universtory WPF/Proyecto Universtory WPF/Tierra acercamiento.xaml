@@ -11,41 +11,31 @@
     </Page.Background>
 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="701*"/>
-            <ColumnDefinition Width="10*"/>
-        </Grid.ColumnDefinitions>
-        <Button Name = "TierraVolbtn" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontSize="24" Foreground="{x:Null}" FontFamily="Space quest" Click="TierraVolbtn_Click" BorderBrush="{x:Null}">
+
+        <Button Name = "TierraVolbtn" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontSize="24" Foreground="{x:Null}" FontFamily="Space quest" Click="TierraVolbtn_Click" BorderBrush="{x:Null}" Style="{DynamicResource btnAtras}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
+        <Slider x:Name="sliderTierra" Margin="795,0,57,695" Foreground="White" Height="55" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="sliderTierra_ValueChanged" BorderBrush="{x:Null}" Value="{Binding CurrentProgress}" Background="Black" TickPlacement="BottomRight"/>
 
-<<<<<<< HEAD
-        <Slider x:Name="sliderTierra" Margin="795,0,57,695" Foreground="Black" Height="55" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="sliderTierra_ValueChanged" BorderBrush="{x:Null}" Value="{Binding CurrentProgress}" Background="Black" TickPlacement="BottomRight"/>
-=======
-
-        <Slider x:Name="sliderTierra" Margin="795,0,57,695" Foreground="Black" Height="55" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="sliderTierra_ValueChanged" BorderBrush="{x:Null}" Value="{Binding CurrentProgress}" Background="Black" TickPlacement="BottomRight"/>
-
-
->>>>>>> 0641575495838808c35166f90a72c0dc887c0194
         <Ellipse x:Name="EllipseTierra" HorizontalAlignment="Left" Height="698" Margin="135,35,0,0" VerticalAlignment="Top" Width="701" MouseLeftButtonDown="EllipseTierra_MouseLeftButtonDown">
             <Ellipse.Fill>
                 <SolidColorBrush Color="White" Opacity="0.01"/>
             </Ellipse.Fill>
         </Ellipse>
-        <Image HorizontalAlignment="Left" Height="305" Margin="877,170,0,0" VerticalAlignment="Top" Width="523" Source="Resources/luna acercamiento.png" Stretch="UniformToFill"/>
+        <Image x:Name="imgLuna" HorizontalAlignment="Left" Height="305" Margin="877,170,0,0" VerticalAlignment="Top" Width="523" Source="Resources/luna acercamiento.png" Stretch="UniformToFill"/>
         <Ellipse x:Name="EllipseLuna" Margin="1030,215,152,360" MouseLeftButtonDown="EllipseLuna_MouseLeftButtonDown">
             <Ellipse.Fill>
                 <SolidColorBrush Color="White" Opacity="0.01"/>
             </Ellipse.Fill>
         </Ellipse>
-        <Button Name ="DatTiebtn" Content="" Height="54" Margin="0,695,1140,0" VerticalAlignment="Top" FontSize="24" Foreground="{x:Null}" FontFamily="Space Quest" Click="DatTiebtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165">
+        <Button Name ="DatTiebtn" Content="" Height="54" Margin="0,695,1140,0" VerticalAlignment="Top" FontSize="24" Foreground="{x:Null}" FontFamily="Space Quest" Click="DatTiebtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165" Style="{DynamicResource btnDatos}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/datos.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button x:Name="masbtn" FontFamily="space quest" Content="+" HorizontalAlignment="Center" Height="77" Margin="1290,114,36,0" VerticalAlignment="Top" Width="76" FontSize="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="masbtn_Click" Background="#FF1F1C72" Foreground="White"/>
+        <Button x:Name="masbtn" FontFamily="space quest" Content="+" HorizontalAlignment="Left" Height="77" Margin="1290,114,0,0" VerticalAlignment="Top" Width="76" FontSize="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="masbtn_Click" Background="#FF1F1C72" Foreground="White" BorderBrush="{x:Null}" Style="{DynamicResource btnFondoAzul}"/>
         <TextBlock Name ="deslizalbl" HorizontalAlignment="Left" Height="65" Margin="877,92,0,0" TextWrapping="Wrap" Text="Desliza para ver las etapas" VerticalAlignment="Top" Width="390" Foreground="White" FontFamily="space quest" FontSize="24" Background="Black" />
     </Grid>
 </Page>
