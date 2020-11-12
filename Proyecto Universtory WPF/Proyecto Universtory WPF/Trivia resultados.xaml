@@ -13,6 +13,6 @@
                 <ImageBrush ImageSource="Resources/VOLVER.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Label x:Name="lblResFinal" Foreground="White" Margin="225,120,852,570" Content="Resultado" FontSize="72"/>
+        <Label x:Name="lblResFinal" Foreground="White" Margin="131,120,237.6,475" Content="Resultado" FontSize="72"/>
     </Grid>
 </Page>

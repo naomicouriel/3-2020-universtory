@@ -25,6 +25,14 @@ namespace Proyecto_Universtory_WPF
 
         int contador = 1;
 
+        public int contBtn1 = 1;
+
+        public int contBtn2 = 1;
+
+        public int contBtn3 = 1;
+
+        public int contBtn4 = 1;
+
         internal static int puntaje;
 
         DispatcherTimer temporizador = new DispatcherTimer();
@@ -41,6 +49,16 @@ namespace Proyecto_Universtory_WPF
 
                 if (tiempo == 0)
                 {
+                    contBtn1 = 0;
+
+                    contBtn2 = 0;
+
+                    contBtn3 = 0;
+
+                    contBtn4 = 0;
+                    
+                    btnSiguiente.Visibility = Visibility.Visible; 
+
                     btnResp1.Background = Brushes.Red;
 
                     btnResp2.Background = Brushes.Red;
@@ -62,286 +80,388 @@ namespace Proyecto_Universtory_WPF
 
         void btnResp1_Click(object sender, RoutedEventArgs e)
         {
-            
-            // Falta como cambiar el texto todavia no se 
 
-            switch (contador)
+            if (contBtn1 == 1)
             {
-                case 1:
-                    btnResp1.Background = Brushes.Red;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 2:
-                    btnResp1.Background = Brushes.Red;
+                switch (contador)
+                {
+                    case 1:
+                        btnResp1.Background = Brushes.Red;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 3:
-                    btnResp1.Background = Brushes.Red;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 2:
+                        btnResp1.Background = Brushes.Red;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 4:
-                    btnResp1.Background = Brushes.Red;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 3:
+                        btnResp1.Background = Brushes.Red;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 5:
-                    btnResp1.Background = Brushes.Red;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 4:
+                        btnResp1.Background = Brushes.Red;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 6:
-                    btnResp1.Background = Brushes.Green;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 5:
+                        btnResp1.Background = Brushes.Red;
 
-                    temporizador.Stop();
+                        puntaje = puntaje - 2;
+                        break;
+                    case 6:
+                        btnResp1.Background = Brushes.Green;
 
-                    btnSiguiente.IsEnabled = true;
+                        temporizador.Stop();
 
-                    puntaje = puntaje + 10;
-                    break;
-                case 7:
-                    btnResp1.Background = Brushes.Red;
+                        btnSiguiente.IsEnabled = true;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 8:
-                    btnResp1.Background = Brushes.Red;
+                        puntaje = puntaje + 10;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 9:
-                    btnResp1.Background = Brushes.Green;
+                        btnSiguiente.Visibility = Visibility.Visible;
 
-                    temporizador.Stop();
+                        contBtn2 = 0;
 
-                    btnSiguiente.IsEnabled = true;
+                        contBtn3 = 0;
 
-                    puntaje = puntaje + 10;
-                    break;
-                case 10:
-                    btnResp1.Background = Brushes.Red;
+                        contBtn4 = 0;
+                        break;
+                    case 7:
+                        btnResp1.Background = Brushes.Red;
 
-                    puntaje = puntaje - 2;
-                    break;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 8:
+                        btnResp1.Background = Brushes.Red;
 
+                        puntaje = puntaje - 2;
+                        break;
+                    case 9:
+                        btnResp1.Background = Brushes.Green;
+
+                        temporizador.Stop();
+
+                        btnSiguiente.IsEnabled = true;
+
+                        puntaje = puntaje + 10;
+
+                        btnSiguiente.Visibility = Visibility.Visible;
+
+                        contBtn2 = 0;
+
+                        contBtn3 = 0;
+
+                        contBtn4 = 0;
+                        break;
+                    case 10:
+                        btnResp1.Background = Brushes.Red;
+
+                        puntaje = puntaje - 2;
+                        break;
+
+                }
             }
+            contBtn1 = 0;
         }
 
         void btnResp2_Click(object sender, RoutedEventArgs e)
         {
-
-
-            switch (contador)
+            if (contBtn2 == 1)
             {
-                case 1:
-                    btnResp2.Background = Brushes.Red;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 2:
-                    btnResp2.Background = Brushes.Green;
+                switch (contador)
+                {
+                    case 1:
+                        btnResp2.Background = Brushes.Red;
 
-                    temporizador.Stop();
+                        puntaje = puntaje - 2;
+                        break;
+                    case 2:
+                        btnResp2.Background = Brushes.Green;
 
-                    btnSiguiente.IsEnabled = true;
+                        temporizador.Stop();
 
-                    puntaje = puntaje + 10;
-                    break;
-                case 3:
-                    btnResp2.Background = Brushes.Red;
+                        btnSiguiente.IsEnabled = true;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 4:
-                    btnResp2.Background = Brushes.Red;
+                        puntaje = puntaje + 10;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 5:
-                    btnResp2.Background = Brushes.Green;
+                        btnSiguiente.Visibility = Visibility.Visible;
 
-                    puntaje = puntaje + 10;
+                        contBtn1 = 0;
 
-                    btnSiguiente.IsEnabled = true;
+                        contBtn3 = 0;
 
-                    temporizador.Stop();
-                    break;
-                case 6:
-                    btnResp2.Background = Brushes.Red;
+                        contBtn4 = 0;
+                        break;
+                    case 3:
+                        btnResp2.Background = Brushes.Red;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 7:
-                    btnResp2.Background = Brushes.Green;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 4:
+                        btnResp2.Background = Brushes.Red;
 
-                    puntaje = puntaje + 10;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 5:
+                        btnResp2.Background = Brushes.Green;
 
-                    temporizador.Stop();
+                        puntaje = puntaje + 10;
 
-                    btnSiguiente.IsEnabled = true;
-                    break;
-                case 8:
-                    btnResp2.Background = Brushes.Red;
+                        btnSiguiente.IsEnabled = true;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 9:
-                    btnResp2.Background = Brushes.Red;
+                        temporizador.Stop();
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 10:
-                    btnResp2.Background = Brushes.Red;
+                        btnSiguiente.Visibility = Visibility.Visible;
 
-                    puntaje = puntaje - 2;
-                    break;
+                        contBtn1 = 0;
+
+                        contBtn3 = 0;
+
+                        contBtn4 = 0;
+                        break;
+                    case 6:
+                        btnResp2.Background = Brushes.Red;
+
+                        puntaje = puntaje - 2;
+                        break;
+                    case 7:
+                        btnResp2.Background = Brushes.Green;
+
+                        puntaje = puntaje + 10;
+
+                        temporizador.Stop();
+
+                        btnSiguiente.IsEnabled = true;
+
+                        btnSiguiente.Visibility = Visibility.Visible;
+
+                        contBtn1 = 0;
+
+                        contBtn3 = 0;
+
+                        contBtn4 = 0;
+                        break;
+                    case 8:
+                        btnResp2.Background = Brushes.Red;
+
+                        puntaje = puntaje - 2;
+                        break;
+                    case 9:
+                        btnResp2.Background = Brushes.Red;
+
+                        puntaje = puntaje - 2;
+                        break;
+                    case 10:
+                        btnResp2.Background = Brushes.Red;
+
+                        puntaje = puntaje - 2;
+                        break;
+                }
             }
+            contBtn2 = 0;
         }
 
         void btnResp3_Click(object sender, RoutedEventArgs e)
         {
-
-
-            switch (contador)
+            if (contBtn3 == 1)
             {
-                case 1:
-                    btnResp3.Background = Brushes.Green;
 
-                    temporizador.Stop();
+                switch (contador)
+                {
+                    case 1:
+                        btnResp3.Background = Brushes.Green;
 
-                    btnSiguiente.IsEnabled = true;
+                        temporizador.Stop();
 
-                    puntaje = puntaje + 10;
-                    break;
-                case 2:
-                    btnResp3.Background = Brushes.Red;
+                        btnSiguiente.IsEnabled = true;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 3:
-                    btnResp3.Background = Brushes.Red;
+                        puntaje = puntaje + 10;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 4:
-                    btnResp3.Background = Brushes.Green;
+                        btnSiguiente.Visibility = Visibility.Visible;
 
-                    temporizador.Stop();
+                        contBtn1 = 0;
 
-                    btnSiguiente.IsEnabled = true;
+                        contBtn2 = 0;
 
-                    puntaje = puntaje + 10;
-                    break;
-                case 5:
-                    btnResp3.Background = Brushes.Red;
+                        contBtn4 = 0;
+                        break;
+                    case 2:
+                        btnResp3.Background = Brushes.Red;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 6:
-                    btnResp3.Background = Brushes.Red;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 3:
+                        btnResp3.Background = Brushes.Red;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 7:
-                    btnResp3.Background = Brushes.Red;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 4:
+                        btnResp3.Background = Brushes.Green;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 8:
-                    btnResp3.Background = Brushes.Green;
+                        temporizador.Stop();
 
-                    puntaje = puntaje + 10;
+                        btnSiguiente.IsEnabled = true;
 
-                    temporizador.Stop();
+                        puntaje = puntaje + 10;
 
-                    btnSiguiente.IsEnabled = true;
-                    break;
-                case 9:
-                    btnResp3.Background = Brushes.Red;
+                        btnSiguiente.Visibility = Visibility.Visible;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 10:
-                    btnResp3.Background = Brushes.Red;
+                        contBtn1 = 0;
 
-                    puntaje = puntaje - 2;
-                    break;
+                        contBtn2 = 0;
+
+                        contBtn4 = 0;
+                        break;
+                    case 5:
+                        btnResp3.Background = Brushes.Red;
+
+                        puntaje = puntaje - 2;
+                        break;
+                    case 6:
+                        btnResp3.Background = Brushes.Red;
+
+                        puntaje = puntaje - 2;
+                        break;
+                    case 7:
+                        btnResp3.Background = Brushes.Red;
+
+                        puntaje = puntaje - 2;
+                        break;
+                    case 8:
+                        btnResp3.Background = Brushes.Green;
+
+                        puntaje = puntaje + 10;
+
+                        btnSiguiente.Visibility = Visibility.Visible;
+
+                        temporizador.Stop();
+
+                        btnSiguiente.IsEnabled = true;
+
+                        contBtn1 = 0;
+
+                        contBtn2 = 0;
+
+                        contBtn4 = 0;
+                        break;
+                    case 9:
+                        btnResp3.Background = Brushes.Red;
+
+                        puntaje = puntaje - 2;
+                        break;
+                    case 10:
+                        btnResp3.Background = Brushes.Red;
+
+                        puntaje = puntaje - 2;
+                        break;
+                }
             }
+            contBtn3 = 0;
         }
 
         void btnResp4_Click(object sender, RoutedEventArgs e)
         {
-
-
-            switch (contador)
+            if (contBtn4 == 1)
             {
-                case 1:
-                    btnResp4.Background = Brushes.Red;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 2:
-                    btnResp4.Background = Brushes.Red;
+                switch (contador)
+                {
+                    case 1:
+                        btnResp4.Background = Brushes.Red;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 3:
-                    btnResp4.Background = Brushes.Green;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 2:
+                        btnResp4.Background = Brushes.Red;
 
-                    puntaje = puntaje + 10;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 3:
+                        btnResp4.Background = Brushes.Green;
 
-                    temporizador.Stop();
+                        puntaje = puntaje + 10;
 
-                    btnSiguiente.IsEnabled = true;
-                    break;
-                case 4:
-                    btnResp4.Background = Brushes.Red;
+                        temporizador.Stop();
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 5:
-                    btnResp4.Background = Brushes.Red;
+                        btnSiguiente.IsEnabled = true;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 6:
-                    btnResp4.Background = Brushes.Red;
+                        btnSiguiente.Visibility = Visibility.Visible;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 7:
-                    btnResp4.Background = Brushes.Red;
+                        contBtn1 = 0;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 8:
-                    btnResp4.Background = Brushes.Red;
+                        contBtn2 = 0;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 9:
-                    btnResp4.Background = Brushes.Red;
+                        contBtn3 = 0;
+                        break;
+                    case 4:
+                        btnResp4.Background = Brushes.Red;
 
-                    puntaje = puntaje - 2;
-                    break;
-                case 10:
-                    btnResp4.Background = Brushes.Green;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 5:
+                        btnResp4.Background = Brushes.Red;
 
-                    puntaje = puntaje + 10;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 6:
+                        btnResp4.Background = Brushes.Red;
 
-                    temporizador.Stop();
+                        puntaje = puntaje - 2;
+                        break;
+                    case 7:
+                        btnResp4.Background = Brushes.Red;
 
-                    btnSiguiente.IsEnabled = true;
-                    break;
+                        puntaje = puntaje - 2;
+                        break;
+                    case 8:
+                        btnResp4.Background = Brushes.Red;
+
+                        puntaje = puntaje - 2;
+                        break;
+                    case 9:
+                        btnResp4.Background = Brushes.Red;
+
+                        puntaje = puntaje - 2;
+                        break;
+                    case 10:
+                        btnResp4.Background = Brushes.Green;
+
+                        puntaje = puntaje + 10;
+
+                        btnSiguiente.Visibility = Visibility.Visible;
+
+                        temporizador.Stop();
+
+                        btnSiguiente.IsEnabled = true;
+
+                        contBtn1 = 0;
+
+                        contBtn2 = 0;
+
+                        contBtn3 = 0;
+                        break;
+                }
             }
+            contBtn4 = 0;
         }
 
 
         void btnSiguiente_Click(object sender, RoutedEventArgs e)
         {
+            contBtn1 = 1;
+
+            contBtn2 = 1;
+
+            contBtn3 = 1;
+
+            contBtn4 = 1;
+            
             btnSiguiente.IsEnabled = false;
+
+            btnSiguiente.Visibility = Visibility.Hidden;
 
             contador++;
 
@@ -444,9 +564,6 @@ namespace Proyecto_Universtory_WPF
                     MainWindow obj = (MainWindow)Window.GetWindow(this);
                     obj.frame.Content = new Trivia_resultados();
                     break;
-
-
-
             }
         }
     }
