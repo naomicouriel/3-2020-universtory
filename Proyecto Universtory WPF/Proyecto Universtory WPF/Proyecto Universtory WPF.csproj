@@ -537,6 +537,7 @@
     <Resource Include="Resources\Recursos\resp4.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\timer .png" />
     <Resource Include="Resources\SALIR btn_brillante.png" />
     <Resource Include="Resources\TriviaButton_brillante.png" />
     <Resource Include="Resources\VOLVER_brillante.png" />
