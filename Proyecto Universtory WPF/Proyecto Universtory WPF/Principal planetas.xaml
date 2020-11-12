@@ -56,7 +56,7 @@
                 <SolidColorBrush Color="White" Opacity="0.01"/>
             </Ellipse.Fill>
         </Ellipse>
-        <Button Name="VolPPbtn" Content="" HorizontalAlignment="Left" Height="50" Margin="1075,700,0,0" VerticalAlignment="Top" Width="272" FontFamily="space quest" FontSize="24" Click="VolPPbtn_Click" BorderBrush="{x:Null}" Style="{DynamicResource btnVolver}">
+        <Button Name="VolPPbtn" Content="" HorizontalAlignment="Left" Height="50" Margin="1075,700,0,0" VerticalAlignment="Top" Width="272" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="24" Click="VolPPbtn_Click" BorderBrush="{x:Null}" Style="{DynamicResource btnVolver}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/VOLVER.png" Stretch="Uniform"/>
             </Button.Background>

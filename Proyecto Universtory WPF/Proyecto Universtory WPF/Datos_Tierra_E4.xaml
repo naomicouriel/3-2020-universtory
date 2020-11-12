@@ -10,13 +10,13 @@
         <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
-        <TextBlock Name ="datTieE4txt" Text="En las erupciones se generaba vapor de agua que, al ascender por la atmósfera, se hacía líquida, dando origen a las primeras lluvias. Al cabo del tiempo, con la corteza más fría, el agua de las precipitaciones se pudo mantener líquida en las zonas más profundas de la corteza terrestre, formando mares y océanos, es decir, una hidrosfera." HorizontalAlignment="Left" Height="200" Margin="61,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
+        <TextBlock Name ="datTieE4txt" Text="En las erupciones se generaba vapor de agua que, al ascender por la atmósfera, se hacía líquida, dando origen a las primeras lluvias. Al cabo del tiempo, con la corteza más fría, el agua de las precipitaciones se pudo mantener líquida en las zonas más profundas de la corteza terrestre, formando mares y océanos, es decir, una hidrosfera." HorizontalAlignment="Left" Height="200" Margin="61,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="19"/>
         <Button Name ="salirDatTieE4" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24" Style="{DynamicResource btnSalir}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/salir.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Label Content="CUARTA ETAPA" HorizontalAlignment="Left" Height="68" Margin="61,37,0,0" VerticalAlignment="Top" Width="284" Foreground="White" FontFamily="space quest" FontSize="26" />
+        <Label Content="CUARTA ETAPA" HorizontalAlignment="Left" Height="68" Margin="61,37,0,0" VerticalAlignment="Top" Width="284" Foreground="White" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="26" />
 
     </Grid>
 </Window>

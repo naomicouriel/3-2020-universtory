@@ -10,13 +10,13 @@
         <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
-        <TextBlock Name ="datTieE3txt" Text="Con el tiempo la corteza se secó y se volvió sólida. En las partes más bajas se acumuló el agua mientras que, por encima de la corteza terrestre, se formaba una capa de gases, la atmósfera. Esto se generó gracias a la gran cantidad de erupciones volcánicas." HorizontalAlignment="Left" Height="156" Margin="64,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
+        <TextBlock Name ="datTieE3txt" Text="Con el tiempo la corteza se secó y se volvió sólida. En las partes más bajas se acumuló el agua mientras que, por encima de la corteza terrestre, se formaba una capa de gases, la atmósfera. Esto se generó gracias a la gran cantidad de erupciones volcánicas." HorizontalAlignment="Left" Height="156" Margin="64,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="19"/>
         <Button Name ="salirDatTieE3" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24" Style="{DynamicResource btnSalir}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/salir.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Label Content="TERCERA ETAPA" HorizontalAlignment="Left" Height="48" Margin="64,49,0,0" VerticalAlignment="Top" Width="224" Foreground="WHITE" FontFamily="space quest" FontSize="26"/>
+        <Label Content="TERCERA ETAPA" HorizontalAlignment="Left" Height="48" Margin="64,49,0,0" VerticalAlignment="Top" Width="224" Foreground="WHITE" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="26"/>
 
     </Grid>
 </Window>
