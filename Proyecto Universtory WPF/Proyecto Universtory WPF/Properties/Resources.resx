@@ -202,4 +202,34 @@
   <data name="fondo_inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondo inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="etapa_1_sol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\etapa 1 sol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="etapa_2_sol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\etapa 2 sol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="etapa_3_sol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\etapa 3 sol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="etapa_3_tierra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\etapa 3 tierra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="etapa_tierra_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\etapa tierra 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="etapa_tierra_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\etapa tierra 2 .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="etapa_tierra_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\etapa tierra 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="etapa_tierra_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\etapa tierra 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SIG__TRIVIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SIG. TRIVIA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="timer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\timer .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
