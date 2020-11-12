@@ -5,17 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
         mc:Ignorable="d"
-        Title="Datos_Saturno" Height="500" Width="800">
+        Title="Datos_Saturno" Height="500" Width="800" AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Window.Background>
         <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
-        <Button Name="salDatSat" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="space quest" Foreground="white" FontSize="24" Click="salDatSat_Click" BorderBrush="{x:Null}">
+        <Button Name="salDatSat" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="space quest" Foreground="white" FontSize="24" Click="salDatSat_Click" BorderBrush="{x:Null}" Style="{DynamicResource btnSalir}">
             <Button.Background>
                 <ImageBrush Stretch="Uniform" ImageSource="Resources/Recursos/salir.png"/>
             </Button.Background>
         </Button>
-        <TextBlock Name="DatSattxt" HorizontalAlignment="Left" Height="327" Margin="27,41,0,0" TextWrapping="Wrap" Text="Saturno parece una estrella amarilla. No es el único planeta que tiene anillos, pero definitivamente tiene los más bellos. Los anillos que vemos están compuestos por grupos de pequeños aros que rodean a Saturno: siete anillos con varios espacios y divisiones entre ellos. Están hechos de pedazos de hielo y rocas. Como Júpiter, Saturno es una pelota de hidrógeno y helio, en gran parte. Este planeta tiene 53 lunas conocidas con 29 lunas adicionales en espera de la confirmación de su descubrimiento, es decir, un total de 82 lunas." VerticalAlignment="Top" Width="608" FontFamily="space quest" Foreground="white" FontSize="22" RenderTransformOrigin="0.5,0.5">
+        <TextBlock Name="DatSattxt" HorizontalAlignment="Left" Height="284" Margin="27,41,0,0" TextWrapping="Wrap" Text="Saturno parece una estrella amarilla. No es el único planeta que tiene anillos, pero definitivamente tiene los más bellos. Los anillos que vemos están compuestos por grupos de pequeños aros que rodean a Saturno: siete anillos con varios espacios y divisiones entre ellos. Están hechos de pedazos de hielo y rocas. Como Júpiter, Saturno es una pelota de hidrógeno y helio, en gran parte. Este planeta tiene 53 lunas conocidas con 29 lunas adicionales en espera de la confirmación de su descubrimiento, es decir, un total de 82 lunas." VerticalAlignment="Top" Width="608" FontFamily="space quest" Foreground="white" FontSize="22" RenderTransformOrigin="0.5,0.5">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

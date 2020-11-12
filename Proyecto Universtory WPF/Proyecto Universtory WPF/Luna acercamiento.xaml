@@ -11,12 +11,12 @@
     </Page.Background>
 
     <Grid>
-        <Button Name ="LunaVolv" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="LunaVolv_Click_1" BorderBrush="{x:Null}">
+        <Button Name ="LunaVolv" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="LunaVolv_Click_1" BorderBrush="{x:Null}" Style="{DynamicResource btnAtras}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button Name = "DatLunbtn" Content="" Height="54" Margin="0,695,1160,0" VerticalAlignment="Top" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatLunbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165">
+        <Button Name = "DatLunbtn" Content="" Height="54" Margin="0,695,1160,0" VerticalAlignment="Top" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatLunbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165" Style="{DynamicResource btnDatos}">
             <Button.Background>
                 <ImageBrush Stretch="Uniform" ImageSource="Resources/Recursos/datos.png"/>
             </Button.Background>

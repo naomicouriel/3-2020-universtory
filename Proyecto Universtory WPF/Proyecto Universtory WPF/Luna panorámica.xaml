@@ -12,7 +12,7 @@
     </Page.Background>
 
     <Grid>
-        <Button Name = "btnPanoLuna" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontSize="24" Foreground="{x:Null}" FontFamily="Space quest" BorderBrush="{x:Null}" Click="btnPanoLuna_Click">
+        <Button Name = "btnPanoLuna" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontSize="24" Foreground="{x:Null}" FontFamily="Space quest" BorderBrush="{x:Null}" Click="btnPanoLuna_Click" Style="{DynamicResource btnVolver}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/VOLVER.png" Stretch="Uniform"/>
             </Button.Background>

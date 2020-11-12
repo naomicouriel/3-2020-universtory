@@ -5,18 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
         mc:Ignorable="d"
-        Title="Datos_Marte" Height="500" Width="800">
+        Title="Datos_Marte" Height="500" Width="800" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Window.Background>
         <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
-        <Button Name = "salirDatMar" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
+        <Button Name = "salirDatMar" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24" Style="{DynamicResource btnSalir}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/salir.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
         <TextBlock Name="DatMartxt" Text="Marte se observa en el cielo nocturno brillante pero rojo y por ello se le puso el nombre del dios romano de la guerra. Es un planeta desértico y frío, con la mitad del tamaño de la Tierra. Este dinámico planeta tiene estaciones, casquetes polares, cañones, volcanes extintos y evidencia de que fue aún más activo en el pasado. Hay signos de antiguas inundaciones en Marte, pero ahora el agua existe principalmente en su polvo helado y sus nubes delgadas. En algunas laderas marcianas, se han encontrado pruebas de agua líquida salada. Los científicos quieren saber si Marte podría haber tenido seres vivos en el pasado. También quieren saber si Marte podría albergar vida ahora o en el futuro.
-Marte es uno de los cuerpos más explorados de nuestro sistema solar, y es el único planeta al que hemos enviado astros móviles. Actualmente, la NASA tiene tres naves espaciales en órbita, y tiene un rover y un módulo de aterrizaje en la superficie."  HorizontalAlignment="Left" Height="426" Margin="48,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="690" Foreground="white" FontFamily="space quest" FontSize="18"/>
+Marte es uno de los cuerpos más explorados de nuestro sistema solar, y es el único planeta al que hemos enviado astros móviles. Actualmente, la NASA tiene tres naves espaciales en órbita, y tiene un rover y un módulo de aterrizaje en la superficie."  HorizontalAlignment="Left" Height="302" Margin="48,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="690" Foreground="white" FontFamily="space quest" FontSize="18"/>
 
     </Grid>
 </Window>

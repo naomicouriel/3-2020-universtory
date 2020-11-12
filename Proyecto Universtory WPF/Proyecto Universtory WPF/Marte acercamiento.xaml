@@ -11,13 +11,13 @@
     </Page.Background>
 
     <Grid>
-        <Button Name = "MarteVolbtn" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0"  VerticalAlignment="Top" Width="165" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="MarteVolbtn_Click" BorderBrush="{x:Null}">
+        <Button Name = "MarteVolbtn" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0"  VerticalAlignment="Top" Width="165" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="MarteVolbtn_Click" BorderBrush="{x:Null}" Style="{DynamicResource btnAtras}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
         <Label x:Name="Titulo_Marte" Content="Marte" HorizontalAlignment="Left" Height="64" Margin="103,38,0,0" VerticalAlignment="Top" Width="198" AutomationProperties.Name="martetitle" Foreground="White" FontSize="48" FontFamily="Space Quest" />
-        <Button Name ="DatMarbtn" Content="" Margin="0,695,1160,0"   VerticalAlignment="Top" Height="54" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatMarbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165">
+        <Button Name ="DatMarbtn" Content="" Margin="0,695,1160,0"   VerticalAlignment="Top" Height="54" FontSize="24" Foreground="White" FontFamily="Space Quest" Click="DatMarbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165" Style="{DynamicResource btnDatos}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/datos.png" Stretch="Uniform"/>
             </Button.Background>

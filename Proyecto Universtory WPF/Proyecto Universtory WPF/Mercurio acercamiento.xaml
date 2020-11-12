@@ -12,12 +12,12 @@
     </Page.Background>
 
     <Grid>
-        <Button Name ="VolMerbtn" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0"  VerticalAlignment="Top" Width="165" FontFamily="Space quest" Foreground="White" FontSize="24" BorderBrush="{x:Null}" Click="VolMerbtn_Click_1">
+        <Button Name ="VolMerbtn" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0"  VerticalAlignment="Top" Width="165" FontFamily="Space quest" Foreground="White" FontSize="24" BorderBrush="{x:Null}" Click="VolMerbtn_Click_1" Style="{DynamicResource btnAtras}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button Name ="DatMerbtn" Content="" Height="54" Margin="0,695,1160,0" VerticalAlignment="Top" FontFamily="Space quest" Foreground="White" FontSize="24" BorderBrush="{x:Null}" Click="DatMerbtn_Click_1" HorizontalAlignment="Right" Width="165">
+        <Button Name ="DatMerbtn" Content="" Height="54" Margin="0,695,1160,0" VerticalAlignment="Top" FontFamily="Space quest" Foreground="White" FontSize="24" BorderBrush="{x:Null}" Click="DatMerbtn_Click_1" HorizontalAlignment="Right" Width="165" Style="{DynamicResource btnDatos}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/datos.png" Stretch="Uniform"/>
             </Button.Background>

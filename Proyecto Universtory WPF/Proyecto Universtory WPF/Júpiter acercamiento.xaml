@@ -12,12 +12,12 @@
     </Page.Background>
 
     <Grid>
-        <Button Name= "VolJupbtn" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontFamily="Space Quest" Foreground="White" FontSize="24" Click="VolJupbtn_Click" BorderBrush="{x:Null}">
+        <Button Name= "VolJupbtn" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontFamily="Space Quest" Foreground="White" FontSize="24" Click="VolJupbtn_Click" BorderBrush="{x:Null}" Style="{DynamicResource btnAtras}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button Name ="DatJupbtn" Content="" Height="54" Margin="0,695,1160,0" VerticalAlignment="Top" FontFamily="Space Quest" Foreground="White" FontSize="24" Click="DatJupbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165">
+        <Button Name ="DatJupbtn" Content="" Height="54" Margin="0,695,1160,0" VerticalAlignment="Top" FontFamily="Space Quest" Foreground="White" FontSize="24" Click="DatJupbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165" Style="{DynamicResource btnDatos}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/datos.png" Stretch="Uniform"/>
             </Button.Background>

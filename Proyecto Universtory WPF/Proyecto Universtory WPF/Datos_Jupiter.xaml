@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
         mc:Ignorable="d"
-        Title="Datos_Jupiter" Height="500" Width="800">
+        Title="Datos_Jupiter" Height="500" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
     <Window.Background>
         <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
-        <Button Name ="salDatJup" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" FontSize="24" Click="salDatJup_Click" BorderBrush="{x:Null}">
+        <Button Name ="salDatJup" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" FontSize="24" Click="salDatJup_Click" BorderBrush="{x:Null}" Style="{DynamicResource btnSalir}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/salir.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <TextBlock HorizontalAlignment="Left" Height="364" Margin="64,70,0,0" TextWrapping="Wrap" Text="Júpiter es el cuarto objeto más brillante en el cielo después del sol, la luna y venus. Es el planeta más grande de nuestro sistema solar. Es parecido a una estrella, pero nunca llegó a ser lo suficientemente grande como para empezar a arder. Está cubierto de rayas de nubes arremolinadas. Tiene fuertes tormentas como la Gran Mancha Roja, que hace cientos de años que dura. Júpiter es un gigante hecho de gas, y no tiene una superficie sólida, pero puede tener un núcleo interno sólido de aproximadamente el tamaño de la Tierra. Júpiter también tiene anillos, pero son demasiado tenues para verlos muy bien. Una nave espacial, el orbitador Juno de la NASA, está explorando actualmente este mundo gigante." VerticalAlignment="Top" Width="630" FontFamily="space quest" FontSize="19" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Height="235" Margin="64,70,0,0" TextWrapping="Wrap" Text="Júpiter es el cuarto objeto más brillante en el cielo después del sol, la luna y venus. Es el planeta más grande de nuestro sistema solar. Es parecido a una estrella, pero nunca llegó a ser lo suficientemente grande como para empezar a arder. Está cubierto de rayas de nubes arremolinadas. Tiene fuertes tormentas como la Gran Mancha Roja, que hace cientos de años que dura. Júpiter es un gigante hecho de gas, y no tiene una superficie sólida, pero puede tener un núcleo interno sólido de aproximadamente el tamaño de la Tierra. Júpiter también tiene anillos, pero son demasiado tenues para verlos muy bien. Una nave espacial, el orbitador Juno de la NASA, está explorando actualmente este mundo gigante." VerticalAlignment="Top" Width="630" FontFamily="space quest" FontSize="19" Foreground="White"/>
     </Grid>
 </Window>

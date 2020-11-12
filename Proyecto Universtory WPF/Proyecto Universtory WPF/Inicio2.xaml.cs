@@ -67,12 +67,11 @@ namespace Proyecto_Universtory_WPF
         private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             menuVol.Visibility = Visibility.Visible;
-
         }
 
         private void btnStopMusic_Click(object sender, RoutedEventArgs e)
         {
-            Player.Pause();
+            Player.Stop();
         }
 
         private void btnPlayMusic_Click(object sender, RoutedEventArgs e)
@@ -83,16 +82,6 @@ namespace Proyecto_Universtory_WPF
         private void btnCerrarMenu_Click(object sender, RoutedEventArgs e)
         {
             menuVol.Visibility = Visibility.Hidden;
-        }
-
-        private void btnSalir_MouseEnter(object sender, MouseEventArgs e)
-        {
-            btnSalir.Content = FindResource("salirbrillante");
-        }
-
-        private void btnCerrarMenu_MouseEnter(object sender, MouseEventArgs e)
-        {
-            btnCerrarMenu.Content = FindResource("atrasbrillante");
         }
 
         private void sliderVol_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)

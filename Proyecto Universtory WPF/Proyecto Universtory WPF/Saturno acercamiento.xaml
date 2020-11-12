@@ -12,12 +12,12 @@
     </Page.Background>
 
     <Grid>
-        <Button Name ="VolNepbtn" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontFamily="Space quest" Foreground="White" FontSize="24" Click="VolNepbtn_Click" BorderBrush="{x:Null}">
+        <Button Name ="VolNepbtn" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontFamily="Space quest" Foreground="White" FontSize="24" Click="VolNepbtn_Click" BorderBrush="{x:Null}" Style="{DynamicResource btnAtras}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button Name ="DatNepbtn" Height="54" Margin="0,695,1160,0"  VerticalAlignment="Top" FontFamily="Space quest" Foreground="White" FontSize="24" Click="DatNepbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165">
+        <Button Name ="DatNepbtn" Height="54" Margin="0,695,1160,0"  VerticalAlignment="Top" FontFamily="Space quest" Foreground="White" FontSize="24" Click="DatNepbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165" Style="{DynamicResource btnDatos}">
             <Button.Background>
                 <ImageBrush Stretch="Uniform" ImageSource="Resources/Recursos/datos.png"/>
             </Button.Background>

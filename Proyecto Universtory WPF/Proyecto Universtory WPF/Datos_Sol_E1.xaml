@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
         mc:Ignorable="d"
-        Title="Datos_Sol_E1" Height="500" Width="800">
+        Title="Datos_Sol_E1" Height="500" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
     <Window.Background>
         <ImageBrush ImageSource="Resources/Recursos/fondo inicio.png"/>
     </Window.Background>
     <Grid>
-        <TextBlock Name ="datSolE1txt" Text="El Sol y el resto del sistema solar se formaron a partir de una nube gigante y giratoria de gas y polvo llamada nebulosa solar hace unos 4.500 millones de años. Cuando la nebulosa colapsó debido a su abrumadora gravedad, giró más rápido y se aplanó en un disco. La mayor parte del material fue arrastrado hacia el centro, volviéndose cada vez más denso y caliente, dando lugar con el tiempo al inicio de la fusión nuclear en su núcleo, para formar nuestro Sol." HorizontalAlignment="Left" Height="156" Margin="64,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
-        <Button Name ="salirDatSolE1" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24">
+        <TextBlock Name ="datSolE1txt" Text="El Sol y el resto del sistema solar se formaron a partir de una nube gigante y giratoria de gas y polvo llamada nebulosa solar hace unos 4.500 millones de años. Cuando la nebulosa colapsó debido a su abrumadora gravedad, giró más rápido y se aplanó en un disco. La mayor parte del material fue arrastrado hacia el centro, volviéndose cada vez más denso y caliente, dando lugar con el tiempo al inicio de la fusión nuclear en su núcleo, para formar nuestro Sol." HorizontalAlignment="Left" Height="176" Margin="64,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
+        <Button Name ="salirDatSolE1" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24" Style="{DynamicResource btnSalir}">
             <Button.Background>
-                <ImageBrush ImageSource="Resources/Recursos/salir.png"/>
+                <ImageBrush ImageSource="Resources/Recursos/salir.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
         <Label Content="PRIMERA ETAPA" HorizontalAlignment="Left" Height="48" Margin="64,49,0,0" VerticalAlignment="Top" Width="224" Foreground="WHITE" FontFamily="space quest" FontSize="26"/>

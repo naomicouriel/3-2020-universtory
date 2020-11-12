@@ -11,7 +11,7 @@
     </Page.Background>
 
     <Grid>
-        <Button Name = "TierraVolbtn" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontSize="24" Foreground="{x:Null}" FontFamily="Space quest" Click="TierraVolbtn_Click" BorderBrush="{x:Null}">
+        <Button Name = "TierraVolbtn" Content="" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontSize="24" Foreground="{x:Null}" FontFamily="Space quest" Click="TierraVolbtn_Click" BorderBrush="{x:Null}" Style="{DynamicResource btnAtras}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
             </Button.Background>
@@ -23,13 +23,13 @@
                 <SolidColorBrush Color="White" Opacity="0.01"/>
             </Ellipse.Fill>
         </Ellipse>
-        <Image HorizontalAlignment="Left" Height="305" Margin="877,170,0,0" VerticalAlignment="Top" Width="523" Source="Resources/luna acercamiento.png" Stretch="UniformToFill"/>
+        <Image x:Name="imgLuna" HorizontalAlignment="Left" Height="305" Margin="877,170,0,0" VerticalAlignment="Top" Width="523" Source="Resources/luna acercamiento.png" Stretch="UniformToFill"/>
         <Ellipse x:Name="EllipseLuna" Margin="1030,215,172,360" MouseLeftButtonDown="EllipseLuna_MouseLeftButtonDown">
             <Ellipse.Fill>
                 <SolidColorBrush Color="White" Opacity="0.01"/>
             </Ellipse.Fill>
         </Ellipse>
-        <Button Name ="DatTiebtn" Content="" Height="54" Margin="0,695,1160,0" VerticalAlignment="Top" FontSize="24" Foreground="{x:Null}" FontFamily="Space Quest" Click="DatTiebtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165">
+        <Button Name ="DatTiebtn" Content="" Height="54" Margin="0,695,1160,0" VerticalAlignment="Top" FontSize="24" Foreground="{x:Null}" FontFamily="Space Quest" Click="DatTiebtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="165" Style="{DynamicResource btnDatos}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/datos.png" Stretch="Uniform"/>
             </Button.Background>

@@ -40,6 +40,7 @@ namespace Proyecto_Universtory_WPF
                 var icon = new ImageBrush { ImageSource = temp };
 
                 this.Background = icon;
+                imgLuna.Visibility = Visibility.Hidden;
             }
 
             else if (sliderTierra == 40)
@@ -50,6 +51,7 @@ namespace Proyecto_Universtory_WPF
                 var icon = new ImageBrush { ImageSource = temp };
 
                 this.Background = icon;
+                imgLuna.Visibility = Visibility.Hidden;
             }
 
             else if (sliderTierra == 60)
@@ -60,6 +62,7 @@ namespace Proyecto_Universtory_WPF
                 var icon = new ImageBrush { ImageSource = temp };
 
                 this.Background = icon;
+                imgLuna.Visibility = Visibility.Hidden;
             }
 
             else if (sliderTierra == 80)
@@ -70,6 +73,7 @@ namespace Proyecto_Universtory_WPF
                 var icon = new ImageBrush { ImageSource = temp };
 
                 this.Background = icon;
+                imgLuna.Visibility = Visibility.Hidden;
             }
 
             else if (sliderTierra == 100)
@@ -80,6 +84,7 @@ namespace Proyecto_Universtory_WPF
                 var icon = new ImageBrush { ImageSource = temp };
 
                 this.Background = icon;
+                imgLuna.Visibility = Visibility.Hidden;
             }
         }
 

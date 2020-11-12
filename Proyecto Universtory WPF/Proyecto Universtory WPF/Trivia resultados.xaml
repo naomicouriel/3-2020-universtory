@@ -8,7 +8,7 @@
       Title="Trivia_resultados" Background="Black" Width="1421.741" Height="799.954" Loaded="Page_Loaded">
 
     <Grid>
-        <Button x:Name="triviaResbtnVolv" Margin="430,330,372,325" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="triviaResbtnVolv_Click">
+        <Button x:Name="triviaResbtnVolv" Margin="430,330,372,325" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="triviaResbtnVolv_Click" Style="{DynamicResource btnVolver}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/VOLVER.png" Stretch="Uniform"/>
             </Button.Background>
