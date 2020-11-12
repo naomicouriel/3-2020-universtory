@@ -24,7 +24,10 @@ namespace Proyecto_Universtory_WPF
         public Sol_acercamiento()
         {
             InitializeComponent();
+            sliderSol.Visibility = Visibility.Hidden;
+            deslizalbl.Visibility = Visibility.Hidden;
         }
+        int contadormas = 0;
 
         private void sliderSol_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
@@ -84,6 +87,23 @@ namespace Proyecto_Universtory_WPF
                 datSolE3.ShowDialog();
             }
         }
-        
+
+        private void masbtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (contadormas == 0)
+            {
+                sliderSol.Visibility = Visibility.Visible;
+                masbtn.Content = "-";
+                deslizalbl.Visibility = Visibility.Visible;
+                contadormas++;
+            }
+            else if (contadormas == 1)
+            {
+                sliderSol.Visibility = Visibility.Hidden;
+                masbtn.Content = "+";
+                deslizalbl.Visibility = Visibility.Hidden;
+                contadormas--;
+            }
+        }
     }
 }
