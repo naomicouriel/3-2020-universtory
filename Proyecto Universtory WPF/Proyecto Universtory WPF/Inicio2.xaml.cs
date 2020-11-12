@@ -27,7 +27,7 @@ namespace Proyecto_Universtory_WPF
             InitializeComponent();
         }
 
-        SoundPlayer Player = new System.Media.SoundPlayer(Properties.Resources.universtory_song);
+        MediaPlayer Player = new MediaPlayer();
 
         //int x = 1;
 
@@ -60,6 +60,7 @@ namespace Proyecto_Universtory_WPF
             trivia.Begin(btnTrivia);
 
             menuVol.Visibility = Visibility.Hidden;
+            Player.Open(new Uri(System.Environment.CurrentDirectory + Properties.Resources.universtory_song));
 
         }
 
@@ -71,12 +72,12 @@ namespace Proyecto_Universtory_WPF
 
         private void btnStopMusic_Click(object sender, RoutedEventArgs e)
         {
-            Player.Stop();
+            Player.Pause();
         }
 
         private void btnPlayMusic_Click(object sender, RoutedEventArgs e)
         {
-            Player.PlayLooping();
+            Player.Play();
         }
 
         private void btnCerrarMenu_Click(object sender, RoutedEventArgs e)
@@ -99,7 +100,7 @@ namespace Proyecto_Universtory_WPF
             Slider sliderVol = sender as Slider;
             if (sliderVol != null)
             {
-                //Player. = sliderVol.Value;
+                Player.Volume = sliderVol.Value;
             }
         }
     }
