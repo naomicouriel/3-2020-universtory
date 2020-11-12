@@ -15,7 +15,7 @@
                 <ImageBrush ImageSource="Resources/Recursos/salir.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <TextBlock HorizontalAlignment="Left" Height="294" Margin="25,41,0,0" TextWrapping="Wrap" Text="Neptuno es oscuro, frío y muy ventoso. Es el último de los planetas de nuestro sistema solar. Está más de 30 veces más lejos del Sol que la Tierra. Neptuno es muy parecido a Urano. Este planeta tiene seis anillos que no se ven fácilmente. Es el único planeta de nuestro sistema solar que no es visible a simple vista y el primero predicho por las matemáticas antes de su descubrimiento. La Voyager 2 de la NASA es la única nave espacial que ha visitado Neptuno de cerca. Pasó volando en 1989 al salir del sistema solar." FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="22" Foreground="White" VerticalAlignment="Top" Width="540"/>
+        <TextBlock HorizontalAlignment="Left" Height="359" Margin="25,41,0,0" TextWrapping="Wrap" Text="Neptuno es oscuro, frío y muy ventoso. Es el último de los planetas de nuestro sistema solar. Está más de 30 veces más lejos del Sol que la Tierra. Neptuno es muy parecido a Urano. Este planeta tiene seis anillos que no se ven fácilmente. Es el único planeta de nuestro sistema solar que no es visible a simple vista y el primero predicho por las matemáticas antes de su descubrimiento. La Voyager 2 de la NASA es la única nave espacial que ha visitado Neptuno de cerca. Pasó volando en 1989 al salir del sistema solar." FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="22" Foreground="White" VerticalAlignment="Top" Width="540"/>
 
     </Grid>
 </Window>
