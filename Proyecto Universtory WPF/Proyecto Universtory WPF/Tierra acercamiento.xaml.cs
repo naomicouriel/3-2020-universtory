@@ -40,7 +40,11 @@ namespace Proyecto_Universtory_WPF
                 StreamResourceInfo streamInfo = Application.GetRemoteStream(resourceUri);
                 BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
                 var icon = new ImageBrush { ImageSource = temp };
+
                 this.Background = icon;
+                imgLuna.Visibility = Visibility.Visible;
+                EllipseLuna.Visibility = Visibility.Visible;
+                EllipseTierra.Visibility = Visibility.Visible;
             }
 
             else if (sliderTierra == 20)
@@ -52,6 +56,8 @@ namespace Proyecto_Universtory_WPF
 
                 this.Background = icon;
                 imgLuna.Visibility = Visibility.Hidden;
+                EllipseLuna.Visibility = Visibility.Hidden;
+                EllipseTierra.Visibility = Visibility.Hidden;
             }
 
             else if (sliderTierra == 40)
@@ -63,6 +69,8 @@ namespace Proyecto_Universtory_WPF
 
                 this.Background = icon;
                 imgLuna.Visibility = Visibility.Hidden;
+                EllipseLuna.Visibility = Visibility.Hidden;
+                EllipseTierra.Visibility = Visibility.Hidden;
             }
 
             else if (sliderTierra == 60)
@@ -74,6 +82,8 @@ namespace Proyecto_Universtory_WPF
 
                 this.Background = icon;
                 imgLuna.Visibility = Visibility.Hidden;
+                EllipseLuna.Visibility = Visibility.Hidden;
+                EllipseTierra.Visibility = Visibility.Hidden;
             }
 
             else if (sliderTierra == 80)
@@ -85,6 +95,8 @@ namespace Proyecto_Universtory_WPF
 
                 this.Background = icon;
                 imgLuna.Visibility = Visibility.Hidden;
+                EllipseLuna.Visibility = Visibility.Hidden;
+                EllipseTierra.Visibility = Visibility.Hidden;
             }
 
             else if (sliderTierra == 100)
@@ -96,6 +108,8 @@ namespace Proyecto_Universtory_WPF
 
                 this.Background = icon;
                 imgLuna.Visibility = Visibility.Hidden;
+                EllipseLuna.Visibility = Visibility.Hidden;
+                EllipseTierra.Visibility = Visibility.Hidden;
             }
         }
 

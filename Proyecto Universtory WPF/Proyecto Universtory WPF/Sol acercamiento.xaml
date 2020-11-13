@@ -11,7 +11,7 @@
     </Page.Background>
 
     <Grid>
-        <Slider x:Name="sliderSol" Margin="852,0,48,719" Background="Black" Foreground="White" Height="45" VerticalAlignment="Bottom" Maximum="99" TickFrequency="33" IsSnapToTickEnabled="True" ValueChanged="sliderSol_ValueChanged" TickPlacement="BottomRight" BorderBrush="{x:Null}" LargeChange="33"/>
+        <Slider x:Name="sliderSol" Margin="852,0,72,695" Background="Black" Foreground="White" Height="45" VerticalAlignment="Bottom" Maximum="99" TickFrequency="33" IsSnapToTickEnabled="True" ValueChanged="sliderSol_ValueChanged" TickPlacement="BottomRight" BorderBrush="{x:Null}" LargeChange="33"/>
         <Button Name ="VolSolbtn" HorizontalAlignment="Left" Height="54" Margin="1160,695,0,0" VerticalAlignment="Top" Width="165" FontFamily="Space quest" Foreground="White" FontSize="24" Click="VolSolbtn_Click" BorderBrush="{x:Null}" Style="{DynamicResource btnAtras}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
@@ -23,7 +23,7 @@
             </Button.Background>
         </Button>
         <Button FontFamily ="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" Name ="masbtn" Content="+" Foreground ="White" Margin="1290,114,0,0" FontSize="50" Click="masbtn_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="#FF1F1C72" Height="77" VerticalAlignment="Top" Width="76" BorderBrush="{x:Null}" Style="{DynamicResource btnFondoAzul}" HorizontalAlignment="Left"/>
-        <TextBlock Name ="deslizalbl" Foreground ="White"  Text="Desliza para ver las etapas" HorizontalAlignment="Left" Height="74" Margin="929,81,0,0" VerticalAlignment="Top" Width="378" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="24" TextAlignment="Center" />
+        <TextBlock Name ="deslizalbl" Foreground ="White"  Text="Desliza para ver las etapas" HorizontalAlignment="Left" Height="48" Margin="900,92,0,0" VerticalAlignment="Top" Width="390" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="24" TextAlignment="Center" />
 
     </Grid>
 </Page>

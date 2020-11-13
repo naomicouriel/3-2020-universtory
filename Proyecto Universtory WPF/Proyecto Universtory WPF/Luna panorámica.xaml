@@ -17,8 +17,16 @@
                 <ImageBrush ImageSource="Resources/VOLVER.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button Name ="flecha2" Content="" HorizontalAlignment="Left" Height="86" Margin="1282,285,0,0" VerticalAlignment="Top" Width="112" Click="flecha2_Click"/>
-        <Button Name ="flecha1" Content="" HorizontalAlignment="Left" Height="86" Margin="48,285,0,0" VerticalAlignment="Top" Width="112" Click="flecha1_Click"/>
+        <Button Name ="flecha2" Content="" HorizontalAlignment="Left" Height="86" Margin="1270,340,0,0" VerticalAlignment="Top" Width="112" Click="flecha2_Click" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="bin/Debug/Resources/flecha derecha.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Name ="flecha1" Content="" Height="86" Margin="40,339,0,0" VerticalAlignment="Top" Click="flecha1_Click" BorderBrush="{x:Null}" HorizontalAlignment="Left" Width="112">
+            <Button.Background>
+                <ImageBrush ImageSource="bin/Debug/Resources/flecha izquierda.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
         <TextBlock Name ="datcuritxt"  Background ="Black" HorizontalAlignment="Left" Height="137" Margin="427,257,0,0" TextWrapping="Wrap" Text="Se necesitan cientos de miles de lunas para igualar el brillo del sol." VerticalAlignment="Top" Width="589" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="35" Foreground="White" TextAlignment="Center"/>
         <Label Name ="datcurilbl" FontFamily ="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" Foreground="White" FontSize="50" Content="Datos curiosos" HorizontalAlignment="Left" Height="72" Margin="505,88,0,0" VerticalAlignment="Top" Width="456"/>
     </Grid>

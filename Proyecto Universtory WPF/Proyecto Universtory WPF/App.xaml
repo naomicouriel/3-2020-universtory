@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Proyecto_Universtory_WPF"
              StartupUri="Inicio.xaml">
+
     <Application.Resources>
 
         <Style x:Key="FocusVisual">
@@ -336,7 +337,7 @@
         <SolidColorBrush x:Key="Button.MouseOver.Border8" Color="#FF3C7FB1"/>
         <SolidColorBrush x:Key="Button.Pressed.Background8" Color="#FFC4E5F6"/>
         <SolidColorBrush x:Key="Button.Pressed.Border8" Color="#FF2C628B"/>
-        
+
         <Style x:Key="btnFondoAzul" TargetType="{x:Type Button}">
             <Setter Property="Template">
                 <Setter.Value>
@@ -358,7 +359,6 @@
                 </Setter.Value>
             </Setter>
         </Style>
-
 
     </Application.Resources>
 </Application>

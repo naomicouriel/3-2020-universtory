@@ -61,5 +61,10 @@
                 <ImageBrush ImageSource="Resources/VOLVER.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
+        <Button Name="DatPPbtn" Height="50" Margin="0,700,1075,0" VerticalAlignment="Top" Foreground="White" FontSize="24" Click="DatSolbtn_Click" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="272" Style="{DynamicResource btnDatos}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Resources/Recursos/datos.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Page>

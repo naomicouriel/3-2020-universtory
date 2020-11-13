@@ -41,18 +41,17 @@
         </Button>
         <Image HorizontalAlignment="Left" Height="67" Margin="15,10,0,0" VerticalAlignment="Top" Width="70" Source="Resources/settings white.png" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
         <Menu x:Name="menuVol" HorizontalAlignment="Left" Height="275" Margin="11,10,0,0" VerticalAlignment="Top" Width="289" Background="Black" Foreground="{x:Null}" Style="{DynamicResource MenuStyle}">
-            <Button x:Name="btnStopMusic" Height="50" Width="50" BorderBrush="{x:Null}" Margin="0,10,0,0" Click="btnStopMusic_Click" Foreground="{x:Null}" Style="{DynamicResource btnStopMusic}">
+            <Button x:Name="btnStopMusic" Height="80" Width="80" BorderBrush="{x:Null}" Click="btnStopMusic_Click" Foreground="{x:Null}" Style="{DynamicResource btnStopMusic}">
                 <Button.Background>
                     <ImageBrush ImageSource="Resources/VOLUMEN PAUSA.png" Stretch="Uniform"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btnPlayMusic" Height="50" Width="50" BorderBrush="{x:Null}" Margin="0,10,0,0" Click="btnPlayMusic_Click" Foreground="{x:Null}" Style="{DynamicResource btnPlayMusic}" >
+            <Button x:Name="btnPlayMusic" Height="80" Width="80" BorderBrush="{x:Null}" Margin="0,10,0,0" Click="btnPlayMusic_Click" Foreground="{x:Null}" Style="{DynamicResource btnPlayMusic}" >
                 <Button.Background>
                     <ImageBrush ImageSource="Resources/PLAY.png" Stretch="Uniform"/>
                 </Button.Background>
             </Button>
-            <Slider x:Name="sliderVol" Height="33" Width="230" Margin="20,80,0,0" ValueChanged="sliderVol_ValueChanged"/>
-            <Button x:Name="btnCerrarMenu" Height="70" Width="90" Margin="170,20,0,0" Click="btnCerrarMenu_Click" BorderBrush="{x:Null}" Foreground="{x:Null}" Style="{DynamicResource btnAtras}">
+            <Button x:Name="btnCerrarMenu" Height="70" Width="120" Margin="150,100,0,0" Click="btnCerrarMenu_Click" BorderBrush="{x:Null}" Foreground="{x:Null}" Style="{DynamicResource btnAtras}">
                 <Button.Background>
                     <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
                 </Button.Background>

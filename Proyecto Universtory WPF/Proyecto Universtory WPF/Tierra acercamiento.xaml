@@ -17,7 +17,7 @@
                 <ImageBrush ImageSource="Resources/Recursos/atrás.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Slider x:Name="sliderTierra" Margin="795,0,57,695" Foreground="White" Height="55" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="sliderTierra_ValueChanged" BorderBrush="{x:Null}" Value="{Binding CurrentProgress}" Background="Black" TickPlacement="BottomRight"/>
+        <Slider x:Name="sliderTierra" Margin="780,0,72,695" Foreground="White" Height="55" VerticalAlignment="Bottom" Maximum="100" TickFrequency="20" IsSnapToTickEnabled="True" ValueChanged="sliderTierra_ValueChanged" BorderBrush="{x:Null}" Value="{Binding CurrentProgress}" Background="Black" TickPlacement="BottomRight"/>
 
         <Ellipse x:Name="EllipseTierra" HorizontalAlignment="Left" Height="698" Margin="135,35,0,0" VerticalAlignment="Top" Width="701" MouseLeftButtonDown="EllipseTierra_MouseLeftButtonDown">
             <Ellipse.Fill>
