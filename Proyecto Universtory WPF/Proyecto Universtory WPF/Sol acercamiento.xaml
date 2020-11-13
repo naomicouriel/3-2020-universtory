@@ -22,8 +22,8 @@
                 <ImageBrush Stretch="Uniform" ImageSource="Resources/Recursos/datos.png"/>
             </Button.Background>
         </Button>
-        <Button FontFamily ="space quest" Name ="masbtn" Content="+" Foreground ="White" Margin="1290,114,0,0" FontSize="50" Click="masbtn_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="#FF1F1C72" Height="77" VerticalAlignment="Top" Width="76" BorderBrush="{x:Null}" Style="{DynamicResource btnFondoAzul}" HorizontalAlignment="Left"/>
-        <TextBlock Name ="deslizalbl" Foreground ="White"  Text="Desliza para ver las etapas" HorizontalAlignment="Left" Height="74" Margin="929,81,0,0" VerticalAlignment="Top" Width="378" FontFamily="space quest" FontSize="24" TextAlignment="Center" />
+        <Button FontFamily ="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" Name ="masbtn" Content="+" Foreground ="White" Margin="1290,114,0,0" FontSize="50" Click="masbtn_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="#FF1F1C72" Height="77" VerticalAlignment="Top" Width="76" BorderBrush="{x:Null}" Style="{DynamicResource btnFondoAzul}" HorizontalAlignment="Left"/>
+        <TextBlock Name ="deslizalbl" Foreground ="White"  Text="Desliza para ver las etapas" HorizontalAlignment="Left" Height="74" Margin="929,81,0,0" VerticalAlignment="Top" Width="378" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="24" TextAlignment="Center" />
 
     </Grid>
 </Page>

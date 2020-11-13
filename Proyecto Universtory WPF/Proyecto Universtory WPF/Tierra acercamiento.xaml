@@ -25,7 +25,7 @@
             </Ellipse.Fill>
         </Ellipse>
         <Image x:Name="imgLuna" HorizontalAlignment="Left" Height="305" Margin="877,170,0,0" VerticalAlignment="Top" Width="523" Source="Resources/luna acercamiento.png" Stretch="UniformToFill"/>
-        <Ellipse x:Name="EllipseLuna" Margin="1030,215,152,360" MouseLeftButtonDown="EllipseLuna_MouseLeftButtonDown">
+        <Ellipse x:Name="EllipseLuna" Margin="1030,215,167,360" MouseLeftButtonDown="EllipseLuna_MouseLeftButtonDown">
             <Ellipse.Fill>
                 <SolidColorBrush Color="White" Opacity="0.01"/>
             </Ellipse.Fill>
@@ -35,7 +35,7 @@
                 <ImageBrush ImageSource="Resources/Recursos/datos.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button x:Name="masbtn" FontFamily="space quest" Content="+" HorizontalAlignment="Left" Height="77" Margin="1290,114,0,0" VerticalAlignment="Top" Width="76" FontSize="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="masbtn_Click" Background="#FF1F1C72" Foreground="White" BorderBrush="{x:Null}" Style="{DynamicResource btnFondoAzul}"/>
-        <TextBlock Name ="deslizalbl" HorizontalAlignment="Left" Height="65" Margin="877,92,0,0" TextWrapping="Wrap" Text="Desliza para ver las etapas" VerticalAlignment="Top" Width="390" Foreground="White" FontFamily="space quest" FontSize="24" Background="Black" />
+        <Button x:Name="masbtn" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" Content="+" HorizontalAlignment="Left" Height="77" Margin="1290,114,0,0" VerticalAlignment="Top" Width="76" FontSize="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="masbtn_Click" Background="#FF1F1C72" Foreground="White" BorderBrush="{x:Null}" Style="{DynamicResource btnFondoAzul}"/>
+        <TextBlock Name ="deslizalbl" HorizontalAlignment="Left" Height="65" Margin="877,92,0,0" TextWrapping="Wrap" Text="Desliza para ver las etapas" VerticalAlignment="Top" Width="390" Foreground="White" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="24" Background="Black" />
     </Grid>
 </Page>

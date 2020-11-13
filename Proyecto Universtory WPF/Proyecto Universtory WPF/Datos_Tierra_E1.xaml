@@ -12,13 +12,13 @@
     <Grid>
         <TextBlock Name ="datTieE1txt" Text="La tierra se formó hace unos 4.700 millones de años a partir de una nebulosa inicial, al tiempo que lo hacía el resto de planetas de nuestro Sistema Solar. 
 La materia de la nebulosa se colocó alrededor del Sol por su atracción gravitatoria, de manera que la materia más ligera se alejó del Sol, y la más densa quedó más cerca. Esta última es la que sirvió para formar la Tierra.
-Los pedazos de esa materia densa empezaron a acumularse y se originó una enorme masa de material incandescente y fundido, es decir, iluminaba. A esta se la llamó Prototierra." HorizontalAlignment="Left" Height="230" Margin="61,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="space quest" FontSize="19"/>
+Los pedazos de esa materia densa empezaron a acumularse y se originó una enorme masa de material incandescente y fundido, es decir, iluminaba. A esta se la llamó Prototierra." HorizontalAlignment="Left" Height="260" Margin="61,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="586" Foreground="White" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="19"/>
         <Button Name ="salirDatTieE1" Content="" HorizontalAlignment="Left" Height="60" Margin="602,382,0,0" VerticalAlignment="Top" Width="160" FontFamily="Space Quest" Foreground="White" Click="Button_Click" BorderBrush="{x:Null}" FontSize="24" Style="{DynamicResource btnSalir}">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/SALIR btn.png"/>
             </Button.Background>
         </Button>
-        <Label Content="PRIMERA ETAPA" HorizontalAlignment="Left" Height="68" Margin="61,37,0,0" VerticalAlignment="Top" Width="284" Foreground="White" FontFamily="space quest" FontSize="26" />
+        <Label Content="PRIMERA ETAPA" HorizontalAlignment="Left" Height="68" Margin="61,37,0,0" VerticalAlignment="Top" Width="284" Foreground="White" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="26" />
 
     </Grid>
 </Window>

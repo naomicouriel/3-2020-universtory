@@ -16,7 +16,7 @@
             </Button.Background>
         </Button>
         <TextBlock Name="DatTietxt" HorizontalAlignment="Left" Height="396" Margin="29,29,0,0" TextWrapping="Wrap" Text="Nuestro planeta de origen es el tercer planeta desde el Sol, y el único lugar que conocemos hasta ahora que está habitado por seres vivos. Si bien la Tierra es sólo el quinto planeta más grande del sistema solar, es el único mundo oceánico, en donde casi el 70% de su superficie está cubierta por agua. Un poco más grande que la cercana Venus, la Tierra es el más grande de los cuatro planetas más cercanos al Sol, todos los cuales están hechos de roca y metal.
-" VerticalAlignment="Top" Width="430" Foreground="White" FontFamily="space quest" FontSize="22"/>
+" VerticalAlignment="Top" Width="491" Foreground="White" FontFamily="/Proyecto Universtory WPF;component/bin/Debug/Resources/#Space Quest" FontSize="22"/>
 
     </Grid>
 </Window>
