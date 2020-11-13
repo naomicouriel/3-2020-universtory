@@ -543,6 +543,7 @@
     <Resource Include="Resources\Recursos\resp4.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\trivia.png" />
     <None Include="Resources\timer .png" />
     <None Include="Resources\SIG. TRIVIA.png" />
     <Resource Include="Resources\timer .png" />
@@ -691,6 +692,7 @@
     <Resource Include="bin\Debug\Resources\VOLUMEN PAUSA.png" />
     <Resource Include="bin\Debug\Resources\VOLVER.png" />
     <Resource Include="bin\Debug\Resources\VOLVER_brillante.png" />
+    <Resource Include="Resources\fondo trivia.png" />
     <Content Include="Resources\Recursos\Sonidos\universtory_song.wav" />
     <None Include="Resources\universtory_song.wav" />
   </ItemGroup>
