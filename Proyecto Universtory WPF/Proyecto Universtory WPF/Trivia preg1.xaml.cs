@@ -605,7 +605,7 @@ namespace Proyecto_Universtory_WPF
 
                     btnResp3.Content = "Solar Orbiter";
 
-                    btnResp4.Content = "Por ahora ninguna nave abandono el sistema solar";
+                    btnResp4.Content = "Por ahora ninguna nave\n abandono el sistema solar";
                     break;
 
                 //¿Como se llama la nube gigante que formo el sistema solar?
