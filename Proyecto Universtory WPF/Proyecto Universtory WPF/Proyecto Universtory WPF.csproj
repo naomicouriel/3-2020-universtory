@@ -540,6 +540,7 @@
     <Resource Include="Resources\Recursos\resp4.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\trivia.png" />
     <None Include="Resources\timer .png" />
     <None Include="Resources\SIG. TRIVIA.png" />
     <Resource Include="Resources\timer .png" />

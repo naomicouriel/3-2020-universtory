@@ -484,7 +484,7 @@ namespace Proyecto_Universtory_WPF
                 case 2:
                     txtBlockPregunta.Text = "¿Cual fue el primer planeta encontrado con un telescopio?";
 
-                    txtBlockPregunta.FontSize = 50;
+                    txtBlockPregunta.FontSize = 60;
 
                     btnResp1.Content = "Marte";
 
@@ -501,7 +501,7 @@ namespace Proyecto_Universtory_WPF
                 case 3:
                     txtBlockPregunta.Text = "¿Cual es el planeta mas caliente del Sistema Solar?";
 
-                    txtBlockPregunta.FontSize = 50;
+                    txtBlockPregunta.FontSize = 57;
 
                     btnResp1.Content = "Mercurio";
 
@@ -533,7 +533,7 @@ namespace Proyecto_Universtory_WPF
                 case 5:
                     txtBlockPregunta.Text = "¿Cuales son los unicos planetas que rotan en direccion opuesta a los demas planetas?";
 
-                    txtBlockPregunta.FontSize = 50;
+                    txtBlockPregunta.FontSize = 53;
 
                     btnResp1.Content = "La Tierra y Marte";
 
@@ -565,7 +565,7 @@ namespace Proyecto_Universtory_WPF
                 case 7:
                     txtBlockPregunta.Text = "¿Que planeta se cree que haya podido albergar vida en el pasado dadas sus condiciones, ademas de la Tierra?";
 
-                    txtBlockPregunta.FontSize = 40;
+                    txtBlockPregunta.FontSize = 43;
 
                     btnResp1.Content = "Mercurio";
 
@@ -579,9 +579,9 @@ namespace Proyecto_Universtory_WPF
                 //¿Cual es el objeto más brillante del sistema solar despues del sol?
 
                 case 8:
-                    txtBlockPregunta.Text = "¿Cual es el objeto más brillante del sistema solar después del sol?";
+                    txtBlockPregunta.Text = "¿Cual es el objeto mas brillante del sistema solar despues del sol?";
 
-                    txtBlockPregunta.FontSize = 50;
+                    txtBlockPregunta.FontSize = 60;
 
                     btnResp1.Content = "Jupiter";
 
@@ -597,7 +597,7 @@ namespace Proyecto_Universtory_WPF
                 case 9:
                     txtBlockPregunta.Text = "¿Como se llama la unica nave que abandono el sistema solar?";
 
-                    txtBlockPregunta.FontSize = 50;
+                    txtBlockPregunta.FontSize = 60;
 
                     btnResp1.Content = "Voyager 1";
 
@@ -613,7 +613,7 @@ namespace Proyecto_Universtory_WPF
                 case 10:
                     txtBlockPregunta.Text = "¿Como se llama la nube gigante que formo el sistema solar?";
 
-                    txtBlockPregunta.FontSize = 50;
+                    txtBlockPregunta.FontSize = 60;
 
                     btnResp1.Content = "Niebla Creadora";
 
