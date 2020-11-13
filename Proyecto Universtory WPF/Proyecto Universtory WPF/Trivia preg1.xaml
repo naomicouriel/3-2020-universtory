@@ -7,7 +7,7 @@
       mc:Ignorable="d"
       Title="" Width="1421.741" Height="799.954" Foreground="{x:Null}">
     <Page.Background>
-        <ImageBrush ImageSource="Resources/Recursos/trivia fondo.png" Stretch="Uniform"/>
+        <ImageBrush ImageSource="Resources/fondo trivia.png" Stretch="Uniform"/>
     </Page.Background>
 
     <Page.Resources>
