@@ -22,7 +22,6 @@ namespace Proyecto_Universtory_WPF
     /// </summary>
     public partial class Inicio2 : Page
     {
-        SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.universtory_song);
 
         public Inicio2()
         {
@@ -58,8 +57,6 @@ namespace Proyecto_Universtory_WPF
             trivia.Begin(btnTrivia);
 
             menuVol.Visibility = Visibility.Hidden;
-            
-            player.PlayLooping();
 
         }
 
@@ -70,12 +67,12 @@ namespace Proyecto_Universtory_WPF
 
         private void btnStopMusic_Click(object sender, RoutedEventArgs e)
         {
-            player.Stop();
+            MainWindow.Player.Stop();
         }
 
         private void btnPlayMusic_Click(object sender, RoutedEventArgs e)
         {
-            player.PlayLooping();
+            MainWindow.Player.PlayLooping();
         }
 
         private void btnCerrarMenu_Click(object sender, RoutedEventArgs e)

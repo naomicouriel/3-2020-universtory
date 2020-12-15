@@ -93,7 +93,7 @@ namespace Proyecto_Universtory_WPF
         private void DatSolbtn_Click(object sender, RoutedEventArgs e)
         {
             MainWindow obj = (MainWindow)Window.GetWindow(this);
-            obj.frame.Content = new Datos_SistemaS();
+            obj.frame.Content = new Datos_SistemaSolar();
         }
     }
 }
