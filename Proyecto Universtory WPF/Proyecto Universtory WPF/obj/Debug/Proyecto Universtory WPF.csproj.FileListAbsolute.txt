@@ -177,3 +177,8 @@ C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Uni
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF.exe
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF.pdb
 C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF.csprojResolveAssemblyReference.cache
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\bin\Debug\Proyecto Universtory WPF.exe.manifest
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\bin\Debug\Proyecto Universtory WPF.application
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF.exe.manifest
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\obj\Debug\Proyecto Universtory WPF.application
+C:\Users\ALUMNO\Desktop\3-2020-universtory\Proyecto Universtory WPF\Proyecto Universtory WPF\bin\Debug\MACTrackBarLib.dll
