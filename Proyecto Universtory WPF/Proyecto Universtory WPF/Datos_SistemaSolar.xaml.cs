@@ -17,7 +17,7 @@ namespace Proyecto_Universtory_WPF
     /// <summary>
     /// Lógica de interacción para Datos_SistemaSolar.xaml
     /// </summary>
-    public partial class Datos_SistemaSolar : Window
+    public partial class Datos_SistemaSolar : Page
     {
         public Datos_SistemaSolar()
         {
@@ -26,7 +26,8 @@ namespace Proyecto_Universtory_WPF
 
         private void salDatSS_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            MainWindow obj = (MainWindow)Window.GetWindow(this);
+            obj.frame.Content = new Page1();
         }
     }
 }

@@ -61,17 +61,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2bNTZQicLI7nMj/3RbWd+mUJ7bYzdTqzYUcrleb919s=</dsig:DigestValue>
+        <dsig:DigestValue>mf1cz58L/S3bS9wwuUyNOI1vdFx2sjSJCw4UexcoRwA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="bin\Debug\Proyecto Universtory WPF.pdb" size="253440">
+  <file name="bin\Debug\Proyecto Universtory WPF.pdb" size="261632">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>MCdA7n6wjNeKnMPtRbHkfdF4cvAm6vTO9vgnahHGVbo=</dsig:DigestValue>
+      <dsig:DigestValue>EvHJELNg4y9uPEwWhFAdHjB65mSimrnskwKT4CATc/w=</dsig:DigestValue>
     </hash>
   </file>
   <file name="bin\Debug\Resources\Recursos\Sonidos\universtory_song.wav" size="10709158">
