@@ -61,7 +61,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mf1cz58L/S3bS9wwuUyNOI1vdFx2sjSJCw4UexcoRwA=</dsig:DigestValue>
+        <dsig:DigestValue>eloFGcfYgJ/WtV6j56hnQ1LGpHKzIoG40GJ7xg5UtLs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -71,7 +71,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>EvHJELNg4y9uPEwWhFAdHjB65mSimrnskwKT4CATc/w=</dsig:DigestValue>
+      <dsig:DigestValue>4KjHa5R+UhJOYfsEhlkZ/26KyyKslViYbrXO66OL6xI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="bin\Debug\Resources\Recursos\Sonidos\universtory_song.wav" size="10709158">
